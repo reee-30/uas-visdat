@@ -1,0 +1,1373 @@
+Negara,Pintu,Provinsi_Pintu,Jenis_Pintu,Value
+Australia,Ngurah Rai,Bali,Bandara,1534319
+Singapura,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,695508
+Timor Leste,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,604751
+India,Ngurah Rai,Bali,Bandara,550279
+Malaysia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,541550
+Tiongkok,Soekarno-Hatta,Banten,Bandara,475784
+Tiongkok,Ngurah Rai,Bali,Bandara,448278
+Malaysia,Soekarno-Hatta,Banten,Bandara,366504
+Korea Selatan,Ngurah Rai,Bali,Bandara,293982
+Inggris,Ngurah Rai,Bali,Bandara,290793
+Malaysia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,284414
+Malaysia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,278082
+Amerika Serikat,Ngurah Rai,Bali,Bandara,257704
+Perancis,Ngurah Rai,Bali,Bandara,257377
+Malaysia,Ngurah Rai,Bali,Bandara,246081
+Singapura,Ngurah Rai,Bali,Bandara,218843
+ASEAN Lainnya,Soekarno-Hatta,Banten,Bandara,204875
+Jerman,Ngurah Rai,Bali,Bandara,203446
+Singapura,Soekarno-Hatta,Banten,Bandara,190101
+Eropa Timur Lainnya,Ngurah Rai,Bali,Bandara,189800
+Jepang,Ngurah Rai,Bali,Bandara,176771
+Rusia,Ngurah Rai,Bali,Bandara,161938
+Selandia Baru,Ngurah Rai,Bali,Bandara,144822
+Belanda,Ngurah Rai,Bali,Bandara,137945
+Jepang,Soekarno-Hatta,Banten,Bandara,132849
+Timor Leste,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,122522
+Saudi Arabia,Soekarno-Hatta,Banten,Bandara,117911
+Malaysia,Kualanamu,Sumatera Utara,Bandara,114934
+ASEAN Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,114783
+Korea Selatan,Soekarno-Hatta,Banten,Bandara,112211
+Papua Nugini,Skouw,Papua,Pos lintas batas darat,109301
+Filipina,Ngurah Rai,Bali,Bandara,103549
+Taiwan,Ngurah Rai,Bali,Bandara,103467
+Singapura,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,94905
+Malaysia,Juanda,Jawa Timur,Bandara,94051
+Tiongkok,Juanda,Jawa Timur,Bandara,93292
+Singapura,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,89883
+Italia,Ngurah Rai,Bali,Bandara,87681
+Amerika Serikat,Soekarno-Hatta,Banten,Bandara,84988
+Spanyol,Ngurah Rai,Bali,Bandara,79599
+Belanda,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,79239
+Asia Lainnya,Ngurah Rai,Bali,Bandara,78178
+Australia,Soekarno-Hatta,Banten,Bandara,74880
+India,Soekarno-Hatta,Banten,Bandara,74162
+Belanda,Soekarno-Hatta,Banten,Bandara,67460
+Amerika Selatan,Ngurah Rai,Bali,Bandara,62048
+Perancis,Soekarno-Hatta,Banten,Bandara,60917
+Malaysia,Minangkabau,Sumatera Barat,Bandara,60894
+Kanada,Ngurah Rai,Bali,Bandara,60663
+Filipina,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,55511
+Taiwan,Soekarno-Hatta,Banten,Bandara,55510
+Vietnam,Ngurah Rai,Bali,Bandara,55042
+ASEAN Lainnya,Kualanamu,Sumatera Utara,Bandara,52285
+Tiongkok,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,47757
+Jerman,Soekarno-Hatta,Banten,Bandara,46547
+ASEAN Lainnya,Juanda,Jawa Timur,Bandara,46045
+Inggris,Soekarno-Hatta,Banten,Bandara,43751
+Malaysia,Yogyakarta Intl.,DI Yogyakarta,Bandara,43586
+Tiongkok,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,42833
+Timor Leste,Ngurah Rai,Bali,Bandara,42707
+ASEAN Lainnya,Ngurah Rai,Bali,Bandara,41396
+Swiss,Ngurah Rai,Bali,Bandara,39991
+India,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,39025
+Afrika Lainnya,Ngurah Rai,Bali,Bandara,38912
+Thailand,Soekarno-Hatta,Banten,Bandara,37877
+Filipina,Soekarno-Hatta,Banten,Bandara,37843
+Eropa Barat Lainnya,Ngurah Rai,Bali,Bandara,37809
+Thailand,Ngurah Rai,Bali,Bandara,37333
+Spanyol,Soekarno-Hatta,Banten,Bandara,35530
+Denmark,Ngurah Rai,Bali,Bandara,35055
+Belgia,Ngurah Rai,Bali,Bandara,35025
+Italia,Soekarno-Hatta,Banten,Bandara,34228
+Malaysia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,32525
+Tiongkok,Sam Ratulangi,Sulawesi Utara,Bandara,31493
+Eropa Timur Lainnya,Soekarno-Hatta,Banten,Bandara,30904
+Portugal,Ngurah Rai,Bali,Bandara,30092
+Hong Kong,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,28937
+Singapura,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,28620
+Malaysia,Lombok Intl.,Nusa Tenggara Barat,Bandara,28464
+Afrika Selatan,Ngurah Rai,Bali,Bandara,28032
+Singapura,Juanda,Jawa Timur,Bandara,27835
+Thailand,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,27524
+Malaysia,Entikong,Kalimantan Barat,Pos lintas batas darat,26935
+Malaysia,Pintu lainnya,Lintas provinsi,Lainnya,26624
+Amerika Serikat,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,26064
+Swedia,Ngurah Rai,Bali,Bandara,26034
+Malaysia,Sultan Iskandar Muda,Aceh,Bandara,25874
+ASEAN Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,24817
+Filipina,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,24740
+Tiongkok,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,24714
+Timur Tengah Lainnya,Ngurah Rai,Bali,Bandara,23422
+Malaysia,Aruk,Kalimantan Barat,Pos lintas batas darat,23276
+Vietnam,Soekarno-Hatta,Banten,Bandara,22761
+Malaysia,Sultan Syarif Kasim II,Riau,Bandara,21959
+ASEAN Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,21466
+Austria,Ngurah Rai,Bali,Bandara,20808
+Timur Tengah Lainnya,Soekarno-Hatta,Banten,Bandara,20111
+Spanyol,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,19406
+India,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,19315
+Myanmar,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,19183
+Asia Lainnya,Soekarno-Hatta,Banten,Bandara,17427
+Australia,Pintu lainnya,Lintas provinsi,Lainnya,17266
+Norwegia,Ngurah Rai,Bali,Bandara,17148
+Kanada,Soekarno-Hatta,Banten,Bandara,16545
+Vietnam,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,16405
+Amerika Lainnya,Ngurah Rai,Bali,Bandara,15643
+Hong Kong,Ngurah Rai,Bali,Bandara,15282
+Afrika Lainnya,Soekarno-Hatta,Banten,Bandara,14942
+Singapura,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,14791
+Saudi Arabia,Ngurah Rai,Bali,Bandara,14595
+Amerika Serikat,Pintu lainnya,Lintas provinsi,Lainnya,14453
+Singapura,Kualanamu,Sumatera Utara,Bandara,14356
+Papua Nugini,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,14031
+Brunei Darussalam,Soekarno-Hatta,Banten,Bandara,13419
+Rusia,Soekarno-Hatta,Banten,Bandara,13406
+Pakistan,Ngurah Rai,Bali,Bandara,12797
+Singapura,Yogyakarta Intl.,DI Yogyakarta,Bandara,12322
+Belgia,Soekarno-Hatta,Banten,Bandara,12139
+Inggris,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,11715
+ASEAN Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,11599
+Malaysia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,11392
+Finlandia,Ngurah Rai,Bali,Bandara,10992
+Korea Selatan,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,10884
+India,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,10882
+Austria,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,10768
+Myanmar,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,10418
+Mesir,Ngurah Rai,Bali,Bandara,10266
+ASEAN Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,10230
+Jepang,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,10229
+Amerika Selatan,Soekarno-Hatta,Banten,Bandara,10122
+ASEAN Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,10052
+Malaysia,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,9879
+Myanmar,Ngurah Rai,Bali,Bandara,9571
+Amerika Serikat,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,9491
+Inggris,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,9426
+Inggris,Pintu lainnya,Lintas provinsi,Lainnya,9349
+Swiss,Soekarno-Hatta,Banten,Bandara,9302
+Australia,Tanjung Benoa,Bali,Pelabuhan laut,9289
+Australia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,8810
+Australia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,8780
+Pakistan,Soekarno-Hatta,Banten,Bandara,8689
+Malaysia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,8456
+Inggris,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,8393
+Mesir,Soekarno-Hatta,Banten,Bandara,8349
+Singapura,Lombok Intl.,Nusa Tenggara Barat,Bandara,8237
+Malaysia,Dumai,Riau,Pelabuhan laut,8120
+Malaysia,Kertajati,Jawa Barat,Bandara,8035
+Belanda,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,7875
+Belanda,Kualanamu,Sumatera Utara,Bandara,7357
+Malaysia,Hasanuddin,Sulawesi Selatan,Bandara,7115
+Filipina,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,7015
+Selandia Baru,Soekarno-Hatta,Banten,Bandara,6967
+ASEAN Lainnya,Minangkabau,Sumatera Barat,Bandara,6879
+ASEAN Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,6815
+Tiongkok,Kualanamu,Sumatera Utara,Bandara,6754
+Hong Kong,Soekarno-Hatta,Banten,Bandara,6666
+Tiongkok,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,6515
+Amerika Serikat,Juanda,Jawa Timur,Bandara,6507
+Vietnam,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,6326
+Jerman,Kualanamu,Sumatera Utara,Bandara,6259
+ASEAN Lainnya,Sultan Syarif Kasim II,Riau,Bandara,6218
+Swedia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,6205
+Jepang,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,6112
+Tiongkok,Lombok Intl.,Nusa Tenggara Barat,Bandara,6111
+Taiwan,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,6018
+Taiwan,Juanda,Jawa Timur,Bandara,5977
+Tiongkok,Yogyakarta Intl.,DI Yogyakarta,Bandara,5778
+Yaman,Soekarno-Hatta,Banten,Bandara,5432
+ASEAN Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,5245
+Perancis,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,5216
+Inggris,Lombok Intl.,Nusa Tenggara Barat,Bandara,5148
+Bangladesh,Ngurah Rai,Bali,Bandara,5053
+Jepang,Juanda,Jawa Timur,Bandara,4922
+Timor Leste,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,4902
+Korea Selatan,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,4893
+Austria,Soekarno-Hatta,Banten,Bandara,4880
+Myanmar,Soekarno-Hatta,Banten,Bandara,4741
+Thailand,Juanda,Jawa Timur,Bandara,4734
+Malaysia,Hang Nadim,Kepulauan Riau,Bandara,4725
+Portugal,Soekarno-Hatta,Banten,Bandara,4723
+Australia,Kualanamu,Sumatera Utara,Bandara,4657
+Amerika Serikat,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,4640
+Perancis,Kualanamu,Sumatera Utara,Bandara,4576
+Sri Lanka,Ngurah Rai,Bali,Bandara,4519
+India,Juanda,Jawa Timur,Bandara,4417
+Uni Emirat Arab,Ngurah Rai,Bali,Bandara,4364
+Korea Selatan,Juanda,Jawa Timur,Bandara,4357
+Jerman,Lombok Intl.,Nusa Tenggara Barat,Bandara,4317
+Eropa Timur Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,4281
+Swedia,Soekarno-Hatta,Banten,Bandara,4143
+Eropa Barat Lainnya,Soekarno-Hatta,Banten,Bandara,4010
+Perancis,Lombok Intl.,Nusa Tenggara Barat,Bandara,3804
+Inggris,Kualanamu,Sumatera Utara,Bandara,3756
+Amerika Serikat,Kualanamu,Sumatera Utara,Bandara,3658
+Singapura,Sultan Syarif Kasim II,Riau,Bandara,3653
+ASEAN Lainnya,Dumai,Riau,Pelabuhan laut,3603
+Denmark,Soekarno-Hatta,Banten,Bandara,3434
+Uni Emirat Arab,Soekarno-Hatta,Banten,Bandara,3406
+Sri Lanka,Soekarno-Hatta,Banten,Bandara,3359
+Jerman,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,3140
+Afrika Selatan,Soekarno-Hatta,Banten,Bandara,3135
+Thailand,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,3120
+Taiwan,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,3112
+Jerman,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,3076
+Perancis,Yogyakarta Intl.,DI Yogyakarta,Bandara,3072
+Filipina,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,3030
+India,Kualanamu,Sumatera Utara,Bandara,2981
+Bangladesh,Soekarno-Hatta,Banten,Bandara,2968
+ASEAN Lainnya,Sultan Iskandar Muda,Aceh,Bandara,2939
+Kuwait,Soekarno-Hatta,Banten,Bandara,2916
+Perancis,Juanda,Jawa Timur,Bandara,2901
+Bangladesh,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,2894
+Perancis,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,2885
+Myanmar,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,2883
+Kanada,Pintu lainnya,Lintas provinsi,Lainnya,2817
+Jerman,Pintu lainnya,Lintas provinsi,Lainnya,2816
+Thailand,Kualanamu,Sumatera Utara,Bandara,2810
+Amerika Lainnya,Soekarno-Hatta,Banten,Bandara,2768
+Belanda,Juanda,Jawa Timur,Bandara,2714
+Amerika Serikat,Yogyakarta Intl.,DI Yogyakarta,Bandara,2674
+Inggris,Tanjung Benoa,Bali,Pelabuhan laut,2616
+Australia,Juanda,Jawa Timur,Bandara,2607
+Taiwan,Kualanamu,Sumatera Utara,Bandara,2548
+Belanda,Yogyakarta Intl.,DI Yogyakarta,Bandara,2494
+Amerika Serikat,Tanjung Benoa,Bali,Pelabuhan laut,2483
+Taiwan,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,2448
+Norwegia,Soekarno-Hatta,Banten,Bandara,2404
+Jerman,Juanda,Jawa Timur,Bandara,2399
+Belanda,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,2326
+Jerman,Sam Ratulangi,Sulawesi Utara,Bandara,2324
+Filipina,Juanda,Jawa Timur,Bandara,2291
+Jepang,Yogyakarta Intl.,DI Yogyakarta,Bandara,2262
+Belanda,Lombok Intl.,Nusa Tenggara Barat,Bandara,2251
+Asia Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,2238
+Korea Selatan,Hang Nadim,Kepulauan Riau,Bandara,2165
+Hong Kong,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,2154
+Jerman,Yogyakarta Intl.,DI Yogyakarta,Bandara,2154
+Inggris,Juanda,Jawa Timur,Bandara,2147
+Australia,Lombok Intl.,Nusa Tenggara Barat,Bandara,2121
+Kuwait,Ngurah Rai,Bali,Bandara,2096
+Finlandia,Soekarno-Hatta,Banten,Bandara,2083
+Kanada,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,2056
+ASEAN Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,2042
+Eropa Timur Lainnya,Kualanamu,Sumatera Utara,Bandara,2033
+ASEAN Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,2032
+Saudi Arabia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,2022
+Italia,Yogyakarta Intl.,DI Yogyakarta,Bandara,2007
+India,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,2003
+Inggris,Yogyakarta Intl.,DI Yogyakarta,Bandara,1997
+Australia,Minangkabau,Sumatera Barat,Bandara,1960
+Jerman,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1949
+Singapura,Pintu lainnya,Lintas provinsi,Lainnya,1942
+Malaysia,Sam Ratulangi,Sulawesi Utara,Bandara,1930
+Korea Selatan,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1905
+India,Yogyakarta Intl.,DI Yogyakarta,Bandara,1900
+Malaysia,Sepinggan,Kalimantan Timur,Bandara,1861
+Eropa Timur Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,1849
+Amerika Serikat,Lombok Intl.,Nusa Tenggara Barat,Bandara,1816
+ASEAN Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,1780
+Eropa Timur Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,1768
+Singapura,Sam Ratulangi,Sulawesi Utara,Bandara,1767
+Selandia Baru,Pintu lainnya,Lintas provinsi,Lainnya,1752
+Spanyol,Kualanamu,Sumatera Utara,Bandara,1727
+Eropa Timur Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1715
+Vietnam,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1673
+Brunei Darussalam,Juanda,Jawa Timur,Bandara,1646
+Swiss,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1635
+Korea Selatan,Kualanamu,Sumatera Utara,Bandara,1608
+Vietnam,Juanda,Jawa Timur,Bandara,1597
+Thailand,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1575
+Australia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1572
+Sri Lanka,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1538
+Amerika Selatan,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1531
+Perancis,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1512
+Jepang,Kualanamu,Sumatera Utara,Bandara,1499
+Selandia Baru,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,1498
+Tiongkok,Hang Nadim,Kepulauan Riau,Bandara,1482
+Eropa Timur Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,1481
+Spanyol,Yogyakarta Intl.,DI Yogyakarta,Bandara,1454
+Swiss,Kualanamu,Sumatera Utara,Bandara,1383
+Selandia Baru,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,1382
+Swedia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1379
+Swiss,Lombok Intl.,Nusa Tenggara Barat,Bandara,1356
+Amerika Serikat,Sam Ratulangi,Sulawesi Utara,Bandara,1347
+Amerika Tengah,Ngurah Rai,Bali,Bandara,1331
+Spanyol,Lombok Intl.,Nusa Tenggara Barat,Bandara,1325
+Belgia,Kualanamu,Sumatera Utara,Bandara,1307
+ASEAN Lainnya,Kertajati,Jawa Barat,Bandara,1297
+Thailand,Yogyakarta Intl.,DI Yogyakarta,Bandara,1287
+Tiongkok,Pintu lainnya,Lintas provinsi,Lainnya,1284
+Brunei Darussalam,Entikong,Kalimantan Barat,Pos lintas batas darat,1259
+Italia,Lombok Intl.,Nusa Tenggara Barat,Bandara,1249
+India,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,1247
+India,Lombok Intl.,Nusa Tenggara Barat,Bandara,1246
+Eropa Timur Lainnya,Juanda,Jawa Timur,Bandara,1215
+Australia,Yogyakarta Intl.,DI Yogyakarta,Bandara,1214
+Uni Emirat Arab,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1212
+Eropa Timur Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,1209
+Belanda,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,1197
+Timor Leste,Soekarno-Hatta,Banten,Bandara,1187
+Oceania Lainnya,Ngurah Rai,Bali,Bandara,1177
+Tiongkok,Sultan Syarif Kasim II,Riau,Bandara,1165
+Rusia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1158
+Brunei Darussalam,Ngurah Rai,Bali,Bandara,1151
+Bangladesh,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,1147
+Jepang,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,1146
+Taiwan,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,1143
+Bahrain,Soekarno-Hatta,Banten,Bandara,1142
+Denmark,Kualanamu,Sumatera Utara,Bandara,1132
+Kanada,Juanda,Jawa Timur,Bandara,1128
+Filipina,Yogyakarta Intl.,DI Yogyakarta,Bandara,1103
+Yaman,Ngurah Rai,Bali,Bandara,1088
+Jerman,Tanjung Benoa,Bali,Pelabuhan laut,1083
+Kanada,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,1082
+Filipina,Kualanamu,Sumatera Utara,Bandara,1075
+Italia,Juanda,Jawa Timur,Bandara,1048
+Amerika Selatan,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,1033
+Korea Selatan,Lombok Intl.,Nusa Tenggara Barat,Bandara,1010
+Hong Kong,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,983
+Hong Kong,Juanda,Jawa Timur,Bandara,967
+Norwegia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,950
+Tiongkok,Sultan Iskandar Muda,Aceh,Bandara,945
+Italia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,933
+Bahrain,Ngurah Rai,Bali,Bandara,925
+Jepang,Lombok Intl.,Nusa Tenggara Barat,Bandara,920
+Belanda,Sam Ratulangi,Sulawesi Utara,Bandara,916
+Italia,Kualanamu,Sumatera Utara,Bandara,909
+Perancis,Sam Ratulangi,Sulawesi Utara,Bandara,908
+Portugal,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,902
+Brunei Darussalam,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,899
+Swiss,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,893
+Australia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,889
+India,Sultan Syarif Kasim II,Riau,Bandara,881
+Eropa Barat Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,867
+Singapura,Hasanuddin,Sulawesi Selatan,Bandara,861
+Qatar,Ngurah Rai,Bali,Bandara,853
+ASEAN Lainnya,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,850
+ASEAN Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,840
+Belgia,Yogyakarta Intl.,DI Yogyakarta,Bandara,838
+Swiss,Yogyakarta Intl.,DI Yogyakarta,Bandara,818
+Korea Selatan,Yogyakarta Intl.,DI Yogyakarta,Bandara,818
+Vietnam,Kualanamu,Sumatera Utara,Bandara,816
+Italia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,816
+Tiongkok,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,802
+Swiss,Sam Ratulangi,Sulawesi Utara,Bandara,801
+Kanada,Kualanamu,Sumatera Utara,Bandara,801
+Singapura,Sepinggan,Kalimantan Timur,Bandara,800
+Italia,Sam Ratulangi,Sulawesi Utara,Bandara,796
+Singapura,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,768
+Singapura,Minangkabau,Sumatera Barat,Bandara,765
+Filipina,Pintu lainnya,Lintas provinsi,Lainnya,761
+Myanmar,Juanda,Jawa Timur,Bandara,753
+Thailand,Lombok Intl.,Nusa Tenggara Barat,Bandara,748
+Malaysia,Skouw,Papua,Pos lintas batas darat,747
+Vietnam,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,735
+Belgia,Lombok Intl.,Nusa Tenggara Barat,Bandara,727
+Korea Selatan,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,725
+Belanda,Pintu lainnya,Lintas provinsi,Lainnya,721
+Kanada,Lombok Intl.,Nusa Tenggara Barat,Bandara,718
+Eropa Timur Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,709
+Amerika Selatan,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,709
+Spanyol,Juanda,Jawa Timur,Bandara,695
+Rusia,Lombok Intl.,Nusa Tenggara Barat,Bandara,688
+ASEAN Lainnya,Hang Nadim,Kepulauan Riau,Bandara,672
+Inggris,Sam Ratulangi,Sulawesi Utara,Bandara,671
+Selandia Baru,Tanjung Benoa,Bali,Pelabuhan laut,669
+Hong Kong,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,667
+Thailand,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,663
+Spanyol,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,654
+Perancis,Pintu lainnya,Lintas provinsi,Lainnya,654
+Denmark,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,642
+Rusia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,638
+Qatar,Soekarno-Hatta,Banten,Bandara,630
+Swiss,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,627
+ASEAN Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,625
+Eropa Barat Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,623
+Asia Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,615
+Taiwan,Yogyakarta Intl.,DI Yogyakarta,Bandara,612
+Filipina,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,612
+Inggris,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,602
+Australia,Sam Ratulangi,Sulawesi Utara,Bandara,600
+Perancis,Minangkabau,Sumatera Barat,Bandara,590
+Kanada,Tanjung Benoa,Bali,Pelabuhan laut,585
+Amerika Serikat,Minangkabau,Sumatera Barat,Bandara,584
+Asia Lainnya,Juanda,Jawa Timur,Bandara,580
+Selandia Baru,Kualanamu,Sumatera Utara,Bandara,580
+Kanada,Yogyakarta Intl.,DI Yogyakarta,Bandara,574
+Austria,Kualanamu,Sumatera Utara,Bandara,566
+ASEAN Lainnya,Sepinggan,Kalimantan Timur,Bandara,539
+Taiwan,Lombok Intl.,Nusa Tenggara Barat,Bandara,539
+Spanyol,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,537
+Swedia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,537
+Tiongkok,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,529
+Rusia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,518
+Taiwan,Aruk,Kalimantan Barat,Pos lintas batas darat,511
+Filipina,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,510
+Belanda,Hasanuddin,Sulawesi Selatan,Bandara,508
+Swedia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,507
+Saudi Arabia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,502
+Belgia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,497
+Swiss,Juanda,Jawa Timur,Bandara,494
+Belgia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,494
+Swedia,Lombok Intl.,Nusa Tenggara Barat,Bandara,487
+Tiongkok,Hasanuddin,Sulawesi Selatan,Bandara,484
+Rusia,Juanda,Jawa Timur,Bandara,483
+Oceania Lainnya,Soekarno-Hatta,Banten,Bandara,482
+Tiongkok,Aruk,Kalimantan Barat,Pos lintas batas darat,478
+Singapura,Sultan Iskandar Muda,Aceh,Bandara,475
+Papua Nugini,Ngurah Rai,Bali,Bandara,469
+Myanmar,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,459
+Belgia,Juanda,Jawa Timur,Bandara,459
+Mesir,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,458
+Tiongkok,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,458
+Jepang,Sam Ratulangi,Sulawesi Utara,Bandara,450
+Thailand,Pintu lainnya,Lintas provinsi,Lainnya,447
+India,Hang Nadim,Kepulauan Riau,Bandara,441
+Singapura,Kertajati,Jawa Barat,Bandara,440
+Afrika Selatan,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,439
+Asia Lainnya,Kualanamu,Sumatera Utara,Bandara,438
+Asia Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,437
+Perancis,Hasanuddin,Sulawesi Selatan,Bandara,436
+Austria,Lombok Intl.,Nusa Tenggara Barat,Bandara,428
+Amerika Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,425
+Finlandia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,424
+Belgia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,415
+Australia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,414
+Inggris,Minangkabau,Sumatera Barat,Bandara,409
+Italia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,404
+Denmark,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,398
+Pakistan,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,394
+Filipina,Lombok Intl.,Nusa Tenggara Barat,Bandara,385
+Rusia,Kualanamu,Sumatera Utara,Bandara,381
+Selandia Baru,Lombok Intl.,Nusa Tenggara Barat,Bandara,380
+Spanyol,Pintu lainnya,Lintas provinsi,Lainnya,380
+Amerika Tengah,Soekarno-Hatta,Banten,Bandara,379
+Norwegia,Kualanamu,Sumatera Utara,Bandara,375
+India,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,375
+Norwegia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,373
+Eropa Barat Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,373
+Amerika Selatan,Juanda,Jawa Timur,Bandara,372
+Amerika Selatan,Kualanamu,Sumatera Utara,Bandara,372
+Pakistan,Kualanamu,Sumatera Utara,Bandara,372
+Australia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,370
+Singapura,Entikong,Kalimantan Barat,Pos lintas batas darat,368
+Afrika Selatan,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,365
+Timur Tengah Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,364
+Amerika Selatan,Yogyakarta Intl.,DI Yogyakarta,Bandara,364
+Papua Nugini,Soekarno-Hatta,Banten,Bandara,354
+Spanyol,Minangkabau,Sumatera Barat,Bandara,353
+Finlandia,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,352
+Jerman,Minangkabau,Sumatera Barat,Bandara,349
+Perancis,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,349
+Amerika Selatan,Lombok Intl.,Nusa Tenggara Barat,Bandara,348
+Belanda,Minangkabau,Sumatera Barat,Bandara,347
+Denmark,Juanda,Jawa Timur,Bandara,341
+Jerman,Sultan Iskandar Muda,Aceh,Bandara,340
+Myanmar,Kualanamu,Sumatera Utara,Bandara,338
+Denmark,Lombok Intl.,Nusa Tenggara Barat,Bandara,338
+Amerika Serikat,Halim Perdanakusuma,DKI Jakarta,Bandara,338
+Jerman,Hasanuddin,Sulawesi Selatan,Bandara,337
+Australia,Sultan Iskandar Muda,Aceh,Bandara,337
+Inggris,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,332
+Swiss,Pintu lainnya,Lintas provinsi,Lainnya,331
+Tiongkok,Minangkabau,Sumatera Barat,Bandara,328
+Taiwan,Entikong,Kalimantan Barat,Pos lintas batas darat,314
+Rusia,Yogyakarta Intl.,DI Yogyakarta,Bandara,312
+Taiwan,Sultan Syarif Kasim II,Riau,Bandara,311
+Thailand,Sultan Iskandar Muda,Aceh,Bandara,310
+Eropa Barat Lainnya,Kualanamu,Sumatera Utara,Bandara,307
+Amerika Selatan,Pintu lainnya,Lintas provinsi,Lainnya,307
+Australia,Sultan Syarif Kasim II,Riau,Bandara,305
+Selandia Baru,Minangkabau,Sumatera Barat,Bandara,304
+Amerika Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,303
+Eropa Barat Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,296
+Thailand,Sultan Syarif Kasim II,Riau,Bandara,293
+Portugal,Lombok Intl.,Nusa Tenggara Barat,Bandara,292
+Tiongkok,Sepinggan,Kalimantan Timur,Bandara,290
+Perancis,Sultan Iskandar Muda,Aceh,Bandara,285
+Myanmar,Yogyakarta Intl.,DI Yogyakarta,Bandara,285
+Afrika Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,284
+Norwegia,Lombok Intl.,Nusa Tenggara Barat,Bandara,283
+Austria,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,281
+Jerman,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,279
+Tiongkok,Halim Perdanakusuma,DKI Jakarta,Bandara,275
+Pakistan,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,268
+Jepang,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,267
+Austria,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,265
+Afrika Lainnya,Juanda,Jawa Timur,Bandara,264
+Filipina,Skouw,Papua,Pos lintas batas darat,264
+Thailand,Minangkabau,Sumatera Barat,Bandara,264
+Belgia,Sam Ratulangi,Sulawesi Utara,Bandara,261
+Tiongkok,Entikong,Kalimantan Barat,Pos lintas batas darat,258
+Papua Nugini,Pintu lainnya,Lintas provinsi,Lainnya,256
+Finlandia,Lombok Intl.,Nusa Tenggara Barat,Bandara,255
+Jepang,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,254
+Korea Selatan,Sam Ratulangi,Sulawesi Utara,Bandara,252
+Amerika Serikat,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,250
+Asia Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,250
+Inggris,Sultan Iskandar Muda,Aceh,Bandara,249
+Australia,Hasanuddin,Sulawesi Selatan,Bandara,249
+Swedia,Kualanamu,Sumatera Utara,Bandara,248
+Vietnam,Yogyakarta Intl.,DI Yogyakarta,Bandara,248
+Sri Lanka,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,247
+India,Minangkabau,Sumatera Barat,Bandara,247
+Eropa Timur Lainnya,Minangkabau,Sumatera Barat,Bandara,244
+Jepang,Minangkabau,Sumatera Barat,Bandara,239
+Selandia Baru,Juanda,Jawa Timur,Bandara,238
+Amerika Serikat,Sultan Syarif Kasim II,Riau,Bandara,234
+Korea Selatan,Dumai,Riau,Pelabuhan laut,233
+Afrika Selatan,Lombok Intl.,Nusa Tenggara Barat,Bandara,231
+Amerika Selatan,Minangkabau,Sumatera Barat,Bandara,228
+ASEAN Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,226
+Belgia,Pintu lainnya,Lintas provinsi,Lainnya,225
+Taiwan,Sam Ratulangi,Sulawesi Utara,Bandara,224
+Korea Selatan,Sultan Syarif Kasim II,Riau,Bandara,223
+Austria,Juanda,Jawa Timur,Bandara,223
+Finlandia,Juanda,Jawa Timur,Bandara,220
+Myanmar,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,218
+Afrika Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,217
+Amerika Serikat,Hasanuddin,Sulawesi Selatan,Bandara,216
+Eropa Timur Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,215
+Eropa Barat Lainnya,Juanda,Jawa Timur,Bandara,214
+Singapura,Halim Perdanakusuma,DKI Jakarta,Bandara,214
+Denmark,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,210
+Korea Selatan,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,210
+Portugal,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,207
+Bangladesh,Juanda,Jawa Timur,Bandara,206
+Filipina,Sam Ratulangi,Sulawesi Utara,Bandara,206
+Rusia,Pintu lainnya,Lintas provinsi,Lainnya,206
+Amerika Serikat,Sultan Iskandar Muda,Aceh,Bandara,204
+Afrika Lainnya,Kualanamu,Sumatera Utara,Bandara,203
+Hong Kong,Kualanamu,Sumatera Utara,Bandara,201
+Portugal,Juanda,Jawa Timur,Bandara,201
+Timur Tengah Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,200
+Kanada,Sam Ratulangi,Sulawesi Utara,Bandara,200
+Norwegia,Pintu lainnya,Lintas provinsi,Lainnya,199
+Brunei Darussalam,Lombok Intl.,Nusa Tenggara Barat,Bandara,199
+Italia,Pintu lainnya,Lintas provinsi,Lainnya,198
+Jepang,Pintu lainnya,Lintas provinsi,Lainnya,198
+Selandia Baru,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,198
+India,Pintu lainnya,Lintas provinsi,Lainnya,193
+Portugal,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,192
+Amerika Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,191
+Pakistan,Juanda,Jawa Timur,Bandara,185
+Filipina,Sultan Syarif Kasim II,Riau,Bandara,184
+Italia,Minangkabau,Sumatera Barat,Bandara,183
+Brunei Darussalam,Kualanamu,Sumatera Utara,Bandara,183
+Eropa Barat Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,181
+Brunei Darussalam,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,180
+Austria,Sam Ratulangi,Sulawesi Utara,Bandara,179
+Afrika Selatan,Pintu lainnya,Lintas provinsi,Lainnya,178
+Portugal,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,178
+Belanda,Sultan Iskandar Muda,Aceh,Bandara,176
+Jepang,Hasanuddin,Sulawesi Selatan,Bandara,172
+Sri Lanka,Juanda,Jawa Timur,Bandara,171
+Jepang,Sultan Iskandar Muda,Aceh,Bandara,171
+Denmark,Pintu lainnya,Lintas provinsi,Lainnya,169
+Mesir,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,168
+Austria,Yogyakarta Intl.,DI Yogyakarta,Bandara,168
+Mesir,Kualanamu,Sumatera Utara,Bandara,167
+Perancis,Dumai,Riau,Pelabuhan laut,167
+Austria,Pintu lainnya,Lintas provinsi,Lainnya,167
+Singapura,Aruk,Kalimantan Barat,Pos lintas batas darat,166
+Swedia,Juanda,Jawa Timur,Bandara,160
+Tiongkok,Skouw,Papua,Pos lintas batas darat,159
+Eropa Timur Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,159
+Asia Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,158
+Singapura,Hang Nadim,Kepulauan Riau,Bandara,158
+Afrika Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,158
+Brunei Darussalam,Aruk,Kalimantan Barat,Pos lintas batas darat,156
+Portugal,Yogyakarta Intl.,DI Yogyakarta,Bandara,155
+India,Sam Ratulangi,Sulawesi Utara,Bandara,155
+Australia,Sepinggan,Kalimantan Timur,Bandara,154
+Vietnam,Lombok Intl.,Nusa Tenggara Barat,Bandara,153
+Saudi Arabia,Kualanamu,Sumatera Utara,Bandara,152
+Swedia,Pintu lainnya,Lintas provinsi,Lainnya,152
+Taiwan,Pintu lainnya,Lintas provinsi,Lainnya,151
+Afrika Selatan,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,151
+India,Sepinggan,Kalimantan Timur,Bandara,149
+Saudi Arabia,Juanda,Jawa Timur,Bandara,148
+Sri Lanka,Kualanamu,Sumatera Utara,Bandara,147
+Jerman,Sepinggan,Kalimantan Timur,Bandara,146
+Kanada,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,145
+Timor Leste,Juanda,Jawa Timur,Bandara,145
+Perancis,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,143
+Denmark,Yogyakarta Intl.,DI Yogyakarta,Bandara,143
+Asia Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,143
+Finlandia,Kualanamu,Sumatera Utara,Bandara,142
+ASEAN Lainnya,Skouw,Papua,Pos lintas batas darat,141
+Italia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,141
+Belanda,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,136
+Jepang,Sultan Syarif Kasim II,Riau,Bandara,136
+Spanyol,Sam Ratulangi,Sulawesi Utara,Bandara,135
+Spanyol,Sultan Iskandar Muda,Aceh,Bandara,133
+Inggris,Hasanuddin,Sulawesi Selatan,Bandara,133
+Italia,Hasanuddin,Sulawesi Selatan,Bandara,133
+Afrika Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,133
+Singapura,Dumai,Riau,Pelabuhan laut,132
+India,Kertajati,Jawa Barat,Bandara,132
+Timur Tengah Lainnya,Kualanamu,Sumatera Utara,Bandara,131
+Afrika Selatan,Juanda,Jawa Timur,Bandara,131
+Vietnam,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,130
+Finlandia,Sultan Syarif Kasim II,Riau,Bandara,130
+Eropa Timur Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,130
+Inggris,Sultan Syarif Kasim II,Riau,Bandara,129
+Swiss,Hasanuddin,Sulawesi Selatan,Bandara,128
+Vietnam,Sultan Syarif Kasim II,Riau,Bandara,125
+India,Halim Perdanakusuma,DKI Jakarta,Bandara,125
+Malaysia,Halim Perdanakusuma,DKI Jakarta,Bandara,125
+Tiongkok,Tanjung Benoa,Bali,Pelabuhan laut,124
+Belanda,Entikong,Kalimantan Barat,Pos lintas batas darat,123
+Vietnam,Pintu lainnya,Lintas provinsi,Lainnya,123
+Thailand,Sam Ratulangi,Sulawesi Utara,Bandara,122
+Thailand,Halim Perdanakusuma,DKI Jakarta,Bandara,120
+Portugal,Kualanamu,Sumatera Utara,Bandara,119
+Kanada,Minangkabau,Sumatera Barat,Bandara,118
+Swedia,Sam Ratulangi,Sulawesi Utara,Bandara,115
+Perancis,Halim Perdanakusuma,DKI Jakarta,Bandara,114
+Amerika Selatan,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,114
+Brunei Darussalam,Sultan Syarif Kasim II,Riau,Bandara,113
+Selandia Baru,Yogyakarta Intl.,DI Yogyakarta,Bandara,112
+Afrika Selatan,Kualanamu,Sumatera Utara,Bandara,111
+Belgia,Hasanuddin,Sulawesi Selatan,Bandara,110
+Spanyol,Hasanuddin,Sulawesi Selatan,Bandara,110
+Belanda,Tanjung Benoa,Bali,Pelabuhan laut,109
+Kanada,Sultan Iskandar Muda,Aceh,Bandara,109
+Australia,Entikong,Kalimantan Barat,Pos lintas batas darat,108
+Bangladesh,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,108
+Amerika Lainnya,Juanda,Jawa Timur,Bandara,108
+Belgia,Minangkabau,Sumatera Barat,Bandara,108
+Amerika Serikat,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,107
+India,Sultan Iskandar Muda,Aceh,Bandara,107
+Amerika Serikat,Sepinggan,Kalimantan Timur,Bandara,105
+Eropa Timur Lainnya,Sultan Iskandar Muda,Aceh,Bandara,105
+Amerika Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,104
+Filipina,Minangkabau,Sumatera Barat,Bandara,102
+Inggris,Sepinggan,Kalimantan Timur,Bandara,102
+Eropa Timur Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,102
+Inggris,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,100
+Brunei Darussalam,Minangkabau,Sumatera Barat,Bandara,100
+Bangladesh,Kualanamu,Sumatera Utara,Bandara,98
+Amerika Selatan,Sultan Syarif Kasim II,Riau,Bandara,98
+Norwegia,Juanda,Jawa Timur,Bandara,97
+India,Hasanuddin,Sulawesi Selatan,Bandara,97
+Belanda,Sultan Syarif Kasim II,Riau,Bandara,95
+Italia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,94
+Filipina,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,94
+Asia Lainnya,Sultan Iskandar Muda,Aceh,Bandara,94
+Brunei Darussalam,Yogyakarta Intl.,DI Yogyakarta,Bandara,93
+India,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,91
+Taiwan,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,90
+Amerika Serikat,Hang Nadim,Kepulauan Riau,Bandara,89
+Hong Kong,Sam Ratulangi,Sulawesi Utara,Bandara,88
+Timur Tengah Lainnya,Juanda,Jawa Timur,Bandara,88
+Yaman,Juanda,Jawa Timur,Bandara,87
+Vietnam,Sultan Iskandar Muda,Aceh,Bandara,87
+Malaysia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,86
+Korea Selatan,Sepinggan,Kalimantan Timur,Bandara,85
+Australia,Hang Nadim,Kepulauan Riau,Bandara,85
+Pakistan,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,84
+Swiss,Minangkabau,Sumatera Barat,Bandara,84
+Thailand,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,83
+Amerika Lainnya,Kualanamu,Sumatera Utara,Bandara,83
+Hong Kong,Lombok Intl.,Nusa Tenggara Barat,Bandara,83
+Inggris,Hang Nadim,Kepulauan Riau,Bandara,83
+Portugal,Pintu lainnya,Lintas provinsi,Lainnya,82
+Perancis,Tanjung Benoa,Bali,Pelabuhan laut,82
+Denmark,Sam Ratulangi,Sulawesi Utara,Bandara,82
+Afrika Selatan,Sam Ratulangi,Sulawesi Utara,Bandara,82
+Jerman,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,81
+Filipina,Entikong,Kalimantan Barat,Pos lintas batas darat,81
+Uni Emirat Arab,Juanda,Jawa Timur,Bandara,81
+Thailand,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,81
+Filipina,Hasanuddin,Sulawesi Selatan,Bandara,81
+Austria,Tanjung Benoa,Bali,Pelabuhan laut,80
+Qatar,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,79
+Inggris,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,79
+Jerman,Sultan Syarif Kasim II,Riau,Bandara,78
+Korea Selatan,Sultan Iskandar Muda,Aceh,Bandara,78
+Taiwan,Hasanuddin,Sulawesi Selatan,Bandara,78
+Kanada,Sultan Syarif Kasim II,Riau,Bandara,78
+Perancis,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,77
+Swiss,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,77
+Italia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,77
+Vietnam,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,77
+Norwegia,Sultan Iskandar Muda,Aceh,Bandara,76
+Afrika Selatan,Minangkabau,Sumatera Barat,Bandara,76
+Tiongkok,Dumai,Riau,Pelabuhan laut,76
+Rusia,Minangkabau,Sumatera Barat,Bandara,75
+Korea Selatan,Entikong,Kalimantan Barat,Pos lintas batas darat,75
+Finlandia,Sam Ratulangi,Sulawesi Utara,Bandara,74
+Afrika Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,74
+Swedia,Yogyakarta Intl.,DI Yogyakarta,Bandara,74
+Jerman,Dumai,Riau,Pelabuhan laut,74
+Swiss,Tanjung Benoa,Bali,Pelabuhan laut,74
+Australia,Halim Perdanakusuma,DKI Jakarta,Bandara,73
+Swiss,Sultan Iskandar Muda,Aceh,Bandara,73
+Belgia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,73
+Korea Selatan,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,71
+Jepang,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,71
+Tiongkok,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,70
+Amerika Serikat,Entikong,Kalimantan Barat,Pos lintas batas darat,70
+Korea Selatan,Pintu lainnya,Lintas provinsi,Lainnya,70
+Kanada,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,69
+Afrika Lainnya,Kertajati,Jawa Barat,Bandara,69
+Vietnam,Minangkabau,Sumatera Barat,Bandara,69
+Jepang,Tanjung Benoa,Bali,Pelabuhan laut,68
+Jepang,Sepinggan,Kalimantan Timur,Bandara,68
+Rusia,Tanjung Benoa,Bali,Pelabuhan laut,68
+Selandia Baru,Sam Ratulangi,Sulawesi Utara,Bandara,67
+India,Entikong,Kalimantan Barat,Pos lintas batas darat,67
+Brunei Darussalam,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,67
+Perancis,Sultan Syarif Kasim II,Riau,Bandara,66
+Portugal,Minangkabau,Sumatera Barat,Bandara,66
+Tiongkok,Kertajati,Jawa Barat,Bandara,66
+Brunei Darussalam,Pintu lainnya,Lintas provinsi,Lainnya,65
+Asia Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,65
+Bangladesh,Yogyakarta Intl.,DI Yogyakarta,Bandara,65
+Vietnam,Hang Nadim,Kepulauan Riau,Bandara,65
+Myanmar,Lombok Intl.,Nusa Tenggara Barat,Bandara,64
+Brunei Darussalam,Sultan Iskandar Muda,Aceh,Bandara,64
+Jerman,Halim Perdanakusuma,DKI Jakarta,Bandara,63
+Singapura,Tanjung Benoa,Bali,Pelabuhan laut,63
+Perancis,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,63
+Rusia,Sam Ratulangi,Sulawesi Utara,Bandara,62
+Myanmar,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,61
+Australia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,61
+Swedia,Sultan Iskandar Muda,Aceh,Bandara,61
+Pakistan,Minangkabau,Sumatera Barat,Bandara,60
+India,Tanjung Benoa,Bali,Pelabuhan laut,60
+Italia,Sultan Iskandar Muda,Aceh,Bandara,60
+Eropa Timur Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,60
+Timur Tengah Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,60
+Korea Selatan,Minangkabau,Sumatera Barat,Bandara,59
+Timur Tengah Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,59
+Asia Lainnya,Minangkabau,Sumatera Barat,Bandara,59
+Eropa Barat Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,59
+Asia Lainnya,Sultan Syarif Kasim II,Riau,Bandara,59
+Yaman,Kualanamu,Sumatera Utara,Bandara,58
+Afrika Selatan,Tanjung Benoa,Bali,Pelabuhan laut,57
+Saudi Arabia,Pintu lainnya,Lintas provinsi,Lainnya,57
+Afrika Lainnya,Minangkabau,Sumatera Barat,Bandara,57
+Malaysia,Tanjung Benoa,Bali,Pelabuhan laut,57
+Hong Kong,Yogyakarta Intl.,DI Yogyakarta,Bandara,56
+Inggris,Dumai,Riau,Pelabuhan laut,55
+Filipina,Sepinggan,Kalimantan Timur,Bandara,55
+Eropa Barat Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,55
+Spanyol,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,55
+Belanda,Sepinggan,Kalimantan Timur,Bandara,55
+Finlandia,Yogyakarta Intl.,DI Yogyakarta,Bandara,54
+India,Dumai,Riau,Pelabuhan laut,53
+Kanada,Hasanuddin,Sulawesi Selatan,Bandara,53
+Thailand,Dumai,Riau,Pelabuhan laut,52
+Filipina,Tanjung Benoa,Bali,Pelabuhan laut,52
+Sri Lanka,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,52
+Taiwan,Dumai,Riau,Pelabuhan laut,51
+Eropa Barat Lainnya,Minangkabau,Sumatera Barat,Bandara,51
+Perancis,Sepinggan,Kalimantan Timur,Bandara,51
+Brunei Darussalam,Halim Perdanakusuma,DKI Jakarta,Bandara,51
+Amerika Serikat,Aruk,Kalimantan Barat,Pos lintas batas darat,51
+Korea Selatan,Hasanuddin,Sulawesi Selatan,Bandara,51
+Norwegia,Yogyakarta Intl.,DI Yogyakarta,Bandara,50
+Rusia,Sultan Iskandar Muda,Aceh,Bandara,50
+Pakistan,Yogyakarta Intl.,DI Yogyakarta,Bandara,50
+Mesir,Minangkabau,Sumatera Barat,Bandara,50
+Saudi Arabia,Minangkabau,Sumatera Barat,Bandara,50
+Myanmar,Sultan Syarif Kasim II,Riau,Bandara,49
+Inggris,Entikong,Kalimantan Barat,Pos lintas batas darat,48
+India,Skouw,Papua,Pos lintas batas darat,48
+Selandia Baru,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,48
+Rusia,Sultan Syarif Kasim II,Riau,Bandara,48
+Belgia,Sultan Iskandar Muda,Aceh,Bandara,48
+Eropa Timur Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,48
+Swiss,Sepinggan,Kalimantan Timur,Bandara,48
+Myanmar,Skouw,Papua,Pos lintas batas darat,48
+Saudi Arabia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,48
+Taiwan,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,48
+Mesir,Juanda,Jawa Timur,Bandara,47
+Hong Kong,Aruk,Kalimantan Barat,Pos lintas batas darat,47
+Belanda,Dumai,Riau,Pelabuhan laut,47
+Denmark,Hasanuddin,Sulawesi Selatan,Bandara,46
+Eropa Timur Lainnya,Kertajati,Jawa Barat,Bandara,46
+Filipina,Sultan Iskandar Muda,Aceh,Bandara,46
+Jepang,Hang Nadim,Kepulauan Riau,Bandara,46
+Portugal,Tanjung Benoa,Bali,Pelabuhan laut,45
+Italia,Tanjung Benoa,Bali,Pelabuhan laut,45
+Afrika Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,45
+Amerika Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,44
+Denmark,Sultan Iskandar Muda,Aceh,Bandara,44
+Brunei Darussalam,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,44
+Rusia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,44
+Taiwan,Hang Nadim,Kepulauan Riau,Bandara,44
+Amerika Serikat,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,43
+Timur Tengah Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,43
+Asia Lainnya,Hang Nadim,Kepulauan Riau,Bandara,43
+Vietnam,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,42
+Myanmar,Pintu lainnya,Lintas provinsi,Lainnya,42
+Australia,Aruk,Kalimantan Barat,Pos lintas batas darat,42
+Pakistan,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,42
+Mesir,Lombok Intl.,Nusa Tenggara Barat,Bandara,42
+Swedia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,42
+Austria,Minangkabau,Sumatera Barat,Bandara,42
+Rusia,Hasanuddin,Sulawesi Selatan,Bandara,41
+Pakistan,Sultan Syarif Kasim II,Riau,Bandara,41
+Thailand,Hasanuddin,Sulawesi Selatan,Bandara,41
+Asia Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,41
+Vietnam,Entikong,Kalimantan Barat,Pos lintas batas darat,41
+Swedia,Sultan Syarif Kasim II,Riau,Bandara,41
+Thailand,Sepinggan,Kalimantan Timur,Bandara,40
+Taiwan,Minangkabau,Sumatera Barat,Bandara,40
+Taiwan,Sultan Iskandar Muda,Aceh,Bandara,40
+Amerika Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,40
+Spanyol,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,40
+Jerman,Entikong,Kalimantan Barat,Pos lintas batas darat,40
+Norwegia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,39
+Filipina,Aruk,Kalimantan Barat,Pos lintas batas darat,39
+Eropa Barat Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,38
+Amerika Selatan,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,38
+Afrika Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,38
+Brunei Darussalam,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,38
+Kanada,Hang Nadim,Kepulauan Riau,Bandara,38
+Perancis,Hang Nadim,Kepulauan Riau,Bandara,37
+Italia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,37
+Eropa Timur Lainnya,Sultan Syarif Kasim II,Riau,Bandara,37
+Myanmar,Sepinggan,Kalimantan Timur,Bandara,37
+Thailand,Hang Nadim,Kepulauan Riau,Bandara,37
+Selandia Baru,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,37
+Filipina,Hang Nadim,Kepulauan Riau,Bandara,36
+Eropa Barat Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,36
+Belanda,Hang Nadim,Kepulauan Riau,Bandara,36
+Selandia Baru,Sultan Iskandar Muda,Aceh,Bandara,36
+Jepang,Dumai,Riau,Pelabuhan laut,36
+Amerika Selatan,Sam Ratulangi,Sulawesi Utara,Bandara,36
+Timur Tengah Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,36
+Amerika Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,35
+Papua Nugini,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,35
+Saudi Arabia,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,34
+Timor Leste,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,34
+Korea Selatan,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,34
+Norwegia,Minangkabau,Sumatera Barat,Bandara,34
+Italia,Sepinggan,Kalimantan Timur,Bandara,34
+Afrika Selatan,Yogyakarta Intl.,DI Yogyakarta,Bandara,33
+Norwegia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,33
+Singapura,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,33
+Selandia Baru,Sultan Syarif Kasim II,Riau,Bandara,33
+Perancis,Entikong,Kalimantan Barat,Pos lintas batas darat,32
+Belanda,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,32
+Rusia,Hang Nadim,Kepulauan Riau,Bandara,32
+Pakistan,Entikong,Kalimantan Barat,Pos lintas batas darat,32
+Selandia Baru,Entikong,Kalimantan Barat,Pos lintas batas darat,32
+Mesir,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,32
+Amerika Tengah,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,32
+Sri Lanka,Minangkabau,Sumatera Barat,Bandara,32
+Italia,Sultan Syarif Kasim II,Riau,Bandara,31
+Denmark,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,31
+Eropa Timur Lainnya,Hang Nadim,Kepulauan Riau,Bandara,31
+Bahrain,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,31
+ASEAN Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,31
+Austria,Hasanuddin,Sulawesi Selatan,Bandara,31
+Vietnam,Hasanuddin,Sulawesi Selatan,Bandara,31
+Austria,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,30
+Taiwan,Sepinggan,Kalimantan Timur,Bandara,30
+Hong Kong,Sultan Iskandar Muda,Aceh,Bandara,30
+Amerika Serikat,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,30
+Kuwait,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,30
+Saudi Arabia,Lombok Intl.,Nusa Tenggara Barat,Bandara,29
+Swedia,Tanjung Benoa,Bali,Pelabuhan laut,29
+Oceania Lainnya,Juanda,Jawa Timur,Bandara,29
+Jerman,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,29
+Mesir,Sultan Syarif Kasim II,Riau,Bandara,29
+Spanyol,Tanjung Benoa,Bali,Pelabuhan laut,29
+Swedia,Minangkabau,Sumatera Barat,Bandara,29
+Hong Kong,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,29
+Finlandia,Minangkabau,Sumatera Barat,Bandara,29
+Hong Kong,Pintu lainnya,Lintas provinsi,Lainnya,28
+Kanada,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,28
+Selandia Baru,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,28
+Amerika Tengah,Yogyakarta Intl.,DI Yogyakarta,Bandara,27
+Norwegia,Tanjung Benoa,Bali,Pelabuhan laut,27
+Jerman,Hang Nadim,Kepulauan Riau,Bandara,27
+Pakistan,Sultan Iskandar Muda,Aceh,Bandara,27
+Austria,Sultan Iskandar Muda,Aceh,Bandara,27
+Swiss,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,27
+Belgia,Tanjung Benoa,Bali,Pelabuhan laut,26
+Afrika Selatan,Sultan Syarif Kasim II,Riau,Bandara,26
+Korea Selatan,Tanjung Benoa,Bali,Pelabuhan laut,26
+Saudi Arabia,Sultan Syarif Kasim II,Riau,Bandara,26
+Oceania Lainnya,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,26
+Finlandia,Sultan Iskandar Muda,Aceh,Bandara,26
+Timur Tengah Lainnya,Minangkabau,Sumatera Barat,Bandara,25
+Afrika Lainnya,Sultan Syarif Kasim II,Riau,Bandara,25
+Amerika Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,25
+Jerman,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,25
+Norwegia,Sam Ratulangi,Sulawesi Utara,Bandara,25
+Amerika Selatan,Tanjung Benoa,Bali,Pelabuhan laut,24
+Amerika Tengah,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,24
+Thailand,Aruk,Kalimantan Barat,Pos lintas batas darat,24
+Thailand,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,24
+Taiwan,Tanjung Benoa,Bali,Pelabuhan laut,24
+Asia Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,24
+Afrika Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,24
+Amerika Lainnya,Minangkabau,Sumatera Barat,Bandara,24
+Brunei Darussalam,Hasanuddin,Sulawesi Selatan,Bandara,24
+Eropa Timur Lainnya,Sepinggan,Kalimantan Timur,Bandara,24
+Amerika Tengah,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,23
+Qatar,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,23
+Amerika Selatan,Skouw,Papua,Pos lintas batas darat,23
+Amerika Selatan,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,23
+Vietnam,Sepinggan,Kalimantan Timur,Bandara,22
+Amerika Tengah,Pintu lainnya,Lintas provinsi,Lainnya,22
+Portugal,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,22
+Amerika Selatan,Sultan Iskandar Muda,Aceh,Bandara,22
+Bangladesh,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,22
+Austria,Sepinggan,Kalimantan Timur,Bandara,22
+Eropa Timur Lainnya,Dumai,Riau,Pelabuhan laut,21
+Asia Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,21
+Timur Tengah Lainnya,Sultan Syarif Kasim II,Riau,Bandara,21
+Sri Lanka,Sam Ratulangi,Sulawesi Utara,Bandara,21
+Sri Lanka,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,21
+Pakistan,Hang Nadim,Kepulauan Riau,Bandara,21
+Pakistan,Lombok Intl.,Nusa Tenggara Barat,Bandara,20
+Vietnam,Aruk,Kalimantan Barat,Pos lintas batas darat,20
+Myanmar,Hang Nadim,Kepulauan Riau,Bandara,20
+Thailand,Kertajati,Jawa Barat,Bandara,20
+Oceania Lainnya,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,20
+Australia,Skouw,Papua,Pos lintas batas darat,20
+Portugal,Sam Ratulangi,Sulawesi Utara,Bandara,20
+Uni Emirat Arab,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,20
+Jepang,Entikong,Kalimantan Barat,Pos lintas batas darat,20
+Filipina,Kertajati,Jawa Barat,Bandara,19
+Mesir,Sultan Iskandar Muda,Aceh,Bandara,19
+Hong Kong,Sultan Syarif Kasim II,Riau,Bandara,19
+Bangladesh,Lombok Intl.,Nusa Tenggara Barat,Bandara,19
+Bangladesh,Sultan Syarif Kasim II,Riau,Bandara,19
+Belgia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,19
+Mesir,Yogyakarta Intl.,DI Yogyakarta,Bandara,19
+Hong Kong,Minangkabau,Sumatera Barat,Bandara,19
+Thailand,Tanjung Benoa,Bali,Pelabuhan laut,18
+Myanmar,Sam Ratulangi,Sulawesi Utara,Bandara,18
+Austria,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,18
+Timor Leste,Yogyakarta Intl.,DI Yogyakarta,Bandara,18
+Vietnam,Sam Ratulangi,Sulawesi Utara,Bandara,18
+Sri Lanka,Yogyakarta Intl.,DI Yogyakarta,Bandara,18
+Kuwait,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,18
+Spanyol,Sultan Syarif Kasim II,Riau,Bandara,18
+Spanyol,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,18
+Australia,Kertajati,Jawa Barat,Bandara,18
+Denmark,Tanjung Benoa,Bali,Pelabuhan laut,18
+Saudi Arabia,Hang Nadim,Kepulauan Riau,Bandara,18
+Australia,Dumai,Riau,Pelabuhan laut,18
+Belgia,Dumai,Riau,Pelabuhan laut,17
+Swiss,Dumai,Riau,Pelabuhan laut,17
+Rusia,Dumai,Riau,Pelabuhan laut,17
+Asia Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,17
+Amerika Serikat,Kertajati,Jawa Barat,Bandara,17
+Finlandia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,17
+Amerika Serikat,Skouw,Papua,Pos lintas batas darat,17
+ASEAN Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,17
+Mesir,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,16
+Perancis,Kertajati,Jawa Barat,Bandara,16
+Afrika Selatan,Hasanuddin,Sulawesi Selatan,Bandara,16
+Papua Nugini,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,16
+Timur Tengah Lainnya,Sultan Iskandar Muda,Aceh,Bandara,16
+Italia,Dumai,Riau,Pelabuhan laut,16
+Afrika Selatan,Hang Nadim,Kepulauan Riau,Bandara,16
+Finlandia,Pintu lainnya,Lintas provinsi,Lainnya,16
+Oceania Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,16
+Sri Lanka,Lombok Intl.,Nusa Tenggara Barat,Bandara,16
+Spanyol,Sepinggan,Kalimantan Timur,Bandara,16
+Oceania Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,16
+Swiss,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,16
+Filipina,Halim Perdanakusuma,DKI Jakarta,Bandara,16
+Afrika Selatan,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,16
+Hong Kong,Hasanuddin,Sulawesi Selatan,Bandara,15
+Pakistan,Pintu lainnya,Lintas provinsi,Lainnya,15
+Inggris,Aruk,Kalimantan Barat,Pos lintas batas darat,15
+Hong Kong,Entikong,Kalimantan Barat,Pos lintas batas darat,15
+Amerika Serikat,Dumai,Riau,Pelabuhan laut,15
+Afrika Lainnya,Sepinggan,Kalimantan Timur,Bandara,15
+Asia Lainnya,Kertajati,Jawa Barat,Bandara,15
+Bangladesh,Minangkabau,Sumatera Barat,Bandara,15
+Myanmar,Hasanuddin,Sulawesi Selatan,Bandara,15
+Kanada,Entikong,Kalimantan Barat,Pos lintas batas darat,15
+Rusia,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,15
+Thailand,Entikong,Kalimantan Barat,Pos lintas batas darat,14
+Myanmar,Minangkabau,Sumatera Barat,Bandara,14
+Belanda,Kertajati,Jawa Barat,Bandara,14
+Kanada,Sepinggan,Kalimantan Timur,Bandara,14
+Swedia,Sepinggan,Kalimantan Timur,Bandara,14
+Brunei Darussalam,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,14
+Norwegia,Hasanuddin,Sulawesi Selatan,Bandara,14
+Swedia,Hasanuddin,Sulawesi Selatan,Bandara,14
+Amerika Tengah,Juanda,Jawa Timur,Bandara,14
+Timur Tengah Lainnya,Pintu lainnya,Lintas provinsi,Lainnya,14
+Swiss,Sultan Syarif Kasim II,Riau,Bandara,14
+Belanda,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,14
+Afrika Lainnya,Sultan Iskandar Muda,Aceh,Bandara,14
+Inggris,Halim Perdanakusuma,DKI Jakarta,Bandara,13
+Portugal,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,13
+Asia Lainnya,Skouw,Papua,Pos lintas batas darat,13
+Eropa Barat Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,13
+Denmark,Minangkabau,Sumatera Barat,Bandara,13
+Amerika Selatan,Hasanuddin,Sulawesi Selatan,Bandara,13
+Timur Tengah Lainnya,Hang Nadim,Kepulauan Riau,Bandara,13
+Afrika Lainnya,Hang Nadim,Kepulauan Riau,Bandara,13
+Mesir,Hang Nadim,Kepulauan Riau,Bandara,13
+Afrika Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,13
+Austria,Sultan Syarif Kasim II,Riau,Bandara,13
+Asia Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,13
+Saudi Arabia,Sultan Iskandar Muda,Aceh,Bandara,13
+Norwegia,Sultan Syarif Kasim II,Riau,Bandara,12
+Belanda,Aruk,Kalimantan Barat,Pos lintas batas darat,12
+Norwegia,Hang Nadim,Kepulauan Riau,Bandara,12
+Rusia,Sepinggan,Kalimantan Timur,Bandara,12
+Asia Lainnya,Sepinggan,Kalimantan Timur,Bandara,12
+Oceania Lainnya,Skouw,Papua,Pos lintas batas darat,12
+Pakistan,Aruk,Kalimantan Barat,Pos lintas batas darat,12
+Korea Selatan,Aruk,Kalimantan Barat,Pos lintas batas darat,12
+Eropa Barat Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,12
+Amerika Tengah,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,11
+Timor Leste,Kualanamu,Sumatera Utara,Bandara,11
+Amerika Selatan,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,11
+Selandia Baru,Hasanuddin,Sulawesi Selatan,Bandara,11
+Austria,Halim Perdanakusuma,DKI Jakarta,Bandara,11
+Belgia,Entikong,Kalimantan Barat,Pos lintas batas darat,11
+Spanyol,Dumai,Riau,Pelabuhan laut,11
+Yaman,Minangkabau,Sumatera Barat,Bandara,11
+Kanada,Dumai,Riau,Pelabuhan laut,11
+Eropa Barat Lainnya,Sultan Syarif Kasim II,Riau,Bandara,11
+Amerika Tengah,Kualanamu,Sumatera Utara,Bandara,11
+Filipina,Dumai,Riau,Pelabuhan laut,11
+Amerika Selatan,Entikong,Kalimantan Barat,Pos lintas batas darat,11
+Eropa Timur Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,10
+Pakistan,Hasanuddin,Sulawesi Selatan,Bandara,10
+Denmark,Dumai,Riau,Pelabuhan laut,10
+Kanada,Kertajati,Jawa Barat,Bandara,10
+Portugal,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,10
+Austria,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,10
+Afrika Lainnya,Dumai,Riau,Pelabuhan laut,10
+Uni Emirat Arab,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,10
+Finlandia,Tanjung Benoa,Bali,Pelabuhan laut,10
+Mesir,Pintu lainnya,Lintas provinsi,Lainnya,10
+Afrika Selatan,Sultan Iskandar Muda,Aceh,Bandara,10
+Myanmar,Dumai,Riau,Pelabuhan laut,10
+Amerika Selatan,Sepinggan,Kalimantan Timur,Bandara,10
+Qatar,Kualanamu,Sumatera Utara,Bandara,9
+Sri Lanka,Sultan Syarif Kasim II,Riau,Bandara,9
+Inggris,Kertajati,Jawa Barat,Bandara,9
+Yaman,Yogyakarta Intl.,DI Yogyakarta,Bandara,9
+Portugal,Hasanuddin,Sulawesi Selatan,Bandara,9
+Papua Nugini,Sam Ratulangi,Sulawesi Utara,Bandara,9
+Inggris,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,9
+Rusia,Entikong,Kalimantan Barat,Pos lintas batas darat,9
+Myanmar,Entikong,Kalimantan Barat,Pos lintas batas darat,9
+Eropa Timur Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,9
+Yaman,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,9
+Bangladesh,Hang Nadim,Kepulauan Riau,Bandara,9
+Bangladesh,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,9
+Kanada,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,9
+Selandia Baru,Dumai,Riau,Pelabuhan laut,9
+Eropa Barat Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,9
+Uni Emirat Arab,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,8
+Uni Emirat Arab,Kualanamu,Sumatera Utara,Bandara,8
+Belanda,Skouw,Papua,Pos lintas batas darat,8
+Jepang,Kertajati,Jawa Barat,Bandara,8
+Afrika Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,8
+Bangladesh,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,8
+Eropa Barat Lainnya,Sepinggan,Kalimantan Timur,Bandara,8
+Bangladesh,Sultan Iskandar Muda,Aceh,Bandara,8
+Belgia,Sultan Syarif Kasim II,Riau,Bandara,8
+Jerman,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,8
+Swiss,Entikong,Kalimantan Barat,Pos lintas batas darat,8
+Hong Kong,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,8
+Pakistan,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,8
+Afrika Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,8
+Afrika Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,8
+Afrika Selatan,Sepinggan,Kalimantan Timur,Bandara,8
+Kuwait,Juanda,Jawa Timur,Bandara,8
+Amerika Tengah,Lombok Intl.,Nusa Tenggara Barat,Bandara,7
+Finlandia,Perbatasan laut (lain),Lintas provinsi,Pelabuhan laut,7
+Portugal,Sultan Iskandar Muda,Aceh,Bandara,7
+Finlandia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,7
+India,Aruk,Kalimantan Barat,Pos lintas batas darat,7
+Amerika Lainnya,Sultan Syarif Kasim II,Riau,Bandara,7
+Korea Selatan,Halim Perdanakusuma,DKI Jakarta,Bandara,7
+Amerika Selatan,Kertajati,Jawa Barat,Bandara,7
+Mesir,Entikong,Kalimantan Barat,Pos lintas batas darat,7
+Yaman,Sultan Syarif Kasim II,Riau,Bandara,7
+Kanada,Aruk,Kalimantan Barat,Pos lintas batas darat,7
+Kanada,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,7
+Saudi Arabia,Yogyakarta Intl.,DI Yogyakarta,Bandara,7
+Eropa Timur Lainnya,Skouw,Papua,Pos lintas batas darat,7
+Italia,Skouw,Papua,Pos lintas batas darat,7
+Asia Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,7
+Selandia Baru,Hang Nadim,Kepulauan Riau,Bandara,7
+Eropa Barat Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,7
+Saudi Arabia,Kertajati,Jawa Barat,Bandara,7
+Austria,Entikong,Kalimantan Barat,Pos lintas batas darat,7
+Denmark,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,7
+Myanmar,Tanjung Benoa,Bali,Pelabuhan laut,7
+Selandia Baru,Sepinggan,Kalimantan Timur,Bandara,7
+Bahrain,Pelabuhan Batam,Kepulauan Riau,Pelabuhan laut,7
+Sri Lanka,Pintu lainnya,Lintas provinsi,Lainnya,7
+Swedia,Entikong,Kalimantan Barat,Pos lintas batas darat,7
+Brunei Darussalam,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,7
+Jerman,Aruk,Kalimantan Barat,Pos lintas batas darat,7
+Afrika Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,7
+Vietnam,Dumai,Riau,Pelabuhan laut,7
+Yaman,Lombok Intl.,Nusa Tenggara Barat,Bandara,7
+Yaman,Kertajati,Jawa Barat,Bandara,7
+Vietnam,Tanjung Benoa,Bali,Pelabuhan laut,6
+Spanyol,Kertajati,Jawa Barat,Bandara,6
+Singapura,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,6
+Spanyol,Hang Nadim,Kepulauan Riau,Bandara,6
+Pakistan,Sepinggan,Kalimantan Timur,Bandara,6
+Italia,Entikong,Kalimantan Barat,Pos lintas batas darat,6
+Amerika Lainnya,Sultan Iskandar Muda,Aceh,Bandara,6
+Norwegia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,6
+Finlandia,Hasanuddin,Sulawesi Selatan,Bandara,6
+Denmark,Hang Nadim,Kepulauan Riau,Bandara,6
+Brunei Darussalam,Kertajati,Jawa Barat,Bandara,6
+Belgia,Sepinggan,Kalimantan Timur,Bandara,6
+Timur Tengah Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,6
+Amerika Lainnya,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,6
+Amerika Selatan,Dumai,Riau,Pelabuhan laut,6
+Rusia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,6
+Jepang,Halim Perdanakusuma,DKI Jakarta,Bandara,6
+Asia Lainnya,Dumai,Riau,Pelabuhan laut,6
+Denmark,Sultan Syarif Kasim II,Riau,Bandara,6
+Saudi Arabia,Tanjung Benoa,Bali,Pelabuhan laut,6
+Austria,Aruk,Kalimantan Barat,Pos lintas batas darat,6
+Korea Selatan,Skouw,Papua,Pos lintas batas darat,6
+Denmark,Sepinggan,Kalimantan Timur,Bandara,6
+Italia,Halim Perdanakusuma,DKI Jakarta,Bandara,6
+Afrika Selatan,Entikong,Kalimantan Barat,Pos lintas batas darat,5
+Vietnam,Skouw,Papua,Pos lintas batas darat,5
+Jepang,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,5
+Belgia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,5
+Afrika Selatan,Kertajati,Jawa Barat,Bandara,5
+Mesir,Dumai,Riau,Pelabuhan laut,5
+Yaman,Dumai,Riau,Pelabuhan laut,5
+Jepang,Aruk,Kalimantan Barat,Pos lintas batas darat,5
+Oceania Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,5
+Kuwait,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,5
+Afrika Selatan,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,5
+Saudi Arabia,Halim Perdanakusuma,DKI Jakarta,Bandara,5
+Austria,Dumai,Riau,Pelabuhan laut,5
+Eropa Barat Lainnya,Sultan Iskandar Muda,Aceh,Bandara,5
+Eropa Barat Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,5
+Qatar,Sultan Syarif Kasim II,Riau,Bandara,5
+Portugal,Dumai,Riau,Pelabuhan laut,5
+Timur Tengah Lainnya,Dumai,Riau,Pelabuhan laut,5
+Bangladesh,Sam Ratulangi,Sulawesi Utara,Bandara,5
+Brunei Darussalam,Sam Ratulangi,Sulawesi Utara,Bandara,5
+Bangladesh,Sepinggan,Kalimantan Timur,Bandara,5
+Mesir,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,5
+Timur Tengah Lainnya,Sepinggan,Kalimantan Timur,Bandara,5
+Kanada,Skouw,Papua,Pos lintas batas darat,5
+Asia Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,5
+Swedia,Hang Nadim,Kepulauan Riau,Bandara,5
+Timor Leste,Pintu lainnya,Lintas provinsi,Lainnya,5
+Timor Leste,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,5
+Pakistan,Dumai,Riau,Pelabuhan laut,5
+Bahrain,Juanda,Jawa Timur,Bandara,5
+Oceania Lainnya,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,5
+Swedia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,5
+Amerika Selatan,Aruk,Kalimantan Barat,Pos lintas batas darat,5
+Bangladesh,Skouw,Papua,Pos lintas batas darat,5
+Timur Tengah Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,4
+Yaman,Hang Nadim,Kepulauan Riau,Bandara,4
+Afrika Selatan,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,4
+Brunei Darussalam,Hang Nadim,Kepulauan Riau,Bandara,4
+Spanyol,Entikong,Kalimantan Barat,Pos lintas batas darat,4
+Myanmar,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,4
+Finlandia,Sepinggan,Kalimantan Timur,Bandara,4
+Papua Nugini,Halim Perdanakusuma,DKI Jakarta,Bandara,4
+Papua Nugini,Entikong,Kalimantan Barat,Pos lintas batas darat,4
+Norwegia,Sepinggan,Kalimantan Timur,Bandara,4
+Papua Nugini,Yogyakarta Intl.,DI Yogyakarta,Bandara,4
+Denmark,Entikong,Kalimantan Barat,Pos lintas batas darat,4
+Denmark,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,4
+Perancis,Aruk,Kalimantan Barat,Pos lintas batas darat,4
+Pakistan,Kertajati,Jawa Barat,Bandara,4
+Finlandia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,4
+Korea Selatan,Kertajati,Jawa Barat,Bandara,4
+Sri Lanka,Sepinggan,Kalimantan Timur,Bandara,4
+Mesir,Sepinggan,Kalimantan Timur,Bandara,4
+Selandia Baru,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,4
+Selandia Baru,Skouw,Papua,Pos lintas batas darat,4
+Saudi Arabia,Hasanuddin,Sulawesi Selatan,Bandara,4
+Eropa Barat Lainnya,Dumai,Riau,Pelabuhan laut,4
+Australia,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,4
+Saudi Arabia,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,4
+Swiss,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,4
+Taiwan,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,4
+Taiwan,Halim Perdanakusuma,DKI Jakarta,Bandara,4
+Rusia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,4
+Eropa Barat Lainnya,Hang Nadim,Kepulauan Riau,Bandara,4
+Italia,Aruk,Kalimantan Barat,Pos lintas batas darat,4
+Jepang,Skouw,Papua,Pos lintas batas darat,4
+Inggris,Skouw,Papua,Pos lintas batas darat,4
+Vietnam,Halim Perdanakusuma,DKI Jakarta,Bandara,4
+Kuwait,Hang Nadim,Kepulauan Riau,Bandara,4
+Mesir,Kertajati,Jawa Barat,Bandara,4
+Mesir,Hasanuddin,Sulawesi Selatan,Bandara,4
+Yaman,Sepinggan,Kalimantan Timur,Bandara,3
+Kuwait,Lombok Intl.,Nusa Tenggara Barat,Bandara,3
+Afrika Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,3
+Uni Emirat Arab,Lombok Intl.,Nusa Tenggara Barat,Bandara,3
+Yaman,Hasanuddin,Sulawesi Selatan,Bandara,3
+Kuwait,Sultan Syarif Kasim II,Riau,Bandara,3
+Italia,Hang Nadim,Kepulauan Riau,Bandara,3
+Swiss,Skouw,Papua,Pos lintas batas darat,3
+Eropa Barat Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,3
+Kanada,Halim Perdanakusuma,DKI Jakarta,Bandara,3
+Bangladesh,Hasanuddin,Sulawesi Selatan,Bandara,3
+Kuwait,Pintu lainnya,Lintas provinsi,Lainnya,3
+Austria,Kertajati,Jawa Barat,Bandara,3
+Saudi Arabia,Entikong,Kalimantan Barat,Pos lintas batas darat,3
+Norwegia,Entikong,Kalimantan Barat,Pos lintas batas darat,3
+Sri Lanka,Hasanuddin,Sulawesi Selatan,Bandara,3
+Sri Lanka,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,3
+Papua Nugini,Kualanamu,Sumatera Utara,Bandara,3
+Afrika Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,3
+Belgia,Kertajati,Jawa Barat,Bandara,3
+Amerika Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,3
+Timur Tengah Lainnya,Sam Ratulangi,Sulawesi Utara,Bandara,3
+Amerika Selatan,Hang Nadim,Kepulauan Riau,Bandara,3
+Portugal,Sultan Syarif Kasim II,Riau,Bandara,3
+Finlandia,Hang Nadim,Kepulauan Riau,Bandara,3
+Filipina,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,3
+Portugal,Entikong,Kalimantan Barat,Pos lintas batas darat,3
+Brunei Darussalam,Sepinggan,Kalimantan Timur,Bandara,3
+Brunei Darussalam,Skouw,Papua,Pos lintas batas darat,3
+Timor Leste,Tanjung Uban,Kepulauan Riau,Pelabuhan laut,3
+Hong Kong,Hang Nadim,Kepulauan Riau,Bandara,3
+Swedia,Kertajati,Jawa Barat,Bandara,3
+Swedia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,3
+Austria,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,3
+Eropa Timur Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,3
+Qatar,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,3
+Eropa Barat Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,3
+Norwegia,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,3
+Myanmar,Sultan Iskandar Muda,Aceh,Bandara,3
+Yaman,Entikong,Kalimantan Barat,Pos lintas batas darat,3
+Amerika Lainnya,Hasanuddin,Sulawesi Selatan,Bandara,3
+India,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,3
+Singapura,Skouw,Papua,Pos lintas batas darat,3
+Myanmar,Aruk,Kalimantan Barat,Pos lintas batas darat,3
+Mesir,Skouw,Papua,Pos lintas batas darat,3
+Timur Tengah Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,3
+Portugal,Sepinggan,Kalimantan Timur,Bandara,3
+Jerman,Kertajati,Jawa Barat,Bandara,3
+Belanda,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,3
+Pakistan,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,3
+Perancis,Skouw,Papua,Pos lintas batas darat,3
+Amerika Lainnya,Skouw,Papua,Pos lintas batas darat,2
+Belgia,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,2
+Belgia,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Amerika Lainnya,Sepinggan,Kalimantan Timur,Bandara,2
+Oceania Lainnya,Yogyakarta Intl.,DI Yogyakarta,Bandara,2
+Uni Emirat Arab,Pintu lainnya,Lintas provinsi,Lainnya,2
+Vietnam,Kertajati,Jawa Barat,Bandara,2
+Oceania Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,2
+Kuwait,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,2
+Italia,Kertajati,Jawa Barat,Bandara,2
+Bangladesh,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,2
+Bangladesh,Kertajati,Jawa Barat,Bandara,2
+Amerika Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Amerika Selatan,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Timur Tengah Lainnya,Kertajati,Jawa Barat,Bandara,2
+Papua Nugini,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,2
+Mesir,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,2
+Timur Tengah Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,2
+Sri Lanka,Dumai,Riau,Pelabuhan laut,2
+Brunei Darussalam,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,2
+Yaman,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,2
+Afrika Selatan,Aruk,Kalimantan Barat,Pos lintas batas darat,2
+Yaman,Sultan Iskandar Muda,Aceh,Bandara,2
+Hong Kong,Sepinggan,Kalimantan Timur,Bandara,2
+Sri Lanka,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,2
+Sri Lanka,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,2
+Swedia,Aruk,Kalimantan Barat,Pos lintas batas darat,2
+Bangladesh,Pintu lainnya,Lintas provinsi,Lainnya,2
+Papua Nugini,Aruk,Kalimantan Barat,Pos lintas batas darat,2
+Spanyol,Aruk,Kalimantan Barat,Pos lintas batas darat,2
+Amerika Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,2
+Spanyol,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,2
+Amerika Tengah,Tanjung Benoa,Bali,Pelabuhan laut,2
+Sri Lanka,Hang Nadim,Kepulauan Riau,Bandara,2
+Selandia Baru,Aruk,Kalimantan Barat,Pos lintas batas darat,2
+Norwegia,Dumai,Riau,Pelabuhan laut,2
+Eropa Timur Lainnya,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,2
+Taiwan,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,2
+Qatar,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,2
+Qatar,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Amerika Tengah,Minangkabau,Sumatera Barat,Bandara,2
+Sri Lanka,Sultan Iskandar Muda,Aceh,Bandara,2
+Thailand,Skouw,Papua,Pos lintas batas darat,2
+Hong Kong,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Pakistan,Sam Ratulangi,Sulawesi Utara,Bandara,2
+Bahrain,Kualanamu,Sumatera Utara,Bandara,2
+Bahrain,Minangkabau,Sumatera Barat,Bandara,2
+Myanmar,Kertajati,Jawa Barat,Bandara,2
+Selandia Baru,Halim Perdanakusuma,DKI Jakarta,Bandara,2
+Yaman,Pintu lainnya,Lintas provinsi,Lainnya,1
+Kuwait,Dumai,Riau,Pelabuhan laut,1
+Uni Emirat Arab,Sultan Syarif Kasim II,Riau,Bandara,1
+Kanada,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Bangladesh,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Bangladesh,Dumai,Riau,Pelabuhan laut,1
+Saudi Arabia,Dumai,Riau,Pelabuhan laut,1
+Swiss,Kertajati,Jawa Barat,Bandara,1
+Oceania Lainnya,Lombok Intl.,Nusa Tenggara Barat,Bandara,1
+Uni Emirat Arab,Sultan Iskandar Muda,Aceh,Bandara,1
+Oceania Lainnya,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,1
+Uni Emirat Arab,Hasanuddin,Sulawesi Selatan,Bandara,1
+Uni Emirat Arab,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Italia,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Afrika Lainnya,Skouw,Papua,Pos lintas batas darat,1
+Uni Emirat Arab,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,1
+Uni Emirat Arab,Kertajati,Jawa Barat,Bandara,1
+Amerika Tengah,Sultan Syarif Kasim II,Riau,Bandara,1
+Amerika Tengah,Dumai,Riau,Pelabuhan laut,1
+Rusia,Kertajati,Jawa Barat,Bandara,1
+Swedia,Dumai,Riau,Pelabuhan laut,1
+Rusia,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Rusia,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Taiwan,Kertajati,Jawa Barat,Bandara,1
+Saudi Arabia,Sepinggan,Kalimantan Timur,Bandara,1
+Norwegia,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Rusia,Skouw,Papua,Pos lintas batas darat,1
+Pakistan,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Asia Lainnya,Entikong,Kalimantan Barat,Pos lintas batas darat,1
+Pakistan,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1
+Finlandia,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Amerika Serikat,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Denmark,Skouw,Papua,Pos lintas batas darat,1
+Thailand,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Amerika Tengah,Kertajati,Jawa Barat,Bandara,1
+Timor Leste,Minangkabau,Sumatera Barat,Bandara,1
+Timor Leste,Lombok Intl.,Nusa Tenggara Barat,Bandara,1
+Timor Leste,Hasanuddin,Sulawesi Selatan,Bandara,1
+Timor Leste,Sam Ratulangi,Sulawesi Utara,Bandara,1
+Finlandia,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Finlandia,Entikong,Kalimantan Barat,Pos lintas batas darat,1
+Amerika Tengah,Entikong,Kalimantan Barat,Pos lintas batas darat,1
+Amerika Tengah,Tanjung Pinang,Kepulauan Riau,Pelabuhan laut,1
+Asia Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Amerika Lainnya,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,1
+Portugal,Hang Nadim,Kepulauan Riau,Bandara,1
+Timur Tengah Lainnya,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Papua Nugini,Juanda,Jawa Timur,Bandara,1
+Kuwait,Kualanamu,Sumatera Utara,Bandara,1
+Finlandia,Skouw,Papua,Pos lintas batas darat,1
+Pakistan,Skouw,Papua,Pos lintas batas darat,1
+Denmark,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Brunei Darussalam,Tanjung Benoa,Bali,Pelabuhan laut,1
+Sri Lanka,Kertajati,Jawa Barat,Bandara,1
+Belanda,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Timur Tengah Lainnya,Tanjung Benoa,Bali,Pelabuhan laut,1
+Papua Nugini,Lombok Intl.,Nusa Tenggara Barat,Bandara,1
+Amerika Lainnya,Perbatasan darat (lain),Lintas provinsi,Pos lintas batas darat,1
+Belgia,Aruk,Kalimantan Barat,Pos lintas batas darat,1
+Spanyol,Nanga Badau,Kalimantan Barat,Pos lintas batas darat,1
+Spanyol,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Hong Kong,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,1
+Jerman,Skouw,Papua,Pos lintas batas darat,1
+Amerika Lainnya,Hang Nadim,Kepulauan Riau,Bandara,1
+Afrika Selatan,Atambua,Nusa Tenggara Timur,Pos lintas batas darat,1
+Afrika Lainnya,Halim Perdanakusuma,DKI Jakarta,Bandara,1
+Yaman,Tj. Balai Karimun,Kepulauan Riau,Pelabuhan laut,1

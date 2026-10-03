@@ -1,0 +1,229 @@
+Negara,Pulau,Provinsi,Akomodasi,Kamar,UnitAkomodasi,TempatTidur,Asal,LamaMenginap
+Indonesia,Sumatera,Aceh,Bintang,3553,62,5350,Gabungan,1.68
+Indonesia,Sumatera,Aceh,Bintang,3553,62,5350,Asing,1.78
+Indonesia,Sumatera,Aceh,Bintang,3553,62,5350,Lokal,1.68
+Indonesia,Sumatera,Aceh,Nonbintang,8302,503,12469,Gabungan,1.31
+Indonesia,Sumatera,Aceh,Nonbintang,8302,503,12469,Asing,2.08
+Indonesia,Sumatera,Aceh,Nonbintang,8302,503,12469,Lokal,1.29
+Indonesia,Sumatera,Sumatera Utara,Bintang,13570,168,18689,Gabungan,1.29
+Indonesia,Sumatera,Sumatera Utara,Bintang,13570,168,18689,Asing,1.46
+Indonesia,Sumatera,Sumatera Utara,Bintang,13570,168,18689,Lokal,1.28
+Indonesia,Sumatera,Sumatera Utara,Nonbintang,29740,1352,38679,Gabungan,1.09
+Indonesia,Sumatera,Sumatera Utara,Nonbintang,29740,1352,38679,Asing,2.2
+Indonesia,Sumatera,Sumatera Utara,Nonbintang,29740,1352,38679,Lokal,1.08
+Indonesia,Sumatera,Sumatera Barat,Bintang,5895,103,8003,Gabungan,1.24
+Indonesia,Sumatera,Sumatera Barat,Bintang,5895,103,8003,Asing,1.45
+Indonesia,Sumatera,Sumatera Barat,Bintang,5895,103,8003,Lokal,1.23
+Indonesia,Sumatera,Sumatera Barat,Nonbintang,13783,1042,20936,Gabungan,1.09
+Indonesia,Sumatera,Sumatera Barat,Nonbintang,13783,1042,20936,Asing,1.33
+Indonesia,Sumatera,Sumatera Barat,Nonbintang,13783,1042,20936,Lokal,1.09
+Indonesia,Sumatera,Riau,Bintang,9614,110,13264,Gabungan,1.33
+Indonesia,Sumatera,Riau,Bintang,9614,110,13264,Asing,2.41
+Indonesia,Sumatera,Riau,Bintang,9614,110,13264,Lokal,1.32
+Indonesia,Sumatera,Riau,Nonbintang,11110,450,15894,Gabungan,1.15
+Indonesia,Sumatera,Riau,Nonbintang,11110,450,15894,Asing,3.02
+Indonesia,Sumatera,Riau,Nonbintang,11110,450,15894,Lokal,1.15
+Indonesia,Sumatera,Jambi,Bintang,3242,43,4433,Gabungan,1.61
+Indonesia,Sumatera,Jambi,Bintang,3242,43,4433,Asing,2.26
+Indonesia,Sumatera,Jambi,Bintang,3242,43,4433,Lokal,1.6
+Indonesia,Sumatera,Jambi,Nonbintang,3786,179,5361,Gabungan,1.04
+Indonesia,Sumatera,Jambi,Nonbintang,3786,179,5361,Asing,1.07
+Indonesia,Sumatera,Jambi,Nonbintang,3786,179,5361,Lokal,1.04
+Indonesia,Sumatera,Sumatera Selatan,Bintang,9238,117,12940,Gabungan,1.35
+Indonesia,Sumatera,Sumatera Selatan,Bintang,9238,117,12940,Asing,2.15
+Indonesia,Sumatera,Sumatera Selatan,Bintang,9238,117,12940,Lokal,1.34
+Indonesia,Sumatera,Sumatera Selatan,Nonbintang,8997,454,13269,Gabungan,1.16
+Indonesia,Sumatera,Sumatera Selatan,Nonbintang,8997,454,13269,Asing,2.45
+Indonesia,Sumatera,Sumatera Selatan,Nonbintang,8997,454,13269,Lokal,1.15
+Indonesia,Sumatera,Bengkulu,Bintang,1192,19,1800,Gabungan,1.23
+Indonesia,Sumatera,Bengkulu,Bintang,1192,19,1800,Asing,1.68
+Indonesia,Sumatera,Bengkulu,Bintang,1192,19,1800,Lokal,1.23
+Indonesia,Sumatera,Bengkulu,Nonbintang,5069,254,7585,Gabungan,1.14
+Indonesia,Sumatera,Bengkulu,Nonbintang,5069,254,7585,Asing,2.19
+Indonesia,Sumatera,Bengkulu,Nonbintang,5069,254,7585,Lokal,1.14
+Indonesia,Sumatera,Lampung,Bintang,5008,55,7213,Gabungan,1.3
+Indonesia,Sumatera,Lampung,Bintang,5008,55,7213,Asing,2.36
+Indonesia,Sumatera,Lampung,Bintang,5008,55,7213,Lokal,1.29
+Indonesia,Sumatera,Lampung,Nonbintang,7733,432,10311,Gabungan,1.1
+Indonesia,Sumatera,Lampung,Nonbintang,7733,432,10311,Asing,4.29
+Indonesia,Sumatera,Lampung,Nonbintang,7733,432,10311,Lokal,1.09
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Bintang,4130,59,5944,Gabungan,1.57
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Bintang,4130,59,5944,Asing,2.67
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Bintang,4130,59,5944,Lokal,1.55
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Nonbintang,3809,215,5132,Gabungan,1.3
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Nonbintang,3809,215,5132,Asing,2.15
+Indonesia,Sumatera,Kepulauan Bangka Belitung,Nonbintang,3809,215,5132,Lokal,1.29
+Indonesia,Sumatera,Kepulauan Riau,Bintang,12539,119,16730,Gabungan,1.87
+Indonesia,Sumatera,Kepulauan Riau,Bintang,12539,119,16730,Asing,2.02
+Indonesia,Sumatera,Kepulauan Riau,Bintang,12539,119,16730,Lokal,1.77
+Indonesia,Sumatera,Kepulauan Riau,Nonbintang,8247,279,9557,Gabungan,1.38
+Indonesia,Sumatera,Kepulauan Riau,Nonbintang,8247,279,9557,Asing,1.78
+Indonesia,Sumatera,Kepulauan Riau,Nonbintang,8247,279,9557,Lokal,1.36
+Indonesia,Jawa,DKI Jakarta,Bintang,55092,480,85296,Gabungan,1.58
+Indonesia,Jawa,DKI Jakarta,Bintang,55092,480,85296,Asing,1.96
+Indonesia,Jawa,DKI Jakarta,Bintang,55092,480,85296,Lokal,1.53
+Indonesia,Jawa,DKI Jakarta,Nonbintang,11221,460,17963,Gabungan,1.37
+Indonesia,Jawa,DKI Jakarta,Nonbintang,11221,460,17963,Asing,1.55
+Indonesia,Jawa,DKI Jakarta,Nonbintang,11221,460,17963,Lokal,1.36
+Indonesia,Jawa,Jawa Barat,Bintang,61560,654,90901,Gabungan,1.42
+Indonesia,Jawa,Jawa Barat,Bintang,61560,654,90901,Asing,2.69
+Indonesia,Jawa,Jawa Barat,Bintang,61560,654,90901,Lokal,1.39
+Indonesia,Jawa,Jawa Barat,Nonbintang,55047,3000,81417,Gabungan,1.09
+Indonesia,Jawa,Jawa Barat,Nonbintang,55047,3000,81417,Asing,2.17
+Indonesia,Jawa,Jawa Barat,Nonbintang,55047,3000,81417,Lokal,1.08
+Indonesia,Jawa,Jawa Tengah,Bintang,35464,416,51975,Gabungan,1.35
+Indonesia,Jawa,Jawa Tengah,Bintang,35464,416,51975,Asing,1.93
+Indonesia,Jawa,Jawa Tengah,Bintang,35464,416,51975,Lokal,1.33
+Indonesia,Jawa,Jawa Tengah,Nonbintang,39813,2017,53013,Gabungan,1.06
+Indonesia,Jawa,Jawa Tengah,Nonbintang,39813,2017,53013,Asing,1.26
+Indonesia,Jawa,Jawa Tengah,Nonbintang,39813,2017,53013,Lokal,1.06
+Indonesia,Jawa,DI Yogyakarta,Bintang,21467,222,31737,Gabungan,1.57
+Indonesia,Jawa,DI Yogyakarta,Bintang,21467,222,31737,Asing,2.17
+Indonesia,Jawa,DI Yogyakarta,Bintang,21467,222,31737,Lokal,1.54
+Indonesia,Jawa,DI Yogyakarta,Nonbintang,27599,2069,37318,Gabungan,1.17
+Indonesia,Jawa,DI Yogyakarta,Nonbintang,27599,2069,37318,Asing,1.65
+Indonesia,Jawa,DI Yogyakarta,Nonbintang,27599,2069,37318,Lokal,1.16
+Indonesia,Jawa,Jawa Timur,Bintang,42389,380,60453,Gabungan,1.45
+Indonesia,Jawa,Jawa Timur,Bintang,42389,380,60453,Asing,1.83
+Indonesia,Jawa,Jawa Timur,Bintang,42389,380,60453,Lokal,1.43
+Indonesia,Jawa,Jawa Timur,Nonbintang,57697,3624,83001,Gabungan,1.1
+Indonesia,Jawa,Jawa Timur,Nonbintang,57697,3624,83001,Asing,1.07
+Indonesia,Jawa,Jawa Timur,Nonbintang,57697,3624,83001,Lokal,1.1
+Indonesia,Jawa,Banten,Bintang,17426,167,25992,Gabungan,1.33
+Indonesia,Jawa,Banten,Bintang,17426,167,25992,Asing,1.47
+Indonesia,Jawa,Banten,Bintang,17426,167,25992,Lokal,1.32
+Indonesia,Jawa,Banten,Nonbintang,6304,344,8864,Gabungan,1.12
+Indonesia,Jawa,Banten,Nonbintang,6304,344,8864,Asing,1.08
+Indonesia,Jawa,Banten,Nonbintang,6304,344,8864,Lokal,1.12
+Indonesia,Bali & Nusa Tenggara,Bali,Bintang,84500,699,106533,Gabungan,2.81
+Indonesia,Bali & Nusa Tenggara,Bali,Bintang,84500,699,106533,Asing,2.98
+Indonesia,Bali & Nusa Tenggara,Bali,Bintang,84500,699,106533,Lokal,2.52
+Indonesia,Bali & Nusa Tenggara,Bali,Nonbintang,70842,5105,93435,Gabungan,2.56
+Indonesia,Bali & Nusa Tenggara,Bali,Nonbintang,70842,5105,93435,Asing,2.83
+Indonesia,Bali & Nusa Tenggara,Bali,Nonbintang,70842,5105,93435,Lokal,1.91
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Bintang,13636,171,16690,Gabungan,1.9
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Bintang,13636,171,16690,Asing,2.26
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Bintang,13636,171,16690,Lokal,1.67
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Nonbintang,18626,1443,24651,Gabungan,1.65
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Nonbintang,18626,1443,24651,Asing,2.1
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,Nonbintang,18626,1443,24651,Lokal,1.16
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Bintang,5058,58,6839,Gabungan,1.72
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Bintang,5058,58,6839,Asing,2.06
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Bintang,5058,58,6839,Lokal,1.56
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Nonbintang,11196,653,16552,Gabungan,1.44
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Nonbintang,11196,653,16552,Asing,1.64
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,Nonbintang,11196,653,16552,Lokal,1.35
+Indonesia,Kalimantan,Kalimantan Barat,Bintang,5283,58,7221,Gabungan,1.47
+Indonesia,Kalimantan,Kalimantan Barat,Bintang,5283,58,7221,Asing,2.51
+Indonesia,Kalimantan,Kalimantan Barat,Bintang,5283,58,7221,Lokal,1.44
+Indonesia,Kalimantan,Kalimantan Barat,Nonbintang,10804,496,14124,Gabungan,1.11
+Indonesia,Kalimantan,Kalimantan Barat,Nonbintang,10804,496,14124,Asing,1.18
+Indonesia,Kalimantan,Kalimantan Barat,Nonbintang,10804,496,14124,Lokal,1.11
+Indonesia,Kalimantan,Kalimantan Tengah,Bintang,2694,38,4227,Gabungan,1.42
+Indonesia,Kalimantan,Kalimantan Tengah,Bintang,2694,38,4227,Asing,1.74
+Indonesia,Kalimantan,Kalimantan Tengah,Bintang,2694,38,4227,Lokal,1.42
+Indonesia,Kalimantan,Kalimantan Tengah,Nonbintang,10127,537,13919,Gabungan,1.09
+Indonesia,Kalimantan,Kalimantan Tengah,Nonbintang,10127,537,13919,Asing,1.35
+Indonesia,Kalimantan,Kalimantan Tengah,Nonbintang,10127,537,13919,Lokal,1.09
+Indonesia,Kalimantan,Kalimantan Selatan,Bintang,5643,63,7963,Gabungan,1.43
+Indonesia,Kalimantan,Kalimantan Selatan,Bintang,5643,63,7963,Asing,2.02
+Indonesia,Kalimantan,Kalimantan Selatan,Bintang,5643,63,7963,Lokal,1.42
+Indonesia,Kalimantan,Kalimantan Selatan,Nonbintang,9528,549,12707,Gabungan,1.04
+Indonesia,Kalimantan,Kalimantan Selatan,Nonbintang,9528,549,12707,Asing,1.04
+Indonesia,Kalimantan,Kalimantan Selatan,Nonbintang,9528,549,12707,Lokal,1.04
+Indonesia,Kalimantan,Kalimantan Timur,Bintang,7128,70,10129,Gabungan,1.6
+Indonesia,Kalimantan,Kalimantan Timur,Bintang,7128,70,10129,Asing,2.44
+Indonesia,Kalimantan,Kalimantan Timur,Bintang,7128,70,10129,Lokal,1.59
+Indonesia,Kalimantan,Kalimantan Timur,Nonbintang,12656,645,16831,Gabungan,1.24
+Indonesia,Kalimantan,Kalimantan Timur,Nonbintang,12656,645,16831,Asing,1.27
+Indonesia,Kalimantan,Kalimantan Timur,Nonbintang,12656,645,16831,Lokal,1.24
+Indonesia,Kalimantan,Kalimantan Utara,Bintang,375,7,596,Gabungan,1.43
+Indonesia,Kalimantan,Kalimantan Utara,Bintang,375,7,596,Asing,2.33
+Indonesia,Kalimantan,Kalimantan Utara,Bintang,375,7,596,Lokal,1.42
+Indonesia,Kalimantan,Kalimantan Utara,Nonbintang,3218,142,4550,Gabungan,1.34
+Indonesia,Kalimantan,Kalimantan Utara,Nonbintang,3218,142,4550,Asing,1.85
+Indonesia,Kalimantan,Kalimantan Utara,Nonbintang,3218,142,4550,Lokal,1.34
+Indonesia,Sulawesi,Sulawesi Utara,Bintang,5813,67,7930,Gabungan,1.73
+Indonesia,Sulawesi,Sulawesi Utara,Bintang,5813,67,7930,Asing,1.98
+Indonesia,Sulawesi,Sulawesi Utara,Bintang,5813,67,7930,Lokal,1.7
+Indonesia,Sulawesi,Sulawesi Utara,Nonbintang,4279,205,5377,Gabungan,1.5
+Indonesia,Sulawesi,Sulawesi Utara,Nonbintang,4279,205,5377,Asing,2.17
+Indonesia,Sulawesi,Sulawesi Utara,Nonbintang,4279,205,5377,Lokal,1.49
+Indonesia,Sulawesi,Sulawesi Tengah,Bintang,1782,15,2523,Gabungan,1.59
+Indonesia,Sulawesi,Sulawesi Tengah,Bintang,1782,15,2523,Asing,2.35
+Indonesia,Sulawesi,Sulawesi Tengah,Bintang,1782,15,2523,Lokal,1.58
+Indonesia,Sulawesi,Sulawesi Tengah,Nonbintang,10345,664,13427,Gabungan,1.27
+Indonesia,Sulawesi,Sulawesi Tengah,Nonbintang,10345,664,13427,Asing,1.51
+Indonesia,Sulawesi,Sulawesi Tengah,Nonbintang,10345,664,13427,Lokal,1.26
+Indonesia,Sulawesi,Sulawesi Selatan,Bintang,14431,186,20674,Gabungan,1.45
+Indonesia,Sulawesi,Sulawesi Selatan,Bintang,14431,186,20674,Asing,2.57
+Indonesia,Sulawesi,Sulawesi Selatan,Bintang,14431,186,20674,Lokal,1.43
+Indonesia,Sulawesi,Sulawesi Selatan,Nonbintang,15229,875,20411,Gabungan,1.18
+Indonesia,Sulawesi,Sulawesi Selatan,Nonbintang,15229,875,20411,Asing,1.46
+Indonesia,Sulawesi,Sulawesi Selatan,Nonbintang,15229,875,20411,Lokal,1.18
+Indonesia,Sulawesi,Sulawesi Tenggara,Bintang,1992,28,2917,Gabungan,1.16
+Indonesia,Sulawesi,Sulawesi Tenggara,Bintang,1992,28,2917,Asing,1.61
+Indonesia,Sulawesi,Sulawesi Tenggara,Bintang,1992,28,2917,Lokal,1.16
+Indonesia,Sulawesi,Sulawesi Tenggara,Nonbintang,8676,519,10356,Gabungan,1.12
+Indonesia,Sulawesi,Sulawesi Tenggara,Nonbintang,8676,519,10356,Asing,3.02
+Indonesia,Sulawesi,Sulawesi Tenggara,Nonbintang,8676,519,10356,Lokal,1.12
+Indonesia,Sulawesi,Gorontalo,Bintang,672,8,1021,Gabungan,1.51
+Indonesia,Sulawesi,Gorontalo,Bintang,672,8,1021,Asing,1.72
+Indonesia,Sulawesi,Gorontalo,Bintang,672,8,1021,Lokal,1.51
+Indonesia,Sulawesi,Gorontalo,Nonbintang,2534,142,3375,Gabungan,1.12
+Indonesia,Sulawesi,Gorontalo,Nonbintang,2534,142,3375,Asing,1.3
+Indonesia,Sulawesi,Gorontalo,Nonbintang,2534,142,3375,Lokal,1.12
+Indonesia,Sulawesi,Sulawesi Barat,Bintang,375,5,556,Gabungan,1.31
+Indonesia,Sulawesi,Sulawesi Barat,Bintang,375,5,556,Asing,1.51
+Indonesia,Sulawesi,Sulawesi Barat,Bintang,375,5,556,Lokal,1.31
+Indonesia,Sulawesi,Sulawesi Barat,Nonbintang,2832,185,4007,Gabungan,1.06
+Indonesia,Sulawesi,Sulawesi Barat,Nonbintang,2832,185,4007,Asing,1.46
+Indonesia,Sulawesi,Sulawesi Barat,Nonbintang,2832,185,4007,Lokal,1.06
+Indonesia,Maluku,Maluku,Bintang,2041,38,3235,Gabungan,1.85
+Indonesia,Maluku,Maluku,Bintang,2041,38,3235,Asing,2.5
+Indonesia,Maluku,Maluku,Bintang,2041,38,3235,Lokal,1.77
+Indonesia,Maluku,Maluku,Nonbintang,5640,319,7200,Gabungan,1.36
+Indonesia,Maluku,Maluku,Nonbintang,5640,319,7200,Asing,3.55
+Indonesia,Maluku,Maluku,Nonbintang,5640,319,7200,Lokal,1.34
+Indonesia,Maluku,Maluku Utara,Bintang,1133,22,1385,Gabungan,1.5
+Indonesia,Maluku,Maluku Utara,Bintang,1133,22,1385,Asing,1.6
+Indonesia,Maluku,Maluku Utara,Bintang,1133,22,1385,Lokal,1.5
+Indonesia,Maluku,Maluku Utara,Nonbintang,5292,305,6176,Gabungan,1.23
+Indonesia,Maluku,Maluku Utara,Nonbintang,5292,305,6176,Asing,1.04
+Indonesia,Maluku,Maluku Utara,Nonbintang,5292,305,6176,Lokal,1.24
+Indonesia,Papua,Papua Barat,Bintang,695,14,892,Gabungan,1.87
+Indonesia,Papua,Papua Barat,Bintang,695,14,892,Asing,4.29
+Indonesia,Papua,Papua Barat,Bintang,695,14,892,Lokal,1.85
+Indonesia,Papua,Papua Barat,Nonbintang,1533,81,1912,Gabungan,1.87
+Indonesia,Papua,Papua Barat,Nonbintang,1533,81,1912,Asing,11.84
+Indonesia,Papua,Papua Barat,Nonbintang,1533,81,1912,Lokal,1.85
+Indonesia,Papua,Papua Barat Daya,Bintang,1473,18,2247,Gabungan,1.72
+Indonesia,Papua,Papua Barat Daya,Bintang,1473,18,2247,Asing,1.5
+Indonesia,Papua,Papua Barat Daya,Bintang,1473,18,2247,Lokal,1.74
+Indonesia,Papua,Papua Barat Daya,Nonbintang,1834,139,2559,Gabungan,1.61
+Indonesia,Papua,Papua Barat Daya,Nonbintang,1834,139,2559,Asing,2.47
+Indonesia,Papua,Papua Barat Daya,Nonbintang,1834,139,2559,Lokal,1.56
+Indonesia,Papua,Papua,Bintang,2476,31,3507,Gabungan,1.83
+Indonesia,Papua,Papua,Bintang,2476,31,3507,Asing,2.21
+Indonesia,Papua,Papua,Bintang,2476,31,3507,Lokal,1.83
+Indonesia,Papua,Papua,Nonbintang,2545,99,3265,Gabungan,1.44
+Indonesia,Papua,Papua,Nonbintang,2545,99,3265,Asing,4.71
+Indonesia,Papua,Papua,Nonbintang,2545,99,3265,Lokal,1.44
+Indonesia,Papua,Papua Selatan,Bintang,299,6,418,Gabungan,1.98
+Indonesia,Papua,Papua Selatan,Bintang,299,6,418,Asing,2.28
+Indonesia,Papua,Papua Selatan,Bintang,299,6,418,Lokal,1.97
+Indonesia,Papua,Papua Selatan,Nonbintang,771,40,957,Gabungan,1.46
+Indonesia,Papua,Papua Selatan,Nonbintang,771,40,957,Asing,2.69
+Indonesia,Papua,Papua Selatan,Nonbintang,771,40,957,Lokal,1.46
+Indonesia,Papua,Papua Tengah,Bintang,929,12,1256,Gabungan,2.45
+Indonesia,Papua,Papua Tengah,Bintang,929,12,1256,Asing,3.5
+Indonesia,Papua,Papua Tengah,Bintang,929,12,1256,Lokal,2.38
+Indonesia,Papua,Papua Tengah,Nonbintang,1642,72,2232,Gabungan,1.39
+Indonesia,Papua,Papua Tengah,Nonbintang,1642,72,2232,Asing,1.49
+Indonesia,Papua,Papua Tengah,Nonbintang,1642,72,2232,Lokal,1.39
+Indonesia,Papua,Papua Pegunungan,Bintang,82,2,152,Gabungan,2.12
+Indonesia,Papua,Papua Pegunungan,Bintang,82,2,152,Asing,2.6
+Indonesia,Papua,Papua Pegunungan,Bintang,82,2,152,Lokal,2.11
+Indonesia,Papua,Papua Pegunungan,Nonbintang,509,25,793,Gabungan,1.4
+Indonesia,Papua,Papua Pegunungan,Nonbintang,509,25,793,Asing,3.05
+Indonesia,Papua,Papua Pegunungan,Nonbintang,509,25,793,Lokal,1.38

@@ -1,0 +1,77 @@
+Negara,Pulau,Provinsi,JumlahWisatawanAsal,JenisKelamin,Persen,Persen_LakiLaki,Jumlah
+Indonesia,Sumatera,Aceh,20451409,Laki-laki,67.28,67.28,13759708.0
+Indonesia,Sumatera,Sumatera Utara,56384607,Laki-laki,65.01,65.01,36655633.0
+Indonesia,Sumatera,Sumatera Barat,20779780,Laki-laki,56.15,56.15,11667846.0
+Indonesia,Sumatera,Riau,25047898,Laki-laki,67.93,67.93,17015037.0
+Indonesia,Sumatera,Jambi,11324036,Laki-laki,66.43,66.43,7522557.0
+Indonesia,Sumatera,Sumatera Selatan,26747547,Laki-laki,67.18,67.18,17969002.0
+Indonesia,Sumatera,Bengkulu,7050918,Laki-laki,64.78,64.78,4567585.0
+Indonesia,Sumatera,Lampung,28600277,Laki-laki,66.17,66.17,18924803.0
+Indonesia,Sumatera,Kepulauan Bangka Belitung,4849323,Laki-laki,65.2,65.2,3161759.0
+Indonesia,Sumatera,Kepulauan Riau,3910698,Laki-laki,65.08,65.08,2545082.0
+Indonesia,Jawa,DKI Jakarta,101652702,Laki-laki,61.9,61.9,62923023.0
+Indonesia,Jawa,Jawa Barat,218795015,Laki-laki,67.66,67.66,148036707.0
+Indonesia,Jawa,Jawa Tengah,141237727,Laki-laki,60.08,60.08,84855626.0
+Indonesia,Jawa,DI Yogyakarta,30715085,Laki-laki,63.0,63.0,19350504.0
+Indonesia,Jawa,Jawa Timur,203899566,Laki-laki,61.53,61.53,125459403.0
+Indonesia,Jawa,Banten,76184966,Laki-laki,67.29,67.29,51264864.0
+Indonesia,Bali & Nusa Tenggara,Bali,27278451,Laki-laki,68.77,68.77,18759391.0
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,16205015,Laki-laki,72.74,72.74,11787528.0
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,10603210,Laki-laki,67.17,67.17,7122176.0
+Indonesia,Kalimantan,Kalimantan Barat,13352619,Laki-laki,68.74,68.74,9178590.0
+Indonesia,Kalimantan,Kalimantan Tengah,10734970,Laki-laki,66.38,66.38,7125873.0
+Indonesia,Kalimantan,Kalimantan Selatan,20534606,Laki-laki,64.01,64.01,13144201.0
+Indonesia,Kalimantan,Kalimantan Timur,16058010,Laki-laki,62.72,62.72,10071584.0
+Indonesia,Kalimantan,Kalimantan Utara,1786484,Laki-laki,62.87,62.87,1123162.0
+Indonesia,Sulawesi,Sulawesi Utara,14354402,Laki-laki,56.3,56.3,8081528.0
+Indonesia,Sulawesi,Sulawesi Tengah,11484798,Laki-laki,68.75,68.75,7895799.0
+Indonesia,Sulawesi,Sulawesi Selatan,42271282,Laki-laki,60.75,60.75,25679804.0
+Indonesia,Sulawesi,Sulawesi Tenggara,13003774,Laki-laki,67.52,67.52,8780148.0
+Indonesia,Sulawesi,Gorontalo,5438193,Laki-laki,63.07,63.07,3429868.0
+Indonesia,Sulawesi,Sulawesi Barat,4681009,Laki-laki,64.66,64.66,3026740.0
+Indonesia,Maluku,Maluku,3548806,Laki-laki,57.65,57.65,2045887.0
+Indonesia,Maluku,Maluku Utara,3660014,Laki-laki,59.91,59.91,2192714.0
+Indonesia,Papua,Papua Barat,857613,Laki-laki,51.89,51.89,445015.0
+Indonesia,Papua,Papua Barat Daya,1675714,Laki-laki,54.98,54.98,921308.0
+Indonesia,Papua,Papua,2622956,Laki-laki,61.38,61.38,1609970.0
+Indonesia,Papua,Papua Selatan,338440,Laki-laki,73.53,73.53,248855.0
+Indonesia,Papua,Papua Tengah,1165865,Laki-laki,71.5,71.5,833593.0
+Indonesia,Papua,Papua Pegunungan,1044774,Laki-laki,78.54,78.54,820565.0
+Indonesia,Sumatera,Aceh,20451409,Perempuan,32.72,67.28,6691701.0
+Indonesia,Sumatera,Sumatera Utara,56384607,Perempuan,34.99,65.01,19728974.0
+Indonesia,Sumatera,Sumatera Barat,20779780,Perempuan,43.85,56.15,9111934.0
+Indonesia,Sumatera,Riau,25047898,Perempuan,32.07,67.93,8032861.0
+Indonesia,Sumatera,Jambi,11324036,Perempuan,33.57,66.43,3801479.0
+Indonesia,Sumatera,Sumatera Selatan,26747547,Perempuan,32.82,67.18,8778545.0
+Indonesia,Sumatera,Bengkulu,7050918,Perempuan,35.22,64.78,2483333.0
+Indonesia,Sumatera,Lampung,28600277,Perempuan,33.83,66.17,9675474.0
+Indonesia,Sumatera,Kepulauan Bangka Belitung,4849323,Perempuan,34.8,65.2,1687564.0
+Indonesia,Sumatera,Kepulauan Riau,3910698,Perempuan,34.92,65.08,1365616.0
+Indonesia,Jawa,DKI Jakarta,101652702,Perempuan,38.1,61.9,38729679.0
+Indonesia,Jawa,Jawa Barat,218795015,Perempuan,32.34,67.66,70758308.0
+Indonesia,Jawa,Jawa Tengah,141237727,Perempuan,39.92,60.08,56382101.0
+Indonesia,Jawa,DI Yogyakarta,30715085,Perempuan,37.0,63.0,11364581.0
+Indonesia,Jawa,Jawa Timur,203899566,Perempuan,38.47,61.53,78440163.0
+Indonesia,Jawa,Banten,76184966,Perempuan,32.71,67.29,24920102.0
+Indonesia,Bali & Nusa Tenggara,Bali,27278451,Perempuan,31.23,68.77,8519060.0
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Barat,16205015,Perempuan,27.26,72.74,4417487.0
+Indonesia,Bali & Nusa Tenggara,Nusa Tenggara Timur,10603210,Perempuan,32.83,67.17,3481034.0
+Indonesia,Kalimantan,Kalimantan Barat,13352619,Perempuan,31.26,68.74,4174029.0
+Indonesia,Kalimantan,Kalimantan Tengah,10734970,Perempuan,33.62,66.38,3609097.0
+Indonesia,Kalimantan,Kalimantan Selatan,20534606,Perempuan,35.99,64.01,7390405.0
+Indonesia,Kalimantan,Kalimantan Timur,16058010,Perempuan,37.28,62.72,5986426.0
+Indonesia,Kalimantan,Kalimantan Utara,1786484,Perempuan,37.13,62.87,663322.0
+Indonesia,Sulawesi,Sulawesi Utara,14354402,Perempuan,43.7,56.3,6272874.0
+Indonesia,Sulawesi,Sulawesi Tengah,11484798,Perempuan,31.25,68.75,3588999.0
+Indonesia,Sulawesi,Sulawesi Selatan,42271282,Perempuan,39.25,60.75,16591478.0
+Indonesia,Sulawesi,Sulawesi Tenggara,13003774,Perempuan,32.48,67.52,4223626.0
+Indonesia,Sulawesi,Gorontalo,5438193,Perempuan,36.93,63.07,2008325.0
+Indonesia,Sulawesi,Sulawesi Barat,4681009,Perempuan,35.34,64.66,1654269.0
+Indonesia,Maluku,Maluku,3548806,Perempuan,42.35,57.65,1502919.0
+Indonesia,Maluku,Maluku Utara,3660014,Perempuan,40.09,59.91,1467300.0
+Indonesia,Papua,Papua Barat,857613,Perempuan,48.11,51.89,412598.0
+Indonesia,Papua,Papua Barat Daya,1675714,Perempuan,45.02,54.98,754406.0
+Indonesia,Papua,Papua,2622956,Perempuan,38.62,61.38,1012986.0
+Indonesia,Papua,Papua Selatan,338440,Perempuan,26.47,73.53,89585.0
+Indonesia,Papua,Papua Tengah,1165865,Perempuan,28.5,71.5,332272.0
+Indonesia,Papua,Papua Pegunungan,1044774,Perempuan,21.46,78.54,224209.0

@@ -1,0 +1,1445 @@
+Asal,Tujuan,Value,Wilayah_Asal,Wilayah_Tujuan,Internal
+Jawa Timur,Jawa Timur,183362302,Jawa,Jawa,True
+Jawa Barat,Jawa Barat,143707592,Jawa,Jawa,True
+Jawa Tengah,Jawa Tengah,99587387,Jawa,Jawa,True
+Sumatera Utara,Sumatera Utara,49622538,Sumatera,Sumatera,True
+Sulawesi Selatan,Sulawesi Selatan,37282661,Sulawesi,Sulawesi,True
+DKI Jakarta,DKI Jakarta,35634138,Jawa,Jawa,True
+DKI Jakarta,Jawa Barat,35332676,Jawa,Jawa,False
+Jawa Barat,DKI Jakarta,34524450,Jawa,Jawa,False
+Banten,Banten,29352170,Jawa,Jawa,True
+Lampung,Lampung,21723532,Sumatera,Sumatera,True
+Bali,Bali,20911166,Bali & Nusa Tenggara,Bali & Nusa Tenggara,True
+Sumatera Selatan,Sumatera Selatan,20095826,Sumatera,Sumatera,True
+Banten,Jawa Barat,18477108,Jawa,Jawa,False
+Riau,Riau,18375159,Sumatera,Sumatera,True
+Banten,DKI Jakarta,18048547,Jawa,Jawa,False
+Aceh,Aceh,17606654,Sumatera,Sumatera,True
+Sumatera Barat,Sumatera Barat,16760084,Sumatera,Sumatera,True
+DI Yogyakarta,DI Yogyakarta,16363933,Jawa,Jawa,True
+Kalimantan Selatan,Kalimantan Selatan,16012669,Kalimantan,Kalimantan,True
+DKI Jakarta,Banten,14236682,Jawa,Jawa,False
+Jawa Barat,Jawa Tengah,13845266,Jawa,Jawa,False
+Nusa Tenggara Barat,Nusa Tenggara Barat,13691020,Bali & Nusa Tenggara,Bali & Nusa Tenggara,True
+Jawa Tengah,DI Yogyakarta,13673261,Jawa,Jawa,False
+Jawa Barat,Banten,13473760,Jawa,Jawa,False
+Sulawesi Utara,Sulawesi Utara,13045580,Sulawesi,Sulawesi,True
+Jawa Tengah,Jawa Timur,12862711,Jawa,Jawa,False
+Kalimantan Timur,Kalimantan Timur,12693212,Kalimantan,Kalimantan,True
+Kalimantan Barat,Kalimantan Barat,12104918,Kalimantan,Kalimantan,True
+Sulawesi Tenggara,Sulawesi Tenggara,11447103,Sulawesi,Sulawesi,True
+DI Yogyakarta,Jawa Tengah,9887961,Jawa,Jawa,False
+Nusa Tenggara Timur,Nusa Tenggara Timur,9558961,Bali & Nusa Tenggara,Bali & Nusa Tenggara,True
+Sulawesi Tengah,Sulawesi Tengah,8749335,Sulawesi,Sulawesi,True
+Jambi,Jambi,8125989,Sumatera,Sumatera,True
+Jawa Timur,Jawa Tengah,8125819,Jawa,Jawa,False
+Kalimantan Tengah,Kalimantan Tengah,7859480,Kalimantan,Kalimantan,True
+DKI Jakarta,Jawa Tengah,7345406,Jawa,Jawa,False
+Jawa Tengah,Jawa Barat,6933214,Jawa,Jawa,False
+Bengkulu,Bengkulu,5444333,Sumatera,Sumatera,True
+Jawa Barat,Jawa Timur,4621482,Jawa,Jawa,False
+Gorontalo,Gorontalo,4286894,Sulawesi,Sulawesi,True
+Bali,Jawa Timur,4223806,Bali & Nusa Tenggara,Jawa,False
+Banten,Jawa Tengah,4168302,Jawa,Jawa,False
+Kepulauan Bangka Belitung,Kepulauan Bangka Belitung,3922665,Sumatera,Sumatera,True
+Jawa Tengah,DKI Jakarta,3750380,Jawa,Jawa,False
+Jawa Barat,DI Yogyakarta,3299856,Jawa,Jawa,False
+Jawa Timur,DI Yogyakarta,3272478,Jawa,Jawa,False
+DKI Jakarta,Jawa Timur,3076945,Jawa,Jawa,False
+Maluku Utara,Maluku Utara,3028209,Maluku,Maluku,True
+Sulawesi Barat,Sulawesi Barat,2744008,Sulawesi,Sulawesi,True
+Kepulauan Riau,Kepulauan Riau,2485233,Sumatera,Sumatera,True
+Riau,Sumatera Barat,2371142,Sumatera,Sumatera,False
+Jawa Timur,Bali,2331600,Jawa,Bali & Nusa Tenggara,False
+Kalimantan Selatan,Kalimantan Tengah,2291148,Kalimantan,Kalimantan,False
+Aceh,Sumatera Utara,2263305,Sumatera,Sumatera,False
+Riau,Sumatera Utara,2200160,Sumatera,Sumatera,False
+Papua,Papua,2186427,Papua,Papua,True
+DI Yogyakarta,Jawa Timur,2149522,Jawa,Jawa,False
+Sumatera Utara,Riau,2135697,Sumatera,Sumatera,False
+Lampung,Sumatera Selatan,2088689,Sumatera,Sumatera,False
+Jawa Tengah,Banten,1982485,Jawa,Jawa,False
+Sumatera Utara,Aceh,1898870,Sumatera,Sumatera,False
+Sumatera Selatan,Lampung,1894896,Sumatera,Sumatera,False
+Jawa Timur,Jawa Barat,1863008,Jawa,Jawa,False
+Banten,Jawa Timur,1815605,Jawa,Jawa,False
+Jawa Timur,DKI Jakarta,1699159,Jawa,Jawa,False
+Kalimantan Tengah,Kalimantan Selatan,1628123,Kalimantan,Kalimantan,False
+DKI Jakarta,DI Yogyakarta,1543739,Jawa,Jawa,False
+Sumatera Barat,Riau,1463689,Sumatera,Sumatera,False
+Papua Barat Daya,Papua Barat Daya,1367140,Papua,Papua,True
+Sulawesi Barat,Sulawesi Selatan,1256573,Sulawesi,Sulawesi,False
+Sulawesi Selatan,Sulawesi Barat,1248711,Sulawesi,Sulawesi,False
+Kalimantan Utara,Kalimantan Utara,1232601,Kalimantan,Kalimantan,True
+Lampung,Jawa Barat,1044849,Sumatera,Jawa,False
+Banten,Lampung,1040741,Jawa,Sumatera,False
+Jambi,Sumatera Barat,998390,Sumatera,Sumatera,False
+Lampung,Banten,992123,Sumatera,Jawa,False
+Sulawesi Tengah,Sulawesi Selatan,988166,Sulawesi,Sulawesi,False
+Banten,DI Yogyakarta,973955,Jawa,Jawa,False
+Sumatera Selatan,Bengkulu,869061,Sumatera,Sumatera,False
+Lampung,DKI Jakarta,865943,Sumatera,Jawa,False
+Sulawesi Selatan,Sulawesi Tengah,848956,Sulawesi,Sulawesi,False
+DI Yogyakarta,Jawa Barat,831521,Jawa,Jawa,False
+Jawa Barat,Lampung,801748,Jawa,Sumatera,False
+Sumatera Selatan,Jambi,789426,Sumatera,Sumatera,False
+Sulawesi Selatan,Sulawesi Tenggara,768027,Sulawesi,Sulawesi,False
+Nusa Tenggara Barat,Jawa Timur,763211,Bali & Nusa Tenggara,Jawa,False
+Jambi,Sumatera Selatan,757071,Sumatera,Sumatera,False
+Sulawesi Tenggara,Sulawesi Selatan,743188,Sulawesi,Sulawesi,False
+Papua Pegunungan,Papua Pegunungan,705843,Papua,Papua,True
+Sumatera Barat,Jambi,701792,Sumatera,Sumatera,False
+Kalimantan Selatan,Kalimantan Timur,694984,Kalimantan,Kalimantan,False
+Papua Tengah,Papua Tengah,690853,Papua,Papua,True
+Kalimantan Timur,Jawa Timur,684226,Kalimantan,Jawa,False
+Jawa Timur,Banten,681244,Jawa,Jawa,False
+DKI Jakarta,Lampung,675895,Jawa,Sumatera,False
+Bengkulu,Sumatera Selatan,655461,Sumatera,Sumatera,False
+Gorontalo,Sulawesi Utara,615749,Sulawesi,Sulawesi,False
+Kalimantan Timur,Kalimantan Selatan,610197,Kalimantan,Kalimantan,False
+DKI Jakarta,Bali,607968,Jawa,Bali & Nusa Tenggara,False
+Sumatera Selatan,Jawa Barat,579954,Sumatera,Jawa,False
+Jawa Barat,Bali,575644,Jawa,Bali & Nusa Tenggara,False
+Sumatera Utara,Sumatera Barat,570616,Sumatera,Sumatera,False
+Sumatera Selatan,DKI Jakarta,566943,Sumatera,Jawa,False
+Jawa Tengah,Bali,562189,Jawa,Bali & Nusa Tenggara,False
+Nusa Tenggara Barat,Bali,559095,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+DI Yogyakarta,DKI Jakarta,556260,Jawa,Jawa,False
+Jawa Barat,Sumatera Selatan,555739,Jawa,Sumatera,False
+Papua Barat,Papua Barat,555673,Papua,Papua,True
+Kalimantan Selatan,Jawa Timur,539622,Kalimantan,Jawa,False
+Sulawesi Utara,Gorontalo,535366,Sulawesi,Sulawesi,False
+Jawa Barat,Sumatera Utara,512060,Jawa,Sumatera,False
+Sulawesi Barat,Sulawesi Tengah,475598,Sulawesi,Sulawesi,False
+Riau,Kepulauan Riau,471642,Sumatera,Sumatera,False
+Sumatera Barat,Sumatera Utara,466868,Sumatera,Sumatera,False
+Sulawesi Tengah,Sulawesi Tenggara,445586,Sulawesi,Sulawesi,False
+Lampung,Jawa Tengah,432442,Sumatera,Jawa,False
+Sumatera Utara,DKI Jakarta,427096,Sumatera,Jawa,False
+Bali,Jawa Tengah,422989,Bali & Nusa Tenggara,Jawa,False
+Lampung,Jawa Timur,411907,Sumatera,Jawa,False
+DKI Jakarta,Sumatera Utara,400550,Jawa,Sumatera,False
+Sumatera Utara,Jawa Barat,378818,Sumatera,Jawa,False
+Sulawesi Tengah,Sulawesi Barat,365216,Sulawesi,Sulawesi,False
+Banten,Sumatera Selatan,361275,Jawa,Sumatera,False
+Jawa Timur,Kalimantan Timur,360248,Jawa,Kalimantan,False
+Jambi,Riau,357328,Sumatera,Sumatera,False
+DKI Jakarta,Sumatera Selatan,355135,Jawa,Sumatera,False
+Sulawesi Tenggara,Sulawesi Tengah,349494,Sulawesi,Sulawesi,False
+Bali,Nusa Tenggara Barat,347009,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+Riau,Jambi,346724,Sumatera,Sumatera,False
+Kalimantan Timur,Sulawesi Selatan,346577,Kalimantan,Sulawesi,False
+Jawa Barat,Sumatera Barat,332683,Jawa,Sumatera,False
+Gorontalo,Sulawesi Tengah,327181,Sulawesi,Sulawesi,False
+Sulawesi Selatan,Jawa Timur,320389,Sulawesi,Jawa,False
+Bali,DKI Jakarta,318380,Bali & Nusa Tenggara,Jawa,False
+Kalimantan Tengah,Jawa Timur,316688,Kalimantan,Jawa,False
+Sumatera Selatan,Banten,314368,Sumatera,Jawa,False
+Sumatera Selatan,Jawa Tengah,313093,Sumatera,Jawa,False
+Jawa Timur,Nusa Tenggara Barat,297088,Jawa,Bali & Nusa Tenggara,False
+Kalimantan Timur,Jawa Tengah,296328,Kalimantan,Jawa,False
+Sulawesi Selatan,DKI Jakarta,294387,Sulawesi,Jawa,False
+Sumatera Selatan,Jawa Timur,292236,Sumatera,Jawa,False
+Kalimantan Barat,Kalimantan Tengah,291054,Kalimantan,Kalimantan,False
+Sulawesi Selatan,Kalimantan Timur,288798,Sulawesi,Kalimantan,False
+Jawa Barat,Kalimantan Timur,287083,Jawa,Kalimantan,False
+Kepulauan Riau,Riau,284359,Sumatera,Sumatera,False
+Banten,Bali,282446,Jawa,Bali & Nusa Tenggara,False
+Bali,Jawa Barat,275419,Bali & Nusa Tenggara,Jawa,False
+Jawa Barat,Riau,265581,Jawa,Sumatera,False
+Sulawesi Tengah,Gorontalo,264331,Sulawesi,Sulawesi,False
+Bengkulu,Sumatera Barat,260301,Sumatera,Sumatera,False
+DKI Jakarta,Sulawesi Selatan,251820,Jawa,Sulawesi,False
+Banten,Sumatera Utara,250278,Jawa,Sumatera,False
+Jawa Barat,Sulawesi Selatan,249891,Jawa,Sulawesi,False
+DKI Jakarta,Sumatera Barat,245721,Jawa,Sumatera,False
+Kalimantan Utara,Kalimantan Timur,245042,Kalimantan,Kalimantan,False
+Sumatera Barat,Jawa Barat,244915,Sumatera,Jawa,False
+Sumatera Barat,DKI Jakarta,241655,Sumatera,Jawa,False
+Nusa Tenggara Timur,Jawa Timur,237774,Bali & Nusa Tenggara,Jawa,False
+Kalimantan Timur,DKI Jakarta,236286,Kalimantan,Jawa,False
+Riau,DKI Jakarta,233771,Sumatera,Jawa,False
+Sumatera Barat,Bengkulu,232049,Sumatera,Sumatera,False
+Lampung,DI Yogyakarta,230438,Sumatera,Jawa,False
+DI Yogyakarta,Banten,227908,Jawa,Jawa,False
+DKI Jakarta,Kalimantan Timur,224787,Jawa,Kalimantan,False
+Kepulauan Bangka Belitung,Sumatera Selatan,224144,Sumatera,Sumatera,False
+Kalimantan Tengah,Jawa Tengah,221948,Kalimantan,Jawa,False
+Papua Selatan,Papua Selatan,219608,Papua,Papua,True
+Kalimantan Timur,Kalimantan Utara,216508,Kalimantan,Kalimantan,False
+DKI Jakarta,Kepulauan Riau,214504,Jawa,Sumatera,False
+Riau,Jawa Barat,214038,Sumatera,Jawa,False
+Kalimantan Selatan,DKI Jakarta,208515,Kalimantan,Jawa,False
+Jawa Barat,Kepulauan Riau,205342,Jawa,Sumatera,False
+DKI Jakarta,Riau,199976,Jawa,Sumatera,False
+Papua Barat,Maluku,199935,Papua,Maluku,False
+Kalimantan Timur,Jawa Barat,199292,Kalimantan,Jawa,False
+Sumatera Utara,Jawa Timur,199216,Sumatera,Jawa,False
+Kalimantan Tengah,Bali,199018,Kalimantan,Bali & Nusa Tenggara,False
+Jawa Timur,Kalimantan Selatan,196381,Jawa,Kalimantan,False
+Jawa Tengah,Lampung,195786,Jawa,Sumatera,False
+Jawa Tengah,Sumatera Selatan,194361,Jawa,Sumatera,False
+DKI Jakarta,Kalimantan Barat,194087,Jawa,Kalimantan,False
+Kepulauan Bangka Belitung,DKI Jakarta,189286,Sumatera,Jawa,False
+Jawa Tengah,Kalimantan Timur,189256,Jawa,Kalimantan,False
+Sumatera Selatan,Kepulauan Bangka Belitung,188042,Sumatera,Sumatera,False
+Jawa Barat,Kalimantan Barat,185344,Jawa,Kalimantan,False
+Jawa Timur,Sulawesi Selatan,184826,Jawa,Sulawesi,False
+Papua Pegunungan,Papua,183587,Papua,Papua,False
+Kepulauan Riau,Sumatera Utara,182825,Sumatera,Sumatera,False
+Sumatera Utara,Banten,182487,Sumatera,Jawa,False
+Riau,Jawa Timur,181795,Sumatera,Jawa,False
+Jawa Timur,Kalimantan Tengah,181794,Jawa,Kalimantan,False
+Kalimantan Tengah,Kalimantan Barat,181492,Kalimantan,Kalimantan,False
+Jawa Timur,Nusa Tenggara Timur,180008,Jawa,Bali & Nusa Tenggara,False
+Sumatera Utara,Kepulauan Riau,179685,Sumatera,Sumatera,False
+Nusa Tenggara Barat,DKI Jakarta,174086,Bali & Nusa Tenggara,Jawa,False
+Kalimantan Selatan,Jawa Tengah,174066,Kalimantan,Jawa,False
+Sulawesi Selatan,Jawa Barat,170386,Sulawesi,Jawa,False
+Lampung,Bengkulu,170252,Sumatera,Sumatera,False
+Sumatera Selatan,DI Yogyakarta,167157,Sumatera,Jawa,False
+Nusa Tenggara Barat,Jawa Barat,160831,Bali & Nusa Tenggara,Jawa,False
+Banten,Sumatera Barat,159746,Jawa,Sumatera,False
+Kalimantan Barat,DKI Jakarta,157589,Kalimantan,Jawa,False
+Nusa Tenggara Barat,Jawa Tengah,157014,Bali & Nusa Tenggara,Jawa,False
+Kepulauan Riau,DKI Jakarta,152047,Sumatera,Jawa,False
+Jawa Tengah,Kalimantan Tengah,150032,Jawa,Kalimantan,False
+Jambi,DKI Jakarta,149957,Sumatera,Jawa,False
+Kalimantan Barat,Jawa Timur,147937,Kalimantan,Jawa,False
+Bali,DI Yogyakarta,147890,Bali & Nusa Tenggara,Jawa,False
+DI Yogyakarta,Bali,144255,Jawa,Bali & Nusa Tenggara,False
+Jawa Barat,Jambi,144189,Jawa,Sumatera,False
+Maluku Utara,Sulawesi Utara,143651,Maluku,Sulawesi,False
+Jambi,Jawa Barat,142979,Sumatera,Jawa,False
+Banten,Sulawesi Selatan,140933,Jawa,Sulawesi,False
+Maluku,Maluku,137664,Maluku,Maluku,True
+Banten,Kalimantan Timur,137551,Jawa,Kalimantan,False
+Sumatera Utara,Jawa Tengah,136087,Sumatera,Jawa,False
+Kepulauan Riau,Jawa Timur,135282,Sumatera,Jawa,False
+Riau,Jawa Tengah,134940,Sumatera,Jawa,False
+Papua Tengah,Papua,133881,Papua,Papua,False
+Lampung,Jambi,133030,Sumatera,Sumatera,False
+Jawa Tengah,Sumatera Utara,130346,Jawa,Sumatera,False
+Sumatera Selatan,Sumatera Utara,126670,Sumatera,Sumatera,False
+Sumatera Selatan,Riau,126380,Sumatera,Sumatera,False
+Banten,Riau,126257,Jawa,Sumatera,False
+Kalimantan Selatan,Jawa Barat,123872,Kalimantan,Jawa,False
+Kalimantan Timur,DI Yogyakarta,123796,Kalimantan,Jawa,False
+Jambi,Sumatera Utara,122514,Sumatera,Sumatera,False
+Bengkulu,Lampung,122271,Sumatera,Sumatera,False
+Jawa Timur,Sumatera Utara,121402,Jawa,Sumatera,False
+Kepulauan Riau,Jawa Barat,121284,Sumatera,Jawa,False
+Jambi,Jawa Tengah,120532,Sumatera,Jawa,False
+Jawa Barat,Aceh,120331,Jawa,Sumatera,False
+Jawa Timur,Sumatera Selatan,120083,Jawa,Sumatera,False
+Sumatera Selatan,Sumatera Barat,119957,Sumatera,Sumatera,False
+Riau,Sumatera Selatan,119310,Sumatera,Sumatera,False
+Kalimantan Barat,Jawa Barat,118341,Kalimantan,Jawa,False
+Kalimantan Barat,Jawa Tengah,116297,Kalimantan,Jawa,False
+Sulawesi Selatan,Jawa Tengah,114842,Sulawesi,Jawa,False
+Sulawesi Utara,Maluku Utara,113926,Sulawesi,Maluku,False
+Banten,Kepulauan Riau,113568,Jawa,Sumatera,False
+Jawa Barat,Kalimantan Selatan,113327,Jawa,Kalimantan,False
+Sumatera Utara,Sumatera Selatan,112399,Sumatera,Sumatera,False
+Sumatera Utara,Jambi,111747,Sumatera,Sumatera,False
+DKI Jakarta,Kepulauan Bangka Belitung,108837,Jawa,Sumatera,False
+Bali,Nusa Tenggara Timur,108151,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+Jawa Barat,Kalimantan Tengah,108137,Jawa,Kalimantan,False
+Jawa Barat,Nusa Tenggara Barat,107005,Jawa,Bali & Nusa Tenggara,False
+Sulawesi Tengah,Sulawesi Utara,106491,Sulawesi,Sulawesi,False
+Jawa Tengah,Riau,104979,Jawa,Sumatera,False
+Sulawesi Tengah,Jawa Timur,103714,Sulawesi,Jawa,False
+Kepulauan Riau,Jawa Tengah,103198,Sumatera,Jawa,False
+Bengkulu,DKI Jakarta,103036,Sumatera,Jawa,False
+Sulawesi Utara,DKI Jakarta,102852,Sulawesi,Jawa,False
+Jambi,Bengkulu,100460,Sumatera,Sumatera,False
+Jawa Barat,Bengkulu,100311,Jawa,Sumatera,False
+Lampung,Riau,99668,Sumatera,Sumatera,False
+Bali,Banten,99468,Bali & Nusa Tenggara,Jawa,False
+Aceh,DKI Jakarta,99104,Sumatera,Jawa,False
+Sumatera Barat,Sumatera Selatan,97084,Sumatera,Sumatera,False
+Jambi,Lampung,96625,Sumatera,Sumatera,False
+Kepulauan Riau,Sumatera Barat,96547,Sumatera,Sumatera,False
+Bengkulu,Jawa Barat,96439,Sumatera,Jawa,False
+Aceh,Jawa Barat,96399,Sumatera,Jawa,False
+Kalimantan Tengah,DKI Jakarta,96045,Kalimantan,Jawa,False
+Nusa Tenggara Barat,Nusa Tenggara Timur,95474,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+Nusa Tenggara Timur,Sulawesi Selatan,94645,Bali & Nusa Tenggara,Sulawesi,False
+Bengkulu,Jambi,94400,Sumatera,Sumatera,False
+Nusa Tenggara Timur,Bali,93987,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+DKI Jakarta,Sulawesi Utara,93986,Jawa,Sulawesi,False
+Kalimantan Selatan,DI Yogyakarta,93337,Kalimantan,Jawa,False
+Sumatera Barat,Banten,93003,Sumatera,Jawa,False
+Jawa Barat,Sulawesi Tengah,92960,Jawa,Sulawesi,False
+Jawa Tengah,Sulawesi Selatan,92180,Jawa,Sulawesi,False
+Sumatera Barat,Kepulauan Riau,92128,Sumatera,Sumatera,False
+Jawa Timur,Kalimantan Barat,91902,Jawa,Kalimantan,False
+DKI Jakarta,Kalimantan Selatan,91545,Jawa,Kalimantan,False
+Sulawesi Selatan,Bali,91542,Sulawesi,Bali & Nusa Tenggara,False
+Banten,Kalimantan Barat,91455,Jawa,Kalimantan,False
+Jawa Tengah,Kalimantan Selatan,91032,Jawa,Kalimantan,False
+DKI Jakarta,Jambi,90952,Jawa,Sumatera,False
+Papua Barat Daya,Papua Barat,90812,Papua,Papua,False
+Nusa Tenggara Timur,DKI Jakarta,90369,Bali & Nusa Tenggara,Jawa,False
+Jawa Tengah,Kalimantan Barat,90251,Jawa,Kalimantan,False
+Nusa Tenggara Timur,Jawa Barat,89167,Bali & Nusa Tenggara,Jawa,False
+Kalimantan Timur,Banten,87979,Kalimantan,Jawa,False
+Jambi,Jawa Timur,86920,Sumatera,Jawa,False
+Lampung,Sumatera Utara,86745,Sumatera,Sumatera,False
+Sulawesi Tenggara,DKI Jakarta,86662,Sulawesi,Jawa,False
+Jawa Timur,Riau,85418,Jawa,Sumatera,False
+Sulawesi Utara,Sulawesi Selatan,84978,Sulawesi,Sulawesi,False
+Papua Barat,Papua Barat Daya,84950,Papua,Papua,False
+Kalimantan Tengah,Kalimantan Timur,84361,Kalimantan,Kalimantan,False
+Kalimantan Tengah,Jawa Barat,84078,Kalimantan,Jawa,False
+Jawa Timur,Kepulauan Riau,83698,Jawa,Sumatera,False
+Sulawesi Tengah,DKI Jakarta,83422,Sulawesi,Jawa,False
+Sulawesi Selatan,Banten,83322,Sulawesi,Jawa,False
+DKI Jakarta,Nusa Tenggara Barat,82890,Jawa,Bali & Nusa Tenggara,False
+Maluku Utara,Maluku,82682,Maluku,Maluku,False
+Jawa Barat,Sulawesi Utara,82206,Jawa,Sulawesi,False
+Jawa Barat,Kepulauan Bangka Belitung,81748,Jawa,Sumatera,False
+Sumatera Barat,Jawa Timur,81498,Sumatera,Jawa,False
+Nusa Tenggara Barat,DI Yogyakarta,79889,Bali & Nusa Tenggara,Jawa,False
+Riau,Banten,79450,Sumatera,Jawa,False
+Jawa Barat,Sulawesi Tenggara,79336,Jawa,Sulawesi,False
+Jawa Tengah,Kepulauan Riau,79006,Jawa,Sumatera,False
+Kalimantan Selatan,Banten,78875,Kalimantan,Jawa,False
+Jawa Barat,Nusa Tenggara Timur,78384,Jawa,Bali & Nusa Tenggara,False
+Jawa Tengah,Jambi,75171,Jawa,Sumatera,False
+Papua,Papua Pegunungan,75130,Papua,Papua,False
+Sulawesi Selatan,Sulawesi Utara,74247,Sulawesi,Sulawesi,False
+DKI Jakarta,Aceh,73492,Jawa,Sumatera,False
+DKI Jakarta,Kalimantan Tengah,73319,Jawa,Kalimantan,False
+Kepulauan Bangka Belitung,Banten,73208,Sumatera,Jawa,False
+Sumatera Barat,Jawa Tengah,72950,Sumatera,Jawa,False
+Nusa Tenggara Timur,Jawa Tengah,72386,Bali & Nusa Tenggara,Jawa,False
+DKI Jakarta,Papua Selatan,71201,Jawa,Papua,False
+Jambi,Sulawesi Selatan,71053,Sumatera,Sulawesi,False
+Jawa Timur,Sulawesi Tengah,71038,Jawa,Sulawesi,False
+Kalimantan Utara,Sulawesi Selatan,70635,Kalimantan,Sulawesi,False
+Lampung,Sumatera Barat,70402,Sumatera,Sumatera,False
+Sumatera Selatan,Kepulauan Riau,70327,Sumatera,Sumatera,False
+Sulawesi Selatan,DI Yogyakarta,70037,Sulawesi,Jawa,False
+DKI Jakarta,Sulawesi Tengah,69867,Jawa,Sulawesi,False
+Bali,Sulawesi Tengah,69817,Bali & Nusa Tenggara,Sulawesi,False
+Bali,Sulawesi Utara,69465,Bali & Nusa Tenggara,Sulawesi,False
+Nusa Tenggara Barat,Banten,69333,Bali & Nusa Tenggara,Jawa,False
+Nusa Tenggara Barat,Sulawesi Tengah,68853,Bali & Nusa Tenggara,Sulawesi,False
+DKI Jakarta,Nusa Tenggara Timur,68496,Jawa,Bali & Nusa Tenggara,False
+Jawa Tengah,Sumatera Barat,67933,Jawa,Sumatera,False
+Sulawesi Tenggara,Jawa Timur,67820,Sulawesi,Jawa,False
+Banten,Jambi,67265,Jawa,Sumatera,False
+Kalimantan Barat,Banten,67197,Kalimantan,Jawa,False
+Sumatera Utara,DI Yogyakarta,67005,Sumatera,Jawa,False
+Nusa Tenggara Barat,Sulawesi Selatan,66983,Bali & Nusa Tenggara,Sulawesi,False
+Sulawesi Utara,Jawa Timur,66011,Sulawesi,Jawa,False
+Riau,DI Yogyakarta,65518,Sumatera,Jawa,False
+Jambi,Banten,65076,Sumatera,Jawa,False
+DKI Jakarta,Sulawesi Tenggara,64710,Jawa,Sulawesi,False
+Sulawesi Tengah,Jawa Barat,64263,Sulawesi,Jawa,False
+Jawa Tengah,Nusa Tenggara Barat,64151,Jawa,Bali & Nusa Tenggara,False
+Kalimantan Timur,Bali,63598,Kalimantan,Bali & Nusa Tenggara,False
+Kalimantan Selatan,Sulawesi Selatan,63238,Kalimantan,Sulawesi,False
+Riau,Aceh,63073,Sumatera,Sumatera,False
+Kalimantan Utara,Jawa Timur,63026,Kalimantan,Jawa,False
+Maluku Utara,Sulawesi Selatan,62479,Maluku,Sulawesi,False
+Jambi,Kepulauan Riau,62321,Sumatera,Sumatera,False
+DI Yogyakarta,Lampung,62013,Jawa,Sumatera,False
+Nusa Tenggara Barat,Sulawesi Barat,60996,Bali & Nusa Tenggara,Sulawesi,False
+Sulawesi Selatan,Kalimantan Utara,60361,Sulawesi,Kalimantan,False
+Kepulauan Bangka Belitung,Jawa Tengah,59169,Sumatera,Jawa,False
+Banten,Kalimantan Selatan,59155,Jawa,Kalimantan,False
+DKI Jakarta,Bengkulu,58925,Jawa,Sumatera,False
+Banten,Kepulauan Bangka Belitung,58034,Jawa,Sumatera,False
+Aceh,Jawa Timur,57964,Sumatera,Jawa,False
+Sulawesi Tengah,Kalimantan Timur,57751,Sulawesi,Kalimantan,False
+Kalimantan Timur,Sulawesi Tengah,57363,Kalimantan,Sulawesi,False
+DI Yogyakarta,Sumatera Selatan,57050,Jawa,Sumatera,False
+Sumatera Utara,Lampung,56979,Sumatera,Sumatera,False
+Papua Tengah,Sulawesi Selatan,56505,Papua,Sulawesi,False
+Kepulauan Riau,Banten,56381,Sumatera,Jawa,False
+Papua,Papua Tengah,55977,Papua,Papua,False
+Maluku Utara,Sulawesi Tenggara,55695,Maluku,Sulawesi,False
+Jawa Timur,Sulawesi Utara,55397,Jawa,Sulawesi,False
+Papua,Papua Barat,55044,Papua,Papua,False
+Papua Barat,Papua,54623,Papua,Papua,False
+Maluku,DKI Jakarta,54443,Maluku,Jawa,False
+Aceh,Riau,54032,Sumatera,Sumatera,False
+Sulawesi Utara,Jawa Barat,53592,Sulawesi,Jawa,False
+DI Yogyakarta,Kalimantan Timur,52885,Jawa,Kalimantan,False
+Nusa Tenggara Timur,Nusa Tenggara Barat,52587,Bali & Nusa Tenggara,Bali & Nusa Tenggara,False
+Papua Pegunungan,Papua Selatan,51559,Papua,Papua,False
+Sumatera Utara,Bali,50558,Sumatera,Bali & Nusa Tenggara,False
+Jawa Timur,Sumatera Barat,50397,Jawa,Sumatera,False
+Sulawesi Selatan,Maluku,50105,Sulawesi,Maluku,False
+Gorontalo,Sulawesi Selatan,49365,Sulawesi,Sulawesi,False
+Kalimantan Barat,DI Yogyakarta,49351,Kalimantan,Jawa,False
+Sulawesi Selatan,Nusa Tenggara Timur,49098,Sulawesi,Bali & Nusa Tenggara,False
+Kepulauan Riau,Sumatera Selatan,48538,Sumatera,Sumatera,False
+Sulawesi Tengah,Jawa Tengah,48396,Sulawesi,Jawa,False
+Kalimantan Timur,Sulawesi Barat,48230,Kalimantan,Sulawesi,False
+Banten,Nusa Tenggara Barat,47516,Jawa,Bali & Nusa Tenggara,False
+Banten,Sulawesi Utara,47399,Jawa,Sulawesi,False
+Riau,Lampung,47375,Sumatera,Sumatera,False
+Bengkulu,Jawa Tengah,46920,Sumatera,Jawa,False
+DKI Jakarta,Maluku,46828,Jawa,Maluku,False
+Maluku,Jawa Timur,46749,Maluku,Jawa,False
+Banten,Bengkulu,46412,Jawa,Sumatera,False
+Sulawesi Selatan,Kalimantan Selatan,46223,Sulawesi,Kalimantan,False
+Jambi,DI Yogyakarta,45927,Sumatera,Jawa,False
+Jawa Barat,Maluku Utara,45747,Jawa,Maluku,False
+Jawa Tengah,Sulawesi Tengah,45265,Jawa,Sulawesi,False
+Lampung,Bali,45128,Sumatera,Bali & Nusa Tenggara,False
+Banten,Aceh,44998,Jawa,Sumatera,False
+Sulawesi Barat,Kalimantan Timur,44148,Sulawesi,Kalimantan,False
+Kepulauan Bangka Belitung,Lampung,43834,Sumatera,Sumatera,False
+Sulawesi Tenggara,Jawa Barat,43540,Sulawesi,Jawa,False
+Maluku Utara,DKI Jakarta,42869,Maluku,Jawa,False
+Bengkulu,Jawa Timur,42789,Sumatera,Jawa,False
+Sulawesi Selatan,Maluku Utara,41985,Sulawesi,Maluku,False
+Banten,Kalimantan Tengah,41919,Jawa,Kalimantan,False
+Jawa Tengah,Nusa Tenggara Timur,41815,Jawa,Bali & Nusa Tenggara,False
+Bali,Sulawesi Selatan,41812,Bali & Nusa Tenggara,Sulawesi,False
+Maluku Utara,Jawa Timur,41783,Maluku,Jawa,False
+Kalimantan Barat,Kalimantan Timur,41721,Kalimantan,Kalimantan,False
+Aceh,Jawa Tengah,41159,Sumatera,Jawa,False
+Bengkulu,Banten,40991,Sumatera,Jawa,False
+Jawa Barat,Maluku,40916,Jawa,Maluku,False
+Sumatera Selatan,Bali,40863,Sumatera,Bali & Nusa Tenggara,False
+Jawa Timur,Jambi,40417,Jawa,Sumatera,False
+Papua,DKI Jakarta,40035,Papua,Jawa,False
+DKI Jakarta,Papua,39374,Jawa,Papua,False
+Sulawesi Selatan,Papua,39231,Sulawesi,Papua,False
+Aceh,Sumatera Barat,39111,Sumatera,Sumatera,False
+Maluku,Sulawesi Selatan,38771,Maluku,Sulawesi,False
+Banten,Sulawesi Tengah,38473,Jawa,Sulawesi,False
+Kalimantan Timur,Sumatera Utara,38019,Kalimantan,Sumatera,False
+Papua,Sulawesi Selatan,37983,Papua,Sulawesi,False
+Papua Tengah,Jawa Timur,37799,Papua,Jawa,False
+Lampung,Kepulauan Bangka Belitung,37345,Sumatera,Sumatera,False
+Maluku,Maluku Utara,36712,Maluku,Maluku,False
+Sumatera Utara,Sulawesi Selatan,36494,Sumatera,Sulawesi,False
+Kalimantan Barat,Kepulauan Riau,36281,Kalimantan,Sumatera,False
+Sumatera Barat,Lampung,36128,Sumatera,Sumatera,False
+Kepulauan Riau,Jambi,35646,Sumatera,Sumatera,False
+Papua Selatan,Papua,35377,Papua,Papua,False
+Kalimantan Tengah,Banten,35294,Kalimantan,Jawa,False
+Jawa Barat,Papua,35183,Jawa,Papua,False
+DI Yogyakarta,Riau,34928,Jawa,Sumatera,False
+Sumatera Barat,Aceh,34855,Sumatera,Sumatera,False
+Nusa Tenggara Barat,Kalimantan Timur,34703,Bali & Nusa Tenggara,Kalimantan,False
+Bengkulu,Sumatera Utara,34625,Sumatera,Sumatera,False
+Sulawesi Tengah,Banten,34596,Sulawesi,Jawa,False
+Banten,Nusa Tenggara Timur,34448,Jawa,Bali & Nusa Tenggara,False
+Maluku Utara,Sulawesi Tengah,34383,Maluku,Sulawesi,False
+Jawa Tengah,Aceh,34343,Jawa,Sumatera,False
+Jawa Tengah,Sulawesi Tenggara,34329,Jawa,Sulawesi,False
+Jawa Timur,Maluku,34294,Jawa,Maluku,False
+Jawa Tengah,Bengkulu,34190,Jawa,Sumatera,False
+Kepulauan Bangka Belitung,DI Yogyakarta,34086,Sumatera,Jawa,False
+DI Yogyakarta,Sumatera Utara,33814,Jawa,Sumatera,False
+Jawa Timur,Kalimantan Utara,33569,Jawa,Kalimantan,False
+Jawa Timur,Aceh,33558,Jawa,Sumatera,False
+Nusa Tenggara Timur,Sumatera Utara,33512,Bali & Nusa Tenggara,Sumatera,False
+Sulawesi Selatan,Gorontalo,33440,Sulawesi,Sulawesi,False
+Kalimantan Barat,Sumatera Utara,33339,Kalimantan,Sumatera,False
+DKI Jakarta,Maluku Utara,32808,Jawa,Maluku,False
+Sumatera Utara,Kalimantan Timur,32802,Sumatera,Kalimantan,False
+Sulawesi Selatan,Sumatera Utara,32713,Sulawesi,Sumatera,False
+Sulawesi Barat,Sulawesi Tenggara,32596,Sulawesi,Sulawesi,False
+Sulawesi Utara,Bali,32558,Sulawesi,Bali & Nusa Tenggara,False
+DI Yogyakarta,Sulawesi Selatan,32324,Jawa,Sulawesi,False
+Maluku,Jawa Barat,32296,Maluku,Jawa,False
+Kepulauan Riau,Kalimantan Barat,31875,Sumatera,Kalimantan,False
+DI Yogyakarta,Kalimantan Barat,31869,Jawa,Kalimantan,False
+Kalimantan Selatan,Kalimantan Barat,31659,Kalimantan,Kalimantan,False
+Kepulauan Riau,DI Yogyakarta,31030,Sumatera,Jawa,False
+Banten,Sulawesi Tenggara,30789,Jawa,Sulawesi,False
+Maluku,Sulawesi Tenggara,30730,Maluku,Sulawesi,False
+Maluku Utara,Jawa Barat,30696,Maluku,Jawa,False
+Bali,Sumatera Utara,30615,Bali & Nusa Tenggara,Sumatera,False
+Jawa Barat,Kalimantan Utara,30599,Jawa,Kalimantan,False
+Nusa Tenggara Barat,Sumatera Utara,30589,Bali & Nusa Tenggara,Sumatera,False
+Sulawesi Utara,Jawa Tengah,30525,Sulawesi,Jawa,False
+Sumatera Barat,DI Yogyakarta,30404,Sumatera,Jawa,False
+Sulawesi Tenggara,Jawa Tengah,30375,Sulawesi,Jawa,False
+Gorontalo,DKI Jakarta,29980,Sulawesi,Jawa,False
+Sulawesi Tenggara,Maluku Utara,29803,Sulawesi,Maluku,False
+Papua Tengah,DKI Jakarta,29800,Papua,Jawa,False
+Aceh,Banten,29718,Sumatera,Jawa,False
+Sumatera Utara,Bengkulu,29660,Sumatera,Sumatera,False
+DI Yogyakarta,Kalimantan Tengah,29508,Jawa,Kalimantan,False
+Jawa Tengah,Sulawesi Utara,29360,Jawa,Sulawesi,False
+Kalimantan Utara,DKI Jakarta,29094,Kalimantan,Jawa,False
+Jawa Timur,Maluku Utara,28744,Jawa,Maluku,False
+Papua,Jawa Timur,28644,Papua,Jawa,False
+Kalimantan Timur,Sulawesi Tenggara,28616,Kalimantan,Sulawesi,False
+Bengkulu,Riau,28506,Sumatera,Sumatera,False
+Nusa Tenggara Timur,Banten,28473,Bali & Nusa Tenggara,Jawa,False
+Sulawesi Utara,Banten,27977,Sulawesi,Jawa,False
+Papua Barat Daya,Sulawesi Selatan,27813,Papua,Sulawesi,False
+Sumatera Selatan,Sulawesi Selatan,27401,Sumatera,Sulawesi,False
+Papua Barat Daya,Maluku,26926,Papua,Maluku,False
+Sumatera Selatan,Kalimantan Timur,26702,Sumatera,Kalimantan,False
+Papua Tengah,Papua Barat,26698,Papua,Papua,False
+Bengkulu,DI Yogyakarta,26361,Sumatera,Jawa,False
+Banten,Papua,26213,Jawa,Papua,False
+Kalimantan Tengah,Sumatera Utara,26123,Kalimantan,Sumatera,False
+Bali,Gorontalo,25805,Bali & Nusa Tenggara,Sulawesi,False
+Lampung,Kepulauan Riau,25493,Sumatera,Sumatera,False
+Papua Barat Daya,Papua,25481,Papua,Papua,False
+Gorontalo,Jawa Timur,25404,Sulawesi,Jawa,False
+Bali,Kalimantan Timur,25399,Bali & Nusa Tenggara,Kalimantan,False
+Sulawesi Selatan,Papua Barat,25335,Sulawesi,Papua,False
+Nusa Tenggara Timur,DI Yogyakarta,25092,Bali & Nusa Tenggara,Jawa,False
+Sulawesi Selatan,Papua Barat Daya,25053,Sulawesi,Papua,False
+Riau,Bengkulu,25023,Sumatera,Sumatera,False
+Kalimantan Timur,Sumatera Selatan,24936,Kalimantan,Sumatera,False
+Sulawesi Selatan,Nusa Tenggara Barat,24857,Sulawesi,Bali & Nusa Tenggara,False
+Jawa Barat,Papua Barat Daya,24707,Jawa,Papua,False
+Papua Barat,Sulawesi Selatan,24613,Papua,Sulawesi,False
+DKI Jakarta,Papua Barat Daya,24609,Jawa,Papua,False
+Sumatera Selatan,Aceh,24542,Sumatera,Sumatera,False
+Sulawesi Selatan,Papua Tengah,24539,Sulawesi,Papua,False
+Papua Barat Daya,DKI Jakarta,24348,Papua,Jawa,False
+Papua Barat Daya,Jawa Timur,24253,Papua,Jawa,False
+Jawa Barat,Gorontalo,23827,Jawa,Sulawesi,False
+Kalimantan Selatan,Sumatera Utara,23809,Kalimantan,Sumatera,False
+Kalimantan Timur,Kalimantan Barat,23739,Kalimantan,Kalimantan,False
+Maluku Utara,Jawa Tengah,23674,Maluku,Jawa,False
+Kalimantan Utara,Jawa Barat,23583,Kalimantan,Jawa,False
+Kalimantan Utara,Jawa Tengah,23442,Kalimantan,Jawa,False
+Sulawesi Tenggara,Papua Pegunungan,23374,Sulawesi,Papua,False
+Sulawesi Tenggara,Maluku,23374,Sulawesi,Maluku,False
+Papua Pegunungan,Papua Tengah,23189,Papua,Papua,False
+Papua Tengah,Jawa Barat,23020,Papua,Jawa,False
+Jawa Barat,Papua Barat,22947,Jawa,Papua,False
+Sulawesi Tenggara,Banten,22937,Sulawesi,Jawa,False
+Kalimantan Tengah,Sulawesi Selatan,22847,Kalimantan,Sulawesi,False
+Sulawesi Tenggara,Sulawesi Barat,22677,Sulawesi,Sulawesi,False
+Sumatera Utara,Kalimantan Barat,22673,Sumatera,Kalimantan,False
+Papua,Papua Selatan,22612,Papua,Papua,False
+Nusa Tenggara Timur,Kalimantan Timur,22543,Bali & Nusa Tenggara,Kalimantan,False
+Bali,Lampung,22419,Bali & Nusa Tenggara,Sumatera,False
+Jawa Timur,Bengkulu,22379,Jawa,Sumatera,False
+Papua Tengah,Papua Pegunungan,22256,Papua,Papua,False
+Aceh,Sumatera Selatan,22154,Sumatera,Sumatera,False
+DI Yogyakarta,Nusa Tenggara Barat,22058,Jawa,Bali & Nusa Tenggara,False
+Jawa Timur,Papua,21943,Jawa,Papua,False
+Kepulauan Riau,Lampung,21919,Sumatera,Sumatera,False
+Nusa Tenggara Barat,Kalimantan Tengah,21906,Bali & Nusa Tenggara,Kalimantan,False
+Kepulauan Bangka Belitung,Kepulauan Riau,21854,Sumatera,Sumatera,False
+Jawa Barat,Sulawesi Barat,21836,Jawa,Sulawesi,False
+Kalimantan Timur,Sulawesi Utara,21572,Kalimantan,Sulawesi,False
+Jawa Tengah,Maluku Utara,21545,Jawa,Maluku,False
+DKI Jakarta,Kalimantan Utara,21508,Jawa,Kalimantan,False
+Papua Barat,DKI Jakarta,21023,Papua,Jawa,False
+Sulawesi Selatan,Kalimantan Tengah,21016,Sulawesi,Kalimantan,False
+Gorontalo,Jawa Barat,20908,Sulawesi,Jawa,False
+Sumatera Utara,Kalimantan Tengah,20738,Sumatera,Kalimantan,False
+Sulawesi Barat,Jawa Timur,20699,Sulawesi,Jawa,False
+Papua,Papua Barat Daya,20591,Papua,Papua,False
+DI Yogyakarta,Jambi,20548,Jawa,Sumatera,False
+Nusa Tenggara Timur,Sumatera Selatan,20490,Bali & Nusa Tenggara,Sumatera,False
+DI Yogyakarta,Kalimantan Selatan,20459,Jawa,Kalimantan,False
+Sumatera Barat,Maluku Utara,20452,Sumatera,Maluku,False
+Jawa Tengah,Kepulauan Bangka Belitung,20346,Jawa,Sumatera,False
+Sumatera Utara,Sulawesi Tengah,20345,Sumatera,Sulawesi,False
+Kalimantan Timur,Nusa Tenggara Timur,20103,Kalimantan,Bali & Nusa Tenggara,False
+Sulawesi Utara,Kalimantan Timur,20079,Sulawesi,Kalimantan,False
+Sumatera Utara,Nusa Tenggara Timur,19879,Sumatera,Bali & Nusa Tenggara,False
+Riau,Sulawesi Selatan,19711,Sumatera,Sulawesi,False
+Jawa Timur,Papua Barat Daya,19619,Jawa,Papua,False
+Kalimantan Barat,Sulawesi Selatan,19563,Kalimantan,Sulawesi,False
+Nusa Tenggara Timur,Riau,19499,Bali & Nusa Tenggara,Sumatera,False
+Kepulauan Riau,Aceh,19353,Sumatera,Sumatera,False
+Papua Tengah,Maluku,19350,Papua,Maluku,False
+DI Yogyakarta,Sumatera Barat,19343,Jawa,Sumatera,False
+Maluku,Jawa Tengah,19251,Maluku,Jawa,False
+Sulawesi Tengah,DI Yogyakarta,19209,Sulawesi,Jawa,False
+Sulawesi Tengah,Maluku Utara,19148,Sulawesi,Maluku,False
+Kalimantan Barat,Bali,18959,Kalimantan,Bali & Nusa Tenggara,False
+Sulawesi Selatan,Sumatera Selatan,18924,Sulawesi,Sumatera,False
+Aceh,Kepulauan Riau,18874,Sumatera,Sumatera,False
+Kalimantan Barat,Kalimantan Selatan,18703,Kalimantan,Kalimantan,False
+Maluku,Papua Barat,18686,Maluku,Papua,False
+Banten,Maluku Utara,18598,Jawa,Maluku,False
+Papua Barat,Jawa Timur,18595,Papua,Jawa,False
+Kalimantan Timur,Riau,18585,Kalimantan,Sumatera,False
+Papua Tengah,Jawa Tengah,18526,Papua,Jawa,False
+DKI Jakarta,Papua Barat,18511,Jawa,Papua,False
+Lampung,Sulawesi Selatan,18481,Sumatera,Sulawesi,False
+Kalimantan Barat,Riau,18320,Kalimantan,Sumatera,False
+Jawa Tengah,Maluku,18288,Jawa,Maluku,False
+Bali,Sumatera Selatan,18084,Bali & Nusa Tenggara,Sumatera,False
+Sulawesi Tenggara,Kalimantan Timur,17870,Sulawesi,Kalimantan,False
+Sulawesi Barat,DKI Jakarta,17764,Sulawesi,Jawa,False
+Kalimantan Barat,Sumatera Selatan,17347,Kalimantan,Sumatera,False
+Papua,Jawa Barat,17299,Papua,Jawa,False
+Sulawesi Selatan,Kalimantan Barat,17283,Sulawesi,Kalimantan,False
+Kepulauan Bangka Belitung,Jawa Barat,16992,Sumatera,Jawa,False
+Maluku,Papua Barat Daya,16892,Maluku,Papua,False
+Kepulauan Bangka Belitung,Sumatera Utara,16721,Sumatera,Sumatera,False
+Sulawesi Tengah,Bali,16668,Sulawesi,Bali & Nusa Tenggara,False
+Riau,Kalimantan Timur,16658,Sumatera,Kalimantan,False
+Nusa Tenggara Barat,Kalimantan Selatan,16642,Bali & Nusa Tenggara,Kalimantan,False
+Sulawesi Selatan,Kepulauan Riau,16556,Sulawesi,Sumatera,False
+Nusa Tenggara Timur,Sulawesi Tenggara,16342,Bali & Nusa Tenggara,Sulawesi,False
+Nusa Tenggara Barat,Sumatera Selatan,16341,Bali & Nusa Tenggara,Sumatera,False
+Kalimantan Timur,Lampung,16322,Kalimantan,Sumatera,False
+Kalimantan Timur,Kalimantan Tengah,16309,Kalimantan,Kalimantan,False
+Jawa Tengah,Kalimantan Utara,16287,Jawa,Kalimantan,False
+Sulawesi Selatan,Papua Selatan,16105,Sulawesi,Papua,False
+Kalimantan Timur,Nusa Tenggara Barat,16045,Kalimantan,Bali & Nusa Tenggara,False
+Kepulauan Riau,Sulawesi Selatan,16044,Sumatera,Sulawesi,False
+Lampung,Aceh,16037,Sumatera,Sumatera,False
+Sulawesi Tengah,Sumatera Utara,15966,Sulawesi,Sumatera,False
+Sulawesi Selatan,Riau,15943,Sulawesi,Sumatera,False
+Papua Pegunungan,Sulawesi Selatan,15903,Papua,Sulawesi,False
+Sulawesi Tenggara,DI Yogyakarta,15855,Sulawesi,Jawa,False
+Nusa Tenggara Timur,Aceh,15830,Bali & Nusa Tenggara,Sumatera,False
+Jawa Timur,Kepulauan Bangka Belitung,15795,Jawa,Sumatera,False
+DI Yogyakarta,Bengkulu,15704,Jawa,Sumatera,False
+Riau,Bali,15696,Sumatera,Bali & Nusa Tenggara,False
+Papua Barat,Papua Tengah,15601,Papua,Papua,False
+Sulawesi Barat,Jawa Barat,15597,Sulawesi,Jawa,False
+Nusa Tenggara Barat,Riau,15583,Bali & Nusa Tenggara,Sumatera,False
+Nusa Tenggara Barat,Kalimantan Barat,15581,Bali & Nusa Tenggara,Kalimantan,False
+Banten,Papua Barat Daya,15372,Jawa,Papua,False
+Jawa Timur,Gorontalo,15140,Jawa,Sulawesi,False
+Kalimantan Selatan,Sumatera Selatan,15129,Kalimantan,Sumatera,False
+Bali,Kepulauan Riau,15088,Bali & Nusa Tenggara,Sumatera,False
+Kepulauan Riau,Bali,14962,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Utara,Sulawesi Tenggara,14863,Sumatera,Sulawesi,False
+Kalimantan Utara,Sulawesi Tengah,14747,Kalimantan,Sulawesi,False
+Jawa Timur,Papua Barat,14709,Jawa,Papua,False
+Sumatera Barat,Sulawesi Selatan,14652,Sumatera,Sulawesi,False
+Papua Selatan,Sulawesi Selatan,14454,Papua,Sulawesi,False
+Sumatera Barat,Maluku,14217,Sumatera,Maluku,False
+Sumatera Utara,Kalimantan Selatan,14199,Sumatera,Kalimantan,False
+Maluku,Sulawesi Barat,14133,Maluku,Sulawesi,False
+Sulawesi Selatan,Sumatera Barat,13775,Sulawesi,Sumatera,False
+Jawa Timur,Lampung,13736,Jawa,Sumatera,False
+Jawa Barat,Papua Tengah,13676,Jawa,Papua,False
+Jawa Timur,Sulawesi Barat,13669,Jawa,Sulawesi,False
+Kalimantan Timur,Kepulauan Riau,13640,Kalimantan,Sumatera,False
+Nusa Tenggara Barat,Kepulauan Riau,13498,Bali & Nusa Tenggara,Sumatera,False
+DI Yogyakarta,Nusa Tenggara Timur,13433,Jawa,Bali & Nusa Tenggara,False
+Aceh,Sulawesi Selatan,13330,Sumatera,Sulawesi,False
+Jambi,Aceh,13314,Sumatera,Sumatera,False
+Sumatera Selatan,Sulawesi Tengah,13237,Sumatera,Sulawesi,False
+Papua,Jawa Tengah,13181,Papua,Jawa,False
+Papua Barat Daya,Sulawesi Utara,13126,Papua,Sulawesi,False
+Kalimantan Selatan,Sulawesi Barat,13046,Kalimantan,Sulawesi,False
+DI Yogyakarta,Sulawesi Tengah,13033,Jawa,Sulawesi,False
+Sulawesi Utara,Sulawesi Tenggara,13022,Sulawesi,Sulawesi,False
+Sulawesi Selatan,Lampung,13010,Sulawesi,Sumatera,False
+Sumatera Selatan,Nusa Tenggara Timur,12949,Sumatera,Bali & Nusa Tenggara,False
+Kalimantan Barat,Lampung,12897,Kalimantan,Sumatera,False
+Nusa Tenggara Barat,Lampung,12878,Bali & Nusa Tenggara,Sumatera,False
+Kepulauan Bangka Belitung,Kalimantan Barat,12744,Sumatera,Kalimantan,False
+Kalimantan Timur,Sumatera Barat,12640,Kalimantan,Sumatera,False
+Banten,Kalimantan Utara,12578,Jawa,Kalimantan,False
+Sumatera Utara,Sulawesi Utara,12520,Sumatera,Sulawesi,False
+Aceh,Lampung,12480,Sumatera,Sumatera,False
+Kepulauan Riau,Kalimantan Timur,12451,Sumatera,Kalimantan,False
+Lampung,Kalimantan Tengah,12345,Sumatera,Kalimantan,False
+Nusa Tenggara Timur,Lampung,12333,Bali & Nusa Tenggara,Sumatera,False
+Lampung,Kalimantan Barat,12331,Sumatera,Kalimantan,False
+Kalimantan Tengah,Sumatera Selatan,12294,Kalimantan,Sumatera,False
+Jawa Tengah,Papua,12273,Jawa,Papua,False
+Papua Tengah,Papua Selatan,12160,Papua,Papua,False
+Sulawesi Tengah,Kalimantan Utara,12149,Sulawesi,Kalimantan,False
+Kalimantan Tengah,Riau,12137,Kalimantan,Sumatera,False
+Sumatera Selatan,Kalimantan Barat,12106,Sumatera,Kalimantan,False
+Papua Tengah,Sulawesi Utara,12086,Papua,Sulawesi,False
+Sulawesi Utara,Sulawesi Tengah,12085,Sulawesi,Sulawesi,False
+Nusa Tenggara Barat,Sumatera Barat,11962,Bali & Nusa Tenggara,Sumatera,False
+Papua Barat,Jawa Barat,11830,Papua,Jawa,False
+Sulawesi Utara,Maluku,11758,Sulawesi,Maluku,False
+Maluku Utara,Sumatera Barat,11703,Maluku,Sumatera,False
+DI Yogyakarta,Sulawesi Tenggara,11655,Jawa,Sulawesi,False
+Maluku Utara,Banten,11611,Maluku,Jawa,False
+Sulawesi Barat,Jawa Tengah,11516,Sulawesi,Jawa,False
+Aceh,Jambi,11364,Sumatera,Sumatera,False
+Bali,Riau,11256,Bali & Nusa Tenggara,Sumatera,False
+Kepulauan Bangka Belitung,Riau,11144,Sumatera,Sumatera,False
+Sumatera Barat,Bali,11103,Sumatera,Bali & Nusa Tenggara,False
+Gorontalo,Jawa Tengah,11096,Sulawesi,Jawa,False
+Bali,Kalimantan Barat,11091,Bali & Nusa Tenggara,Kalimantan,False
+Sulawesi Tenggara,Bali,11034,Sulawesi,Bali & Nusa Tenggara,False
+Kalimantan Selatan,Riau,11005,Kalimantan,Sumatera,False
+Bali,Sumatera Barat,10967,Bali & Nusa Tenggara,Sumatera,False
+Kalimantan Utara,DI Yogyakarta,10904,Kalimantan,Jawa,False
+Kalimantan Selatan,Sulawesi Tengah,10842,Kalimantan,Sulawesi,False
+Kalimantan Barat,Sumatera Barat,10747,Kalimantan,Sumatera,False
+Bali,Kalimantan Selatan,10743,Bali & Nusa Tenggara,Kalimantan,False
+Sulawesi Tengah,Sumatera Selatan,10740,Sulawesi,Sumatera,False
+Kepulauan Riau,Kepulauan Bangka Belitung,10739,Sumatera,Sumatera,False
+Riau,Kalimantan Barat,10717,Sumatera,Kalimantan,False
+Sulawesi Utara,Papua Barat Daya,10656,Sulawesi,Papua,False
+Kalimantan Selatan,Nusa Tenggara Barat,10623,Kalimantan,Bali & Nusa Tenggara,False
+Riau,Nusa Tenggara Timur,10605,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Selatan,Kalimantan Selatan,10572,Sumatera,Kalimantan,False
+Nusa Tenggara Timur,Sulawesi Tengah,10555,Bali & Nusa Tenggara,Sulawesi,False
+Maluku Utara,Papua Barat Daya,10548,Maluku,Papua,False
+Nusa Tenggara Barat,Aceh,10521,Bali & Nusa Tenggara,Sumatera,False
+Papua Barat Daya,Maluku Utara,10468,Papua,Maluku,False
+Sumatera Utara,Nusa Tenggara Barat,10399,Sumatera,Bali & Nusa Tenggara,False
+Maluku,Banten,10366,Maluku,Jawa,False
+Papua Barat Daya,Jawa Barat,10364,Papua,Jawa,False
+DKI Jakarta,Papua Tengah,10301,Jawa,Papua,False
+Jawa Tengah,Sulawesi Barat,10296,Jawa,Sulawesi,False
+Kalimantan Tengah,Lampung,10256,Kalimantan,Sumatera,False
+Banten,Papua Barat,10245,Jawa,Papua,False
+Sulawesi Tenggara,Sulawesi Utara,10210,Sulawesi,Sulawesi,False
+Sulawesi Tengah,Riau,10203,Sulawesi,Sumatera,False
+Nusa Tenggara Barat,Sulawesi Tenggara,10192,Bali & Nusa Tenggara,Sulawesi,False
+Sulawesi Selatan,Aceh,10156,Sulawesi,Sumatera,False
+Sulawesi Utara,Sumatera Utara,10144,Sulawesi,Sumatera,False
+Sumatera Selatan,Kalimantan Tengah,10110,Sumatera,Kalimantan,False
+Nusa Tenggara Timur,Maluku,10087,Bali & Nusa Tenggara,Maluku,False
+Jawa Tengah,Papua Barat Daya,10017,Jawa,Papua,False
+Jawa Barat,Papua Selatan,9978,Jawa,Papua,False
+Lampung,Sulawesi Tengah,9918,Sumatera,Sulawesi,False
+Nusa Tenggara Timur,Kalimantan Tengah,9882,Bali & Nusa Tenggara,Kalimantan,False
+Maluku Utara,Nusa Tenggara Timur,9791,Maluku,Bali & Nusa Tenggara,False
+Maluku,Nusa Tenggara Timur,9791,Maluku,Bali & Nusa Tenggara,False
+Papua Selatan,Jawa Timur,9547,Papua,Jawa,False
+Kalimantan Selatan,Sumatera Barat,9540,Kalimantan,Sumatera,False
+Papua Tengah,Papua Barat Daya,9477,Papua,Papua,False
+Papua Selatan,DKI Jakarta,9468,Papua,Jawa,False
+Maluku Utara,Gorontalo,9464,Maluku,Sulawesi,False
+Sumatera Barat,Kalimantan Timur,9463,Sumatera,Kalimantan,False
+Papua Barat,Jawa Tengah,9403,Papua,Jawa,False
+Nusa Tenggara Timur,Kepulauan Riau,9382,Bali & Nusa Tenggara,Sumatera,False
+Kalimantan Selatan,Lampung,9363,Kalimantan,Sumatera,False
+Kalimantan Selatan,Sulawesi Tenggara,9353,Kalimantan,Sulawesi,False
+Bali,Kalimantan Tengah,9324,Bali & Nusa Tenggara,Kalimantan,False
+Sulawesi Utara,Papua,9262,Sulawesi,Papua,False
+Jawa Tengah,Gorontalo,9216,Jawa,Sulawesi,False
+Papua Pegunungan,Jawa Timur,9147,Papua,Jawa,False
+Sulawesi Tenggara,Sumatera Utara,9144,Sulawesi,Sumatera,False
+Bali,Sulawesi Tenggara,9119,Bali & Nusa Tenggara,Sulawesi,False
+Papua Barat Daya,Jawa Tengah,9061,Papua,Jawa,False
+DI Yogyakarta,Kepulauan Bangka Belitung,9045,Jawa,Sumatera,False
+DI Yogyakarta,Aceh,8907,Jawa,Sumatera,False
+Kalimantan Tengah,Nusa Tenggara Barat,8876,Kalimantan,Bali & Nusa Tenggara,False
+Maluku,Papua Tengah,8857,Maluku,Papua,False
+Riau,Sulawesi Tenggara,8765,Sumatera,Sulawesi,False
+Papua,Maluku,8756,Papua,Maluku,False
+Kepulauan Bangka Belitung,Sumatera Barat,8749,Sumatera,Sumatera,False
+Lampung,Nusa Tenggara Timur,8744,Sumatera,Bali & Nusa Tenggara,False
+Kalimantan Utara,Banten,8733,Kalimantan,Jawa,False
+Papua,Sulawesi Utara,8723,Papua,Sulawesi,False
+Maluku,Sumatera Utara,8715,Maluku,Sumatera,False
+Kalimantan Tengah,Nusa Tenggara Timur,8707,Kalimantan,Bali & Nusa Tenggara,False
+Papua Tengah,DI Yogyakarta,8707,Papua,Jawa,False
+Papua Tengah,Banten,8662,Papua,Jawa,False
+Banten,Gorontalo,8590,Jawa,Sulawesi,False
+Jambi,Bali,8584,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Utara,Kepulauan Bangka Belitung,8514,Sumatera,Sumatera,False
+Sulawesi Tengah,Kalimantan Barat,8487,Sulawesi,Kalimantan,False
+Kalimantan Barat,Aceh,8470,Kalimantan,Sumatera,False
+Kalimantan Selatan,Kalimantan Utara,8467,Kalimantan,Kalimantan,False
+Papua Tengah,Sulawesi Tenggara,8447,Papua,Sulawesi,False
+Banten,Papua Tengah,8434,Jawa,Papua,False
+Jambi,Kepulauan Bangka Belitung,8403,Sumatera,Sumatera,False
+Maluku Utara,Sumatera Utara,8385,Maluku,Sumatera,False
+Maluku,Sulawesi Utara,8349,Maluku,Sulawesi,False
+Riau,Kalimantan Tengah,8332,Sumatera,Kalimantan,False
+Sumatera Selatan,Nusa Tenggara Barat,8157,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Utara,Maluku Utara,8130,Sumatera,Maluku,False
+Kalimantan Barat,Sulawesi Tengah,8109,Kalimantan,Sulawesi,False
+Lampung,Kalimantan Selatan,8066,Sumatera,Kalimantan,False
+Nusa Tenggara Timur,Jambi,8059,Bali & Nusa Tenggara,Sumatera,False
+DI Yogyakarta,Sulawesi Utara,8044,Jawa,Sulawesi,False
+Sulawesi Selatan,Jambi,8006,Sulawesi,Sumatera,False
+Papua Pegunungan,Jawa Barat,7994,Papua,Jawa,False
+Papua Selatan,Papua Pegunungan,7992,Papua,Papua,False
+Maluku Utara,DI Yogyakarta,7967,Maluku,Jawa,False
+Kalimantan Selatan,Kepulauan Riau,7877,Kalimantan,Sumatera,False
+Gorontalo,Banten,7852,Sulawesi,Jawa,False
+Sumatera Barat,Sulawesi Tengah,7830,Sumatera,Sulawesi,False
+Papua Pegunungan,DKI Jakarta,7803,Papua,Jawa,False
+Kalimantan Barat,Nusa Tenggara Timur,7800,Kalimantan,Bali & Nusa Tenggara,False
+Kalimantan Timur,Aceh,7780,Kalimantan,Sumatera,False
+Papua Barat Daya,Sulawesi Tenggara,7701,Papua,Sulawesi,False
+Gorontalo,Maluku Utara,7605,Sulawesi,Maluku,False
+Kalimantan Utara,Sumatera Utara,7601,Kalimantan,Sumatera,False
+Sumatera Selatan,Sulawesi Utara,7584,Sumatera,Sulawesi,False
+Lampung,Sulawesi Tenggara,7550,Sumatera,Sulawesi,False
+Papua Barat,Sulawesi Tenggara,7545,Papua,Sulawesi,False
+Banten,Maluku,7521,Jawa,Maluku,False
+Sumatera Barat,Nusa Tenggara Timur,7511,Sumatera,Bali & Nusa Tenggara,False
+DI Yogyakarta,Kepulauan Riau,7458,Jawa,Sumatera,False
+Gorontalo,Sulawesi Tenggara,7415,Sulawesi,Sulawesi,False
+Papua,Sulawesi Tenggara,7404,Papua,Sulawesi,False
+Kalimantan Timur,Jambi,7400,Kalimantan,Sumatera,False
+Papua,DI Yogyakarta,7390,Papua,Jawa,False
+Kalimantan Utara,Kalimantan Selatan,7347,Kalimantan,Kalimantan,False
+Nusa Tenggara Timur,Sulawesi Utara,7301,Bali & Nusa Tenggara,Sulawesi,False
+Jawa Timur,Papua Selatan,7282,Jawa,Papua,False
+Aceh,Nusa Tenggara Timur,7255,Sumatera,Bali & Nusa Tenggara,False
+Kalimantan Tengah,Sumatera Barat,7203,Kalimantan,Sumatera,False
+Riau,Kalimantan Selatan,7193,Sumatera,Kalimantan,False
+Sulawesi Tengah,Lampung,7083,Sulawesi,Sumatera,False
+Maluku,Papua Selatan,7037,Maluku,Papua,False
+Aceh,Kalimantan Timur,7005,Sumatera,Kalimantan,False
+Kepulauan Bangka Belitung,Bengkulu,6944,Sumatera,Sumatera,False
+Nusa Tenggara Barat,Jambi,6897,Bali & Nusa Tenggara,Sumatera,False
+Kalimantan Barat,Jambi,6803,Kalimantan,Sumatera,False
+Papua Selatan,Papua Tengah,6794,Papua,Papua,False
+Kepulauan Bangka Belitung,Bali,6790,Sumatera,Bali & Nusa Tenggara,False
+Kalimantan Selatan,Nusa Tenggara Timur,6782,Kalimantan,Bali & Nusa Tenggara,False
+Aceh,Bali,6692,Sumatera,Bali & Nusa Tenggara,False
+Papua,Banten,6689,Papua,Jawa,False
+Bengkulu,Kepulauan Riau,6646,Sumatera,Sumatera,False
+Sumatera Barat,Sulawesi Tenggara,6634,Sumatera,Sulawesi,False
+Jambi,Kalimantan Timur,6633,Sumatera,Kalimantan,False
+Maluku,Papua,6561,Maluku,Papua,False
+Sulawesi Tenggara,Sumatera Selatan,6546,Sulawesi,Sumatera,False
+Sulawesi Barat,Kalimantan Selatan,6522,Sulawesi,Kalimantan,False
+Kepulauan Riau,Nusa Tenggara Timur,6514,Sumatera,Bali & Nusa Tenggara,False
+Aceh,Sulawesi Tengah,6505,Sumatera,Sulawesi,False
+Kepulauan Riau,Bengkulu,6485,Sumatera,Sumatera,False
+Banten,Sulawesi Barat,6447,Jawa,Sulawesi,False
+DKI Jakarta,Gorontalo,6441,Jawa,Sulawesi,False
+Sulawesi Tengah,Kepulauan Riau,6415,Sulawesi,Sumatera,False
+Sulawesi Tengah,Sumatera Barat,6414,Sulawesi,Sumatera,False
+Maluku,DI Yogyakarta,6398,Maluku,Jawa,False
+Papua Tengah,Sumatera Utara,6315,Papua,Sumatera,False
+Kalimantan Timur,Maluku Utara,6272,Kalimantan,Maluku,False
+Sulawesi Tenggara,Nusa Tenggara Timur,6268,Sulawesi,Bali & Nusa Tenggara,False
+Jawa Tengah,Papua Tengah,6197,Jawa,Papua,False
+Nusa Tenggara Timur,Kalimantan Selatan,6161,Bali & Nusa Tenggara,Kalimantan,False
+Aceh,Sulawesi Tenggara,6140,Sumatera,Sulawesi,False
+Sulawesi Tengah,Kalimantan Selatan,6138,Sulawesi,Kalimantan,False
+Sulawesi Utara,Sumatera Selatan,6128,Sulawesi,Sumatera,False
+Sumatera Utara,Sulawesi Barat,6105,Sumatera,Sulawesi,False
+Jawa Timur,Sulawesi Tenggara,6087,Jawa,Sulawesi,False
+Riau,Sulawesi Utara,6043,Sumatera,Sulawesi,False
+Nusa Tenggara Timur,Kalimantan Barat,6039,Bali & Nusa Tenggara,Kalimantan,False
+Lampung,Nusa Tenggara Barat,6031,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Selatan,Maluku Utara,6026,Sumatera,Maluku,False
+Kalimantan Barat,Nusa Tenggara Barat,6008,Kalimantan,Bali & Nusa Tenggara,False
+Bali,Papua Barat Daya,5998,Bali & Nusa Tenggara,Papua,False
+Kalimantan Barat,Sulawesi Tenggara,5982,Kalimantan,Sulawesi,False
+Kalimantan Tengah,Kepulauan Riau,5973,Kalimantan,Sumatera,False
+Kepulauan Bangka Belitung,Sulawesi Selatan,5965,Sumatera,Sulawesi,False
+DI Yogyakarta,Kalimantan Utara,5907,Jawa,Kalimantan,False
+Maluku,Sumatera Selatan,5903,Maluku,Sumatera,False
+DI Yogyakarta,Maluku Utara,5894,Jawa,Maluku,False
+Nusa Tenggara Barat,Sulawesi Utara,5885,Bali & Nusa Tenggara,Sulawesi,False
+Nusa Tenggara Timur,Papua Barat,5868,Bali & Nusa Tenggara,Papua,False
+Bengkulu,Aceh,5866,Sumatera,Sumatera,False
+Riau,Kepulauan Bangka Belitung,5778,Sumatera,Sumatera,False
+Sulawesi Tenggara,Riau,5754,Sulawesi,Sumatera,False
+Sulawesi Utara,Papua Barat,5722,Sulawesi,Papua,False
+Gorontalo,Sumatera Utara,5667,Sulawesi,Sumatera,False
+Maluku Utara,Sumatera Selatan,5661,Maluku,Sumatera,False
+Maluku,Sumatera Barat,5646,Maluku,Sumatera,False
+Kepulauan Riau,Sulawesi Tenggara,5640,Sumatera,Sulawesi,False
+Riau,Nusa Tenggara Barat,5610,Sumatera,Bali & Nusa Tenggara,False
+Bali,Jambi,5583,Bali & Nusa Tenggara,Sumatera,False
+Papua Barat,Sulawesi Utara,5548,Papua,Sulawesi,False
+Bengkulu,Sulawesi Selatan,5501,Sumatera,Sulawesi,False
+DI Yogyakarta,Maluku,5466,Jawa,Maluku,False
+Sumatera Barat,Kalimantan Barat,5456,Sumatera,Kalimantan,False
+Nusa Tenggara Barat,Papua Barat Daya,5454,Bali & Nusa Tenggara,Papua,False
+DI Yogyakarta,Papua,5453,Jawa,Papua,False
+Aceh,Bengkulu,5367,Sumatera,Sumatera,False
+Kalimantan Selatan,Sulawesi Utara,5363,Kalimantan,Sulawesi,False
+Maluku Utara,Riau,5337,Maluku,Sumatera,False
+Gorontalo,DI Yogyakarta,5328,Sulawesi,Jawa,False
+Nusa Tenggara Barat,Kalimantan Utara,5323,Bali & Nusa Tenggara,Kalimantan,False
+Kalimantan Tengah,Jambi,5321,Kalimantan,Sumatera,False
+Kalimantan Tengah,Sulawesi Tengah,5317,Kalimantan,Sulawesi,False
+Bali,Maluku,5309,Bali & Nusa Tenggara,Maluku,False
+Bengkulu,Bali,5307,Sumatera,Bali & Nusa Tenggara,False
+Maluku,Riau,5282,Maluku,Sumatera,False
+Lampung,Sulawesi Utara,5254,Sumatera,Sulawesi,False
+Kalimantan Selatan,Aceh,5250,Kalimantan,Sumatera,False
+Kalimantan Selatan,Bali,5239,Kalimantan,Bali & Nusa Tenggara,False
+Papua Tengah,Bali,5204,Papua,Bali & Nusa Tenggara,False
+Sulawesi Utara,Riau,5149,Sulawesi,Sumatera,False
+Sulawesi Tengah,Aceh,5135,Sulawesi,Sumatera,False
+Nusa Tenggara Timur,Bengkulu,5100,Bali & Nusa Tenggara,Sumatera,False
+Sumatera Utara,Gorontalo,5100,Sumatera,Sulawesi,False
+Riau,Maluku Utara,5057,Sumatera,Maluku,False
+Sulawesi Tengah,Nusa Tenggara Timur,5051,Sulawesi,Bali & Nusa Tenggara,False
+Kepulauan Riau,Sulawesi Tengah,5013,Sumatera,Sulawesi,False
+Papua Barat Daya,DI Yogyakarta,4998,Papua,Jawa,False
+Sulawesi Barat,Banten,4928,Sulawesi,Jawa,False
+Papua Pegunungan,Jawa Tengah,4926,Papua,Jawa,False
+Nusa Tenggara Timur,Kalimantan Utara,4914,Bali & Nusa Tenggara,Kalimantan,False
+Kalimantan Tengah,Sulawesi Tenggara,4910,Kalimantan,Sulawesi,False
+Jambi,Sulawesi Tengah,4896,Sumatera,Sulawesi,False
+Jambi,Nusa Tenggara Timur,4881,Sumatera,Bali & Nusa Tenggara,False
+Sulawesi Barat,Sumatera Utara,4876,Sulawesi,Sumatera,False
+Sumatera Barat,Kalimantan Selatan,4874,Sumatera,Kalimantan,False
+Kalimantan Tengah,Aceh,4873,Kalimantan,Sumatera,False
+Papua Selatan,Jawa Barat,4767,Papua,Jawa,False
+Nusa Tenggara Timur,Maluku Utara,4753,Bali & Nusa Tenggara,Maluku,False
+Maluku,Sulawesi Tengah,4679,Maluku,Sulawesi,False
+Kepulauan Bangka Belitung,Kalimantan Timur,4677,Sumatera,Kalimantan,False
+Sumatera Barat,Kalimantan Tengah,4673,Sumatera,Kalimantan,False
+Sulawesi Tengah,Nusa Tenggara Barat,4665,Sulawesi,Bali & Nusa Tenggara,False
+Sumatera Utara,Kalimantan Utara,4662,Sumatera,Kalimantan,False
+Kalimantan Utara,Sulawesi Barat,4644,Kalimantan,Sulawesi,False
+Sulawesi Barat,DI Yogyakarta,4638,Sulawesi,Jawa,False
+Nusa Tenggara Timur,Sulawesi Barat,4602,Bali & Nusa Tenggara,Sulawesi,False
+Papua Selatan,Maluku,4600,Papua,Maluku,False
+Kalimantan Tengah,Sulawesi Utara,4584,Kalimantan,Sulawesi,False
+Kepulauan Riau,Kalimantan Selatan,4506,Sumatera,Kalimantan,False
+Kalimantan Timur,Bengkulu,4491,Kalimantan,Sumatera,False
+Sumatera Barat,Kepulauan Bangka Belitung,4452,Sumatera,Sumatera,False
+Kepulauan Riau,Kalimantan Tengah,4451,Sumatera,Kalimantan,False
+Sulawesi Barat,Bali,4426,Sulawesi,Bali & Nusa Tenggara,False
+Sulawesi Tenggara,Papua Barat Daya,4386,Sulawesi,Papua,False
+Lampung,Maluku Utara,4380,Sumatera,Maluku,False
+Jambi,Sulawesi Tenggara,4380,Sumatera,Sulawesi,False
+Aceh,DI Yogyakarta,4377,Sumatera,Jawa,False
+Jambi,Kalimantan Barat,4349,Sumatera,Kalimantan,False
+Sulawesi Tenggara,Gorontalo,4343,Sulawesi,Sulawesi,False
+Sulawesi Utara,Kepulauan Riau,4335,Sulawesi,Sumatera,False
+Sulawesi Selatan,Papua Pegunungan,4330,Sulawesi,Papua,False
+Sulawesi Tenggara,Kalimantan Selatan,4320,Sulawesi,Kalimantan,False
+Jawa Tengah,Papua Selatan,4310,Jawa,Papua,False
+Kalimantan Utara,Riau,4300,Kalimantan,Sumatera,False
+Kalimantan Barat,Sulawesi Utara,4294,Kalimantan,Sulawesi,False
+Sumatera Selatan,Sulawesi Barat,4256,Sumatera,Sulawesi,False
+Sulawesi Tenggara,Papua,4232,Sulawesi,Papua,False
+Papua Barat Daya,Papua Tengah,4190,Papua,Papua,False
+Papua Barat,DI Yogyakarta,4182,Papua,Jawa,False
+Kepulauan Riau,Sulawesi Utara,4180,Sumatera,Sulawesi,False
+Sumatera Barat,Nusa Tenggara Barat,4158,Sumatera,Bali & Nusa Tenggara,False
+Kalimantan Barat,Kepulauan Bangka Belitung,4156,Kalimantan,Sumatera,False
+Jawa Barat,Papua Pegunungan,4144,Jawa,Papua,False
+Jambi,Kalimantan Tengah,4135,Sumatera,Kalimantan,False
+Papua Barat Daya,Banten,4101,Papua,Jawa,False
+Sulawesi Utara,Sulawesi Barat,4093,Sulawesi,Sulawesi,False
+Sulawesi Selatan,Bengkulu,4065,Sulawesi,Sumatera,False
+Nusa Tenggara Barat,Maluku,4057,Bali & Nusa Tenggara,Maluku,False
+Sulawesi Tenggara,Papua Barat,4055,Sulawesi,Papua,False
+Papua,Sumatera Utara,4032,Papua,Sumatera,False
+Papua Selatan,Jawa Tengah,4024,Papua,Jawa,False
+Sulawesi Barat,Sulawesi Utara,4019,Sulawesi,Sulawesi,False
+Gorontalo,Sulawesi Barat,3998,Sulawesi,Sulawesi,False
+Sulawesi Tenggara,Lampung,3998,Sulawesi,Sumatera,False
+Sulawesi Utara,Papua Tengah,3987,Sulawesi,Papua,False
+Sulawesi Tengah,Jambi,3983,Sulawesi,Sumatera,False
+Kalimantan Timur,Gorontalo,3974,Kalimantan,Sulawesi,False
+Sumatera Utara,Papua,3972,Sumatera,Papua,False
+Nusa Tenggara Barat,Bengkulu,3953,Bali & Nusa Tenggara,Sumatera,False
+Papua Tengah,Kalimantan Timur,3946,Papua,Kalimantan,False
+Maluku,Bali,3945,Maluku,Bali & Nusa Tenggara,False
+Sulawesi Barat,Gorontalo,3921,Sulawesi,Sulawesi,False
+Kalimantan Barat,Bengkulu,3910,Kalimantan,Sumatera,False
+Sulawesi Utara,Lampung,3883,Sulawesi,Sumatera,False
+Papua Pegunungan,Sumatera Utara,3880,Papua,Sumatera,False
+Aceh,Kalimantan Barat,3852,Sumatera,Kalimantan,False
+Nusa Tenggara Barat,Maluku Utara,3833,Bali & Nusa Tenggara,Maluku,False
+Sulawesi Tenggara,Kepulauan Riau,3803,Sulawesi,Sumatera,False
+Papua Tengah,Nusa Tenggara Timur,3770,Papua,Bali & Nusa Tenggara,False
+Papua Barat,Banten,3765,Papua,Jawa,False
+Sulawesi Barat,Kalimantan Utara,3756,Sulawesi,Kalimantan,False
+Sumatera Utara,Papua Barat,3750,Sumatera,Papua,False
+Maluku,Lampung,3736,Maluku,Sumatera,False
+Nusa Tenggara Timur,Papua Barat Daya,3722,Bali & Nusa Tenggara,Papua,False
+Bengkulu,Kepulauan Bangka Belitung,3710,Sumatera,Sumatera,False
+Gorontalo,Sumatera Selatan,3697,Sulawesi,Sumatera,False
+Jambi,Kalimantan Selatan,3692,Sumatera,Kalimantan,False
+Aceh,Nusa Tenggara Barat,3689,Sumatera,Bali & Nusa Tenggara,False
+Sulawesi Tenggara,Sumatera Barat,3648,Sulawesi,Sumatera,False
+Maluku Utara,Lampung,3636,Maluku,Sumatera,False
+Bali,Sulawesi Barat,3630,Bali & Nusa Tenggara,Sulawesi,False
+Bengkulu,Kalimantan Timur,3603,Sumatera,Kalimantan,False
+Kalimantan Barat,Maluku Utara,3570,Kalimantan,Maluku,False
+Sulawesi Tengah,Kalimantan Tengah,3548,Sulawesi,Kalimantan,False
+DI Yogyakarta,Papua Barat Daya,3532,Jawa,Papua,False
+Papua Tengah,Sumatera Selatan,3520,Papua,Sumatera,False
+Bali,Bengkulu,3519,Bali & Nusa Tenggara,Sumatera,False
+Sulawesi Utara,Nusa Tenggara Timur,3472,Sulawesi,Bali & Nusa Tenggara,False
+Aceh,Sulawesi Utara,3455,Sumatera,Sulawesi,False
+Sumatera Selatan,Kalimantan Utara,3438,Sumatera,Kalimantan,False
+Sumatera Utara,Papua Barat Daya,3436,Sumatera,Papua,False
+Kepulauan Riau,Nusa Tenggara Barat,3406,Sumatera,Bali & Nusa Tenggara,False
+Aceh,Kalimantan Selatan,3400,Sumatera,Kalimantan,False
+Sulawesi Utara,Kalimantan Tengah,3382,Sulawesi,Kalimantan,False
+Sumatera Selatan,Gorontalo,3379,Sumatera,Sulawesi,False
+Papua,Bali,3375,Papua,Bali & Nusa Tenggara,False
+Papua Barat Daya,Bali,3365,Papua,Bali & Nusa Tenggara,False
+Nusa Tenggara Timur,Papua,3352,Bali & Nusa Tenggara,Papua,False
+Maluku Utara,Sulawesi Barat,3346,Maluku,Sulawesi,False
+Nusa Tenggara Barat,Kepulauan Bangka Belitung,3344,Bali & Nusa Tenggara,Sumatera,False
+Sulawesi Utara,Sumatera Barat,3322,Sulawesi,Sumatera,False
+Kalimantan Utara,Bali,3318,Kalimantan,Bali & Nusa Tenggara,False
+Kepulauan Bangka Belitung,Aceh,3266,Sumatera,Sumatera,False
+Banten,Papua Selatan,3257,Jawa,Papua,False
+DI Yogyakarta,Sulawesi Barat,3246,Jawa,Sulawesi,False
+Maluku,Kalimantan Timur,3222,Maluku,Kalimantan,False
+Maluku Utara,Kalimantan Timur,3222,Maluku,Kalimantan,False
+Sulawesi Utara,Kalimantan Selatan,3211,Sulawesi,Kalimantan,False
+Bali,Papua,3199,Bali & Nusa Tenggara,Papua,False
+Aceh,Kalimantan Tengah,3182,Sumatera,Kalimantan,False
+Bengkulu,Nusa Tenggara Timur,3144,Sumatera,Bali & Nusa Tenggara,False
+Riau,Sulawesi Barat,3140,Sumatera,Sulawesi,False
+Jambi,Nusa Tenggara Barat,3092,Sumatera,Bali & Nusa Tenggara,False
+Kepulauan Bangka Belitung,Sulawesi Tenggara,3059,Sumatera,Sulawesi,False
+Sulawesi Tenggara,Aceh,3053,Sulawesi,Sumatera,False
+Papua Tengah,Riau,3030,Papua,Sumatera,False
+Kalimantan Timur,Maluku,2996,Kalimantan,Maluku,False
+Sulawesi Barat,Sumatera Selatan,2980,Sulawesi,Sumatera,False
+Kalimantan Tengah,Bengkulu,2978,Kalimantan,Sumatera,False
+Kalimantan Selatan,Bengkulu,2975,Kalimantan,Sumatera,False
+Gorontalo,Riau,2957,Sulawesi,Sumatera,False
+Aceh,Maluku Utara,2950,Sumatera,Maluku,False
+Kepulauan Bangka Belitung,Kalimantan Selatan,2875,Sumatera,Kalimantan,False
+Sulawesi Selatan,Kepulauan Bangka Belitung,2868,Sulawesi,Sumatera,False
+Kalimantan Timur,Kepulauan Bangka Belitung,2844,Kalimantan,Sumatera,False
+Papua Selatan,Papua Barat Daya,2819,Papua,Papua,False
+Gorontalo,Bali,2812,Sulawesi,Bali & Nusa Tenggara,False
+Maluku Utara,Bali,2809,Maluku,Bali & Nusa Tenggara,False
+DI Yogyakarta,Papua Barat,2803,Jawa,Papua,False
+Sulawesi Tenggara,Kalimantan Utara,2801,Sulawesi,Kalimantan,False
+Bengkulu,Sulawesi Tengah,2787,Sumatera,Sulawesi,False
+Papua Selatan,DI Yogyakarta,2779,Papua,Jawa,False
+Lampung,Sulawesi Barat,2776,Sumatera,Sulawesi,False
+Jambi,Sulawesi Utara,2770,Sumatera,Sulawesi,False
+Kepulauan Bangka Belitung,Nusa Tenggara Barat,2754,Sumatera,Bali & Nusa Tenggara,False
+Bali,Maluku Utara,2744,Bali & Nusa Tenggara,Maluku,False
+Papua Barat,Maluku Utara,2736,Papua,Maluku,False
+Kalimantan Utara,Kalimantan Tengah,2732,Kalimantan,Kalimantan,False
+Kalimantan Selatan,Maluku Utara,2732,Kalimantan,Maluku,False
+Sulawesi Utara,Aceh,2730,Sulawesi,Sumatera,False
+Maluku,Aceh,2724,Maluku,Sumatera,False
+Sulawesi Utara,Kalimantan Barat,2714,Sulawesi,Kalimantan,False
+Sumatera Utara,Maluku,2704,Sumatera,Maluku,False
+Sulawesi Tenggara,Jambi,2700,Sulawesi,Sumatera,False
+Maluku Utara,Kepulauan Riau,2690,Maluku,Sumatera,False
+DKI Jakarta,Papua Pegunungan,2687,Jawa,Papua,False
+Bengkulu,Sulawesi Tenggara,2677,Sumatera,Sulawesi,False
+Kepulauan Bangka Belitung,Kalimantan Tengah,2667,Sumatera,Kalimantan,False
+Kalimantan Tengah,Kalimantan Utara,2662,Kalimantan,Kalimantan,False
+Kepulauan Bangka Belitung,Jawa Timur,2634,Sumatera,Jawa,False
+Kalimantan Utara,Lampung,2628,Kalimantan,Sumatera,False
+Nusa Tenggara Barat,Gorontalo,2624,Bali & Nusa Tenggara,Sulawesi,False
+DI Yogyakarta,Gorontalo,2614,Jawa,Sulawesi,False
+Riau,Kalimantan Utara,2612,Sumatera,Kalimantan,False
+Sumatera Barat,Sulawesi Barat,2606,Sumatera,Sulawesi,False
+Sulawesi Tenggara,Kalimantan Tengah,2597,Sulawesi,Kalimantan,False
+Lampung,Gorontalo,2590,Sumatera,Sulawesi,False
+Nusa Tenggara Timur,Gorontalo,2574,Bali & Nusa Tenggara,Sulawesi,False
+Riau,Gorontalo,2557,Sumatera,Sulawesi,False
+Kepulauan Bangka Belitung,Sulawesi Tengah,2555,Sumatera,Sulawesi,False
+Sulawesi Tenggara,Kalimantan Barat,2538,Sulawesi,Kalimantan,False
+Kalimantan Barat,Kalimantan Utara,2518,Kalimantan,Kalimantan,False
+Sulawesi Barat,Riau,2510,Sulawesi,Sumatera,False
+Sumatera Selatan,Papua Barat,2509,Sumatera,Papua,False
+Papua Tengah,Sulawesi Tengah,2492,Papua,Sulawesi,False
+Bali,Kepulauan Bangka Belitung,2480,Bali & Nusa Tenggara,Sumatera,False
+Papua,Maluku Utara,2479,Papua,Maluku,False
+Sulawesi Tenggara,Nusa Tenggara Barat,2462,Sulawesi,Bali & Nusa Tenggara,False
+Nusa Tenggara Barat,Papua,2455,Bali & Nusa Tenggara,Papua,False
+Kalimantan Tengah,Sulawesi Barat,2445,Kalimantan,Sulawesi,False
+Kalimantan Barat,Sulawesi Barat,2430,Kalimantan,Sulawesi,False
+Jambi,Maluku Utara,2423,Sumatera,Maluku,False
+Kepulauan Bangka Belitung,Nusa Tenggara Timur,2422,Sumatera,Bali & Nusa Tenggara,False
+Maluku Utara,Aceh,2416,Maluku,Sumatera,False
+Sulawesi Tengah,Bengkulu,2410,Sulawesi,Sumatera,False
+Sulawesi Tengah,Maluku,2407,Sulawesi,Maluku,False
+Maluku Utara,Papua Barat,2385,Maluku,Papua,False
+Maluku,Jambi,2384,Maluku,Sumatera,False
+Papua Tengah,Lampung,2343,Papua,Sumatera,False
+Kalimantan Tengah,DI Yogyakarta,2325,Kalimantan,Jawa,False
+Papua Barat Daya,Nusa Tenggara Barat,2318,Papua,Bali & Nusa Tenggara,False
+Aceh,Sulawesi Barat,2315,Sumatera,Sulawesi,False
+Papua Pegunungan,Sumatera Selatan,2294,Papua,Sumatera,False
+Papua Pegunungan,Sulawesi Utara,2267,Papua,Sulawesi,False
+Jawa Timur,Papua Pegunungan,2253,Jawa,Papua,False
+Kalimantan Timur,Papua Barat Daya,2252,Kalimantan,Papua,False
+Maluku,Kepulauan Riau,2250,Maluku,Sumatera,False
+Gorontalo,Lampung,2236,Sulawesi,Sumatera,False
+Sulawesi Utara,Jambi,2231,Sulawesi,Sumatera,False
+Lampung,Kalimantan Utara,2229,Sumatera,Kalimantan,False
+Maluku Utara,Jambi,2209,Maluku,Sumatera,False
+Bengkulu,Kalimantan Tengah,2192,Sumatera,Kalimantan,False
+Kalimantan Selatan,Maluku,2175,Kalimantan,Maluku,False
+Kalimantan Utara,Sumatera Barat,2164,Kalimantan,Sumatera,False
+DI Yogyakarta,Papua Tengah,2151,Jawa,Papua,False
+Sumatera Selatan,Papua,2147,Sumatera,Papua,False
+Papua Pegunungan,Sulawesi Tenggara,2126,Papua,Sulawesi,False
+Papua Pegunungan,Banten,2125,Papua,Jawa,False
+Papua Barat Daya,Sumatera Utara,2119,Papua,Sumatera,False
+Jambi,Papua Barat Daya,2109,Sumatera,Papua,False
+Papua,Nusa Tenggara Timur,2108,Papua,Bali & Nusa Tenggara,False
+Papua,Sumatera Selatan,2098,Papua,Sumatera,False
+Sulawesi Barat,Nusa Tenggara Timur,2098,Sulawesi,Bali & Nusa Tenggara,False
+Maluku Utara,Papua,2086,Maluku,Papua,False
+Sumatera Barat,Gorontalo,2078,Sumatera,Sulawesi,False
+Sumatera Selatan,Papua Barat Daya,2054,Sumatera,Papua,False
+Kalimantan Utara,Kalimantan Barat,2043,Kalimantan,Kalimantan,False
+Riau,Papua Barat,2023,Sumatera,Papua,False
+Kalimantan Tengah,Maluku Utara,2014,Kalimantan,Maluku,False
+Papua,Sulawesi Tengah,2012,Papua,Sulawesi,False
+Gorontalo,Sumatera Barat,2002,Sulawesi,Sumatera,False
+Papua Tengah,Maluku Utara,2000,Papua,Maluku,False
+Sulawesi Utara,Nusa Tenggara Barat,2000,Sulawesi,Bali & Nusa Tenggara,False
+Kalimantan Selatan,Kepulauan Bangka Belitung,1982,Kalimantan,Sumatera,False
+Papua Barat,Sumatera Utara,1974,Papua,Sumatera,False
+Kalimantan Timur,Papua,1954,Kalimantan,Papua,False
+Papua,Riau,1940,Papua,Sumatera,False
+DI Yogyakarta,Papua Selatan,1938,Jawa,Papua,False
+Kalimantan Timur,Papua Barat,1915,Kalimantan,Papua,False
+Papua Pegunungan,Riau,1898,Papua,Sumatera,False
+Kalimantan Barat,Gorontalo,1886,Kalimantan,Sulawesi,False
+Aceh,Gorontalo,1886,Sumatera,Sulawesi,False
+Kalimantan Barat,Papua,1885,Kalimantan,Papua,False
+Nusa Tenggara Barat,Papua Barat,1875,Bali & Nusa Tenggara,Papua,False
+Sumatera Utara,Papua Tengah,1873,Sumatera,Papua,False
+Bengkulu,Kalimantan Barat,1871,Sumatera,Kalimantan,False
+Riau,Papua Tengah,1847,Sumatera,Papua,False
+Kepulauan Bangka Belitung,Jambi,1842,Sumatera,Sumatera,False
+Sulawesi Tengah,Papua Barat Daya,1837,Sulawesi,Papua,False
+Sulawesi Barat,Lampung,1822,Sulawesi,Sumatera,False
+Sulawesi Utara,DI Yogyakarta,1816,Sulawesi,Jawa,False
+Kepulauan Riau,Maluku Utara,1812,Sumatera,Maluku,False
+Papua Selatan,Sulawesi Tenggara,1809,Papua,Sulawesi,False
+Kalimantan Utara,Aceh,1808,Kalimantan,Sumatera,False
+Papua Barat Daya,Jambi,1798,Papua,Sumatera,False
+Kepulauan Riau,Papua,1797,Sumatera,Papua,False
+Gorontalo,Aceh,1791,Sulawesi,Sumatera,False
+Sulawesi Barat,Aceh,1790,Sulawesi,Sumatera,False
+Sulawesi Utara,Kalimantan Utara,1773,Sulawesi,Kalimantan,False
+Lampung,Kalimantan Timur,1771,Sumatera,Kalimantan,False
+Nusa Tenggara Timur,Kepulauan Bangka Belitung,1770,Bali & Nusa Tenggara,Sumatera,False
+Papua,Kalimantan Timur,1769,Papua,Kalimantan,False
+Bali,Kalimantan Utara,1762,Bali & Nusa Tenggara,Kalimantan,False
+Papua Tengah,Aceh,1760,Papua,Sumatera,False
+Papua Barat,Bali,1758,Papua,Bali & Nusa Tenggara,False
+Aceh,Kepulauan Bangka Belitung,1750,Sumatera,Sumatera,False
+Bengkulu,Kalimantan Selatan,1746,Sumatera,Kalimantan,False
+Lampung,Papua,1731,Sumatera,Papua,False
+Papua Tengah,Kepulauan Riau,1713,Papua,Sumatera,False
+Kalimantan Utara,Kepulauan Riau,1713,Kalimantan,Sumatera,False
+Gorontalo,Nusa Tenggara Timur,1691,Sulawesi,Bali & Nusa Tenggara,False
+Sumatera Selatan,Maluku,1687,Sumatera,Maluku,False
+Sulawesi Barat,Sumatera Barat,1671,Sulawesi,Sumatera,False
+Kalimantan Utara,Nusa Tenggara Barat,1668,Kalimantan,Bali & Nusa Tenggara,False
+Papua Tengah,Nusa Tenggara Barat,1659,Papua,Bali & Nusa Tenggara,False
+Papua Barat Daya,Nusa Tenggara Timur,1653,Papua,Bali & Nusa Tenggara,False
+Lampung,Papua Barat,1642,Sumatera,Papua,False
+Riau,Papua Barat Daya,1637,Sumatera,Papua,False
+Jambi,Sulawesi Barat,1624,Sumatera,Sulawesi,False
+Kalimantan Selatan,Gorontalo,1614,Kalimantan,Sulawesi,False
+Riau,Papua,1611,Sumatera,Papua,False
+Jawa Tengah,Papua Pegunungan,1594,Jawa,Papua,False
+Bengkulu,Sulawesi Utara,1583,Sumatera,Sulawesi,False
+Papua Tengah,Sulawesi Barat,1578,Papua,Sulawesi,False
+Riau,Sulawesi Tengah,1577,Sumatera,Sulawesi,False
+Bengkulu,Maluku Utara,1572,Sumatera,Maluku,False
+Sulawesi Tengah,Papua Barat,1568,Sulawesi,Papua,False
+Sulawesi Tenggara,Bengkulu,1567,Sulawesi,Sumatera,False
+Sulawesi Tenggara,Papua Selatan,1560,Sulawesi,Papua,False
+Papua Pegunungan,Papua Barat,1552,Papua,Papua,False
+Sulawesi Barat,Kalimantan Tengah,1551,Sulawesi,Kalimantan,False
+Papua Selatan,Banten,1545,Papua,Jawa,False
+Papua Barat Daya,Kalimantan Timur,1537,Papua,Kalimantan,False
+Papua Barat Daya,Papua Selatan,1534,Papua,Papua,False
+Sumatera Selatan,Sulawesi Tenggara,1533,Sumatera,Sulawesi,False
+Bali,Papua Barat,1517,Bali & Nusa Tenggara,Papua,False
+Sumatera Barat,Papua,1514,Sumatera,Papua,False
+Maluku,Bengkulu,1509,Maluku,Sumatera,False
+Papua Barat Daya,Sulawesi Tengah,1506,Papua,Sulawesi,False
+Lampung,Papua Barat Daya,1503,Sumatera,Papua,False
+Sulawesi Barat,Maluku Utara,1502,Sulawesi,Maluku,False
+Kalimantan Utara,Jambi,1502,Kalimantan,Sumatera,False
+Papua Pegunungan,DI Yogyakarta,1484,Papua,Jawa,False
+Papua Pegunungan,Nusa Tenggara Timur,1483,Papua,Bali & Nusa Tenggara,False
+Maluku Utara,Kalimantan Barat,1469,Maluku,Kalimantan,False
+Maluku,Kalimantan Barat,1469,Maluku,Kalimantan,False
+Papua Pegunungan,Lampung,1468,Papua,Sumatera,False
+Papua Tengah,Jambi,1456,Papua,Sumatera,False
+Papua Barat,Sulawesi Tengah,1454,Papua,Sulawesi,False
+Nusa Tenggara Timur,Papua Tengah,1436,Bali & Nusa Tenggara,Papua,False
+Maluku,Gorontalo,1434,Maluku,Sulawesi,False
+Sulawesi Barat,Nusa Tenggara Barat,1431,Sulawesi,Bali & Nusa Tenggara,False
+Maluku Utara,Nusa Tenggara Barat,1415,Maluku,Bali & Nusa Tenggara,False
+Lampung,Maluku,1405,Sumatera,Maluku,False
+Maluku Utara,Bengkulu,1404,Maluku,Sumatera,False
+Papua Pegunungan,Sulawesi Tengah,1393,Papua,Sulawesi,False
+Kepulauan Bangka Belitung,Sulawesi Utara,1392,Sumatera,Sulawesi,False
+Papua Selatan,Sulawesi Utara,1392,Papua,Sulawesi,False
+Bengkulu,Nusa Tenggara Barat,1383,Sumatera,Bali & Nusa Tenggara,False
+Sumatera Barat,Kalimantan Utara,1381,Sumatera,Kalimantan,False
+Maluku Utara,Kalimantan Selatan,1372,Maluku,Kalimantan,False
+Maluku,Kalimantan Selatan,1372,Maluku,Kalimantan,False
+Kepulauan Riau,Papua Tengah,1370,Sumatera,Papua,False
+Banten,Papua Pegunungan,1366,Jawa,Papua,False
+Papua Pegunungan,Papua Barat Daya,1366,Papua,Papua,False
+Sulawesi Utara,Bengkulu,1361,Sulawesi,Sumatera,False
+Papua Barat Daya,Sumatera Selatan,1358,Papua,Sumatera,False
+Gorontalo,Jambi,1348,Sulawesi,Sumatera,False
+Papua Barat,Papua Selatan,1348,Papua,Papua,False
+Kalimantan Tengah,Gorontalo,1337,Kalimantan,Sulawesi,False
+Papua,Lampung,1326,Papua,Sumatera,False
+Papua Selatan,Sumatera Utara,1304,Papua,Sumatera,False
+Bali,Papua Tengah,1284,Bali & Nusa Tenggara,Papua,False
+Maluku,Nusa Tenggara Barat,1283,Maluku,Bali & Nusa Tenggara,False
+Kepulauan Riau,Kalimantan Utara,1278,Sumatera,Kalimantan,False
+Jambi,Gorontalo,1274,Sumatera,Sulawesi,False
+Papua Pegunungan,Sumatera Barat,1273,Papua,Sumatera,False
+Papua Barat,Sumatera Selatan,1271,Papua,Sumatera,False
+Gorontalo,Kalimantan Utara,1266,Sulawesi,Kalimantan,False
+Sumatera Barat,Papua Barat,1264,Sumatera,Papua,False
+Papua Pegunungan,Aceh,1249,Papua,Sumatera,False
+Papua Barat,Nusa Tenggara Timur,1247,Papua,Bali & Nusa Tenggara,False
+Maluku Utara,Kalimantan Tengah,1235,Maluku,Kalimantan,False
+Maluku,Kalimantan Tengah,1235,Maluku,Kalimantan,False
+Sulawesi Utara,Papua Selatan,1223,Sulawesi,Papua,False
+Papua,Sumatera Barat,1220,Papua,Sumatera,False
+Papua Selatan,Papua Barat,1213,Papua,Papua,False
+Aceh,Papua Barat,1208,Sumatera,Papua,False
+Gorontalo,Maluku,1206,Sulawesi,Maluku,False
+Papua,Kepulauan Riau,1187,Papua,Sumatera,False
+Sulawesi Barat,Jambi,1174,Sulawesi,Sumatera,False
+Kepulauan Riau,Sulawesi Barat,1168,Sumatera,Sulawesi,False
+Aceh,Papua,1168,Sumatera,Papua,False
+Nusa Tenggara Barat,Papua Tengah,1161,Bali & Nusa Tenggara,Papua,False
+Papua Barat,Kalimantan Timur,1154,Papua,Kalimantan,False
+Papua Pegunungan,Bali,1151,Papua,Bali & Nusa Tenggara,False
+Kalimantan Tengah,Kepulauan Bangka Belitung,1148,Kalimantan,Sumatera,False
+Sulawesi Barat,Kalimantan Barat,1144,Sulawesi,Kalimantan,False
+Jambi,Papua Barat,1130,Sumatera,Papua,False
+Kalimantan Selatan,Papua,1126,Kalimantan,Papua,False
+Kalimantan Utara,Gorontalo,1111,Kalimantan,Sulawesi,False
+Sulawesi Barat,Kepulauan Riau,1110,Sulawesi,Sumatera,False
+Nusa Tenggara Timur,Papua Selatan,1109,Bali & Nusa Tenggara,Papua,False
+Gorontalo,Kepulauan Riau,1101,Sulawesi,Sumatera,False
+Sumatera Utara,Papua Pegunungan,1099,Sumatera,Papua,False
+Kalimantan Barat,Papua Barat,1087,Kalimantan,Papua,False
+Jawa Timur,Papua Tengah,1085,Jawa,Papua,False
+Kalimantan Barat,Maluku,1084,Kalimantan,Maluku,False
+Papua Selatan,Nusa Tenggara Timur,1071,Papua,Bali & Nusa Tenggara,False
+Bengkulu,Sulawesi Barat,1058,Sumatera,Sulawesi,False
+Kepulauan Bangka Belitung,Maluku Utara,1057,Sumatera,Maluku,False
+Gorontalo,Kalimantan Selatan,1051,Sulawesi,Kalimantan,False
+Sumatera Barat,Papua Barat Daya,1051,Sumatera,Papua,False
+Kalimantan Tengah,Papua,1048,Kalimantan,Papua,False
+Gorontalo,Nusa Tenggara Barat,1041,Sulawesi,Bali & Nusa Tenggara,False
+Kalimantan Timur,Papua Tengah,1036,Kalimantan,Papua,False
+Kalimantan Selatan,Papua Barat Daya,1028,Kalimantan,Papua,False
+Papua,Aceh,1020,Papua,Sumatera,False
+Sulawesi Tengah,Kepulauan Bangka Belitung,1017,Sulawesi,Sumatera,False
+Sumatera Selatan,Papua Tengah,1013,Sumatera,Papua,False
+Aceh,Kalimantan Utara,1011,Sumatera,Kalimantan,False
+Papua Tengah,Gorontalo,1010,Papua,Sulawesi,False
+Papua Barat Daya,Kalimantan Tengah,999,Papua,Kalimantan,False
+Kalimantan Utara,Maluku Utara,975,Kalimantan,Maluku,False
+Jawa Tengah,Papua Barat,975,Jawa,Papua,False
+Nusa Tenggara Timur,Sumatera Barat,950,Bali & Nusa Tenggara,Sumatera,False
+Papua Barat,Riau,931,Papua,Sumatera,False
+Kalimantan Barat,Papua Barat Daya,931,Kalimantan,Papua,False
+Papua,Sulawesi Barat,922,Papua,Sulawesi,False
+Papua Pegunungan,Maluku,922,Papua,Maluku,False
+Gorontalo,Kalimantan Tengah,895,Sulawesi,Kalimantan,False
+Kepulauan Riau,Gorontalo,893,Sumatera,Sulawesi,False
+Papua Pegunungan,Jambi,893,Papua,Sumatera,False
+Lampung,Papua Tengah,893,Sumatera,Papua,False
+Jambi,Kalimantan Utara,892,Sumatera,Kalimantan,False
+Sumatera Utara,Papua Selatan,892,Sumatera,Papua,False
+Papua,Nusa Tenggara Barat,890,Papua,Bali & Nusa Tenggara,False
+Sulawesi Utara,Papua Pegunungan,884,Sulawesi,Papua,False
+Kepulauan Riau,Papua Barat Daya,860,Sumatera,Papua,False
+Bengkulu,Gorontalo,853,Sumatera,Sulawesi,False
+Riau,Maluku,852,Sumatera,Maluku,False
+Papua,Jambi,844,Papua,Sumatera,False
+Papua Selatan,Sumatera Selatan,843,Papua,Sumatera,False
+Papua Barat Daya,Riau,839,Papua,Sumatera,False
+Papua Tengah,Bengkulu,835,Papua,Sumatera,False
+Kepulauan Bangka Belitung,Sulawesi Barat,823,Sumatera,Sulawesi,False
+Gorontalo,Bengkulu,809,Sulawesi,Sumatera,False
+Papua Selatan,Bali,797,Papua,Bali & Nusa Tenggara,False
+Kalimantan Utara,Bengkulu,795,Kalimantan,Sumatera,False
+Papua Barat Daya,Lampung,794,Papua,Sumatera,False
+Jambi,Papua,793,Sumatera,Papua,False
+Papua Tengah,Kalimantan Barat,792,Papua,Kalimantan,False
+Sulawesi Tenggara,Kepulauan Bangka Belitung,786,Sulawesi,Sumatera,False
+Kalimantan Selatan,Papua Barat,786,Kalimantan,Papua,False
+Kalimantan Tengah,Papua Barat,783,Kalimantan,Papua,False
+Papua Barat Daya,Sumatera Barat,764,Papua,Sumatera,False
+Kalimantan Tengah,Papua Barat Daya,761,Kalimantan,Papua,False
+Sulawesi Tengah,Papua Tengah,757,Sulawesi,Papua,False
+Papua Barat,Lampung,751,Papua,Sumatera,False
+Papua Tengah,Kalimantan Tengah,750,Papua,Kalimantan,False
+Gorontalo,Kalimantan Barat,748,Sulawesi,Kalimantan,False
+Sulawesi Barat,Maluku,745,Sulawesi,Maluku,False
+Papua,Gorontalo,743,Papua,Sulawesi,False
+Papua Tengah,Kalimantan Selatan,743,Papua,Kalimantan,False
+Kalimantan Timur,Papua Selatan,735,Kalimantan,Papua,False
+Sulawesi Barat,Bengkulu,727,Sulawesi,Sumatera,False
+Maluku Utara,Papua Tengah,725,Maluku,Papua,False
+Gorontalo,Papua,722,Sulawesi,Papua,False
+Papua Barat,Kepulauan Riau,719,Papua,Sumatera,False
+Jambi,Maluku,712,Sumatera,Maluku,False
+Papua Selatan,Sulawesi Tengah,709,Papua,Sulawesi,False
+Sulawesi Barat,Papua,703,Sulawesi,Papua,False
+Papua Pegunungan,Maluku Utara,697,Papua,Maluku,False
+Bengkulu,Papua Barat,670,Sumatera,Papua,False
+Sulawesi Barat,Papua Selatan,652,Sulawesi,Papua,False
+Papua Pegunungan,Kalimantan Timur,650,Papua,Kalimantan,False
+DI Yogyakarta,Papua Pegunungan,643,Jawa,Papua,False
+Papua,Kalimantan Selatan,641,Papua,Kalimantan,False
+Nusa Tenggara Timur,Papua Pegunungan,634,Bali & Nusa Tenggara,Papua,False
+Papua Pegunungan,Kalimantan Barat,634,Papua,Kalimantan,False
+Papua,Kalimantan Tengah,634,Papua,Kalimantan,False
+Sulawesi Utara,Kepulauan Bangka Belitung,615,Sulawesi,Sumatera,False
+Papua Selatan,Riau,612,Papua,Sumatera,False
+Papua Selatan,Kalimantan Timur,612,Papua,Kalimantan,False
+Kalimantan Tengah,Maluku,610,Kalimantan,Maluku,False
+Kalimantan Selatan,Papua Selatan,604,Kalimantan,Papua,False
+Papua Pegunungan,Kepulauan Riau,600,Papua,Sumatera,False
+Papua Barat Daya,Sulawesi Barat,597,Papua,Sulawesi,False
+Gorontalo,Papua Barat Daya,597,Sulawesi,Papua,False
+Papua Barat Daya,Kepulauan Riau,596,Papua,Sumatera,False
+Nusa Tenggara Barat,Papua Selatan,595,Bali & Nusa Tenggara,Papua,False
+Sumatera Selatan,Papua Pegunungan,581,Sumatera,Papua,False
+Bali,Papua Selatan,581,Bali & Nusa Tenggara,Papua,False
+Papua Pegunungan,Bengkulu,577,Papua,Sumatera,False
+Papua Barat,Sumatera Barat,577,Papua,Sumatera,False
+Kepulauan Bangka Belitung,Kalimantan Utara,570,Sumatera,Kalimantan,False
+Gorontalo,Papua Barat,568,Sulawesi,Papua,False
+Kalimantan Tengah,Papua Tengah,568,Kalimantan,Papua,False
+Kalimantan Selatan,Jambi,561,Kalimantan,Sumatera,False
+Kepulauan Bangka Belitung,Gorontalo,560,Sumatera,Sulawesi,False
+Sulawesi Barat,Papua Barat Daya,558,Sulawesi,Papua,False
+Papua Barat,Papua Pegunungan,556,Papua,Papua,False
+Kalimantan Barat,Papua Tengah,552,Kalimantan,Papua,False
+Bengkulu,Kalimantan Utara,546,Sumatera,Kalimantan,False
+Papua Barat,Aceh,540,Papua,Sumatera,False
+Sumatera Barat,Papua Tengah,527,Sumatera,Papua,False
+Papua Barat,Sulawesi Barat,524,Papua,Sulawesi,False
+Kepulauan Bangka Belitung,Maluku,520,Sumatera,Maluku,False
+Aceh,Maluku,518,Sumatera,Maluku,False
+Papua Barat Daya,Gorontalo,511,Papua,Sulawesi,False
+Sumatera Barat,Papua Pegunungan,510,Sumatera,Papua,False
+Papua,Bengkulu,501,Papua,Sumatera,False
+Papua Pegunungan,Nusa Tenggara Barat,500,Papua,Bali & Nusa Tenggara,False
+Sulawesi Tenggara,Papua Tengah,500,Sulawesi,Papua,False
+Aceh,Papua Tengah,498,Sumatera,Papua,False
+Papua Barat Daya,Kalimantan Selatan,494,Papua,Kalimantan,False
+Papua Barat Daya,Aceh,484,Papua,Sumatera,False
+Sulawesi Barat,Papua Barat,481,Sulawesi,Papua,False
+Papua Barat,Jambi,480,Papua,Sumatera,False
+Bengkulu,Papua,473,Sumatera,Papua,False
+Maluku Utara,Kepulauan Bangka Belitung,463,Maluku,Sumatera,False
+Kalimantan Utara,Sumatera Selatan,463,Kalimantan,Sumatera,False
+Gorontalo,Kalimantan Timur,459,Sulawesi,Kalimantan,False
+Bengkulu,Papua Barat Daya,459,Sumatera,Papua,False
+Papua Barat Daya,Papua Pegunungan,458,Papua,Papua,False
+Papua Pegunungan,Kalimantan Tengah,458,Papua,Kalimantan,False
+Maluku,Kalimantan Utara,456,Maluku,Kalimantan,False
+Maluku Utara,Kalimantan Utara,456,Maluku,Kalimantan,False
+Papua Selatan,Lampung,440,Papua,Sumatera,False
+Papua Barat,Nusa Tenggara Barat,438,Papua,Bali & Nusa Tenggara,False
+Papua Barat Daya,Kalimantan Barat,435,Papua,Kalimantan,False
+Kalimantan Selatan,Papua Tengah,431,Kalimantan,Papua,False
+Papua Barat,Kalimantan Barat,428,Papua,Kalimantan,False
+Papua Selatan,Maluku Utara,423,Papua,Maluku,False
+Kalimantan Utara,Nusa Tenggara Timur,417,Kalimantan,Bali & Nusa Tenggara,False
+DKI Jakarta,Sulawesi Barat,416,Jawa,Sulawesi,False
+Jambi,Papua Tengah,410,Sumatera,Papua,False
+Kepulauan Bangka Belitung,Papua Barat,410,Sumatera,Papua,False
+Nusa Tenggara Barat,Papua Pegunungan,408,Bali & Nusa Tenggara,Papua,False
+Riau,Papua Pegunungan,408,Sumatera,Papua,False
+Papua Selatan,Aceh,407,Papua,Sumatera,False
+Papua Pegunungan,Gorontalo,403,Papua,Sulawesi,False
+Maluku,Kepulauan Bangka Belitung,401,Maluku,Sumatera,False
+Papua Selatan,Sulawesi Barat,398,Papua,Sulawesi,False
+Papua Pegunungan,Kalimantan Selatan,392,Papua,Kalimantan,False
+Sulawesi Barat,Papua Tengah,390,Sulawesi,Papua,False
+Papua Barat,Gorontalo,380,Papua,Sulawesi,False
+Papua Selatan,Sumatera Barat,380,Papua,Sumatera,False
+Bengkulu,Maluku,379,Sumatera,Maluku,False
+Kalimantan Utara,Maluku,378,Kalimantan,Maluku,False
+Kalimantan Utara,Kepulauan Bangka Belitung,369,Kalimantan,Sumatera,False
+Lampung,Papua Pegunungan,367,Sumatera,Papua,False
+Aceh,Papua Pegunungan,367,Sumatera,Papua,False
+Sumatera Selatan,Papua Selatan,365,Sumatera,Papua,False
+Papua Selatan,Kepulauan Riau,364,Papua,Sumatera,False
+Papua Tengah,Kepulauan Bangka Belitung,360,Papua,Sumatera,False
+Papua Selatan,Kalimantan Selatan,354,Papua,Kalimantan,False
+Gorontalo,Kepulauan Bangka Belitung,338,Sulawesi,Sumatera,False
+Kalimantan Utara,Papua Barat Daya,334,Kalimantan,Papua,False
+Papua Barat Daya,Kalimantan Utara,333,Papua,Kalimantan,False
+Kalimantan Utara,Papua Barat,332,Kalimantan,Papua,False
+Gorontalo,Papua Tengah,329,Sulawesi,Papua,False
+Papua Barat,Kalimantan Tengah,328,Papua,Kalimantan,False
+Kepulauan Bangka Belitung,Papua Barat Daya,325,Sumatera,Papua,False
+Papua Selatan,Nusa Tenggara Barat,318,Papua,Bali & Nusa Tenggara,False
+Sulawesi Tengah,Papua Selatan,309,Sulawesi,Papua,False
+Lampung,Papua Selatan,307,Sumatera,Papua,False
+Kalimantan Barat,Papua Pegunungan,306,Kalimantan,Papua,False
+Papua Tengah,Kalimantan Utara,304,Papua,Kalimantan,False
+Papua Selatan,Jambi,299,Papua,Sumatera,False
+Kalimantan Utara,Papua,297,Kalimantan,Papua,False
+Bali,Papua Pegunungan,289,Bali & Nusa Tenggara,Papua,False
+Kepulauan Bangka Belitung,Papua,280,Sumatera,Papua,False
+Papua Barat,Bengkulu,278,Papua,Sumatera,False
+Kalimantan Barat,Papua Selatan,277,Kalimantan,Papua,False
+Papua Barat,Kalimantan Selatan,274,Papua,Kalimantan,False
+Riau,Papua Selatan,269,Sumatera,Papua,False
+Jambi,Papua Pegunungan,257,Sumatera,Papua,False
+Papua,Kalimantan Utara,256,Papua,Kalimantan,False
+Sulawesi Barat,Kepulauan Bangka Belitung,252,Sulawesi,Sumatera,False
+Papua Barat Daya,Bengkulu,251,Papua,Sumatera,False
+Kalimantan Timur,Papua Pegunungan,243,Kalimantan,Papua,False
+Maluku Utara,Papua Selatan,238,Maluku,Papua,False
+Bengkulu,Papua Tengah,226,Sumatera,Papua,False
+Maluku,Papua Pegunungan,225,Maluku,Papua,False
+Papua Selatan,Kalimantan Barat,217,Papua,Kalimantan,False
+Gorontalo,Papua Pegunungan,215,Sulawesi,Papua,False
+Papua Tengah,Sumatera Barat,208,Papua,Sumatera,False
+Papua Selatan,Kalimantan Tengah,207,Papua,Kalimantan,False
+Kepulauan Bangka Belitung,Papua Tengah,195,Sumatera,Papua,False
+Papua Pegunungan,Kepulauan Bangka Belitung,193,Papua,Sumatera,False
+Papua,Kepulauan Bangka Belitung,189,Papua,Sumatera,False
+Kepulauan Riau,Papua Selatan,178,Sumatera,Papua,False
+Papua Pegunungan,Kalimantan Utara,178,Papua,Kalimantan,False
+Kalimantan Selatan,Papua Pegunungan,169,Kalimantan,Papua,False
+Sumatera Barat,Papua Selatan,159,Sumatera,Papua,False
+Maluku Utara,Papua Pegunungan,154,Maluku,Papua,False
+Kepulauan Riau,Papua Pegunungan,152,Sumatera,Papua,False
+Jambi,Papua Selatan,141,Sumatera,Papua,False
+Papua Selatan,Gorontalo,140,Papua,Sulawesi,False
+Bengkulu,Papua Pegunungan,139,Sumatera,Papua,False
+Sulawesi Barat,Papua Pegunungan,136,Sulawesi,Papua,False
+Kepulauan Riau,Maluku,131,Sumatera,Maluku,False
+Kalimantan Tengah,Papua Selatan,126,Kalimantan,Papua,False
+Papua Barat,Kepulauan Bangka Belitung,113,Papua,Sumatera,False
+Gorontalo,Papua Selatan,112,Sulawesi,Papua,False
+Papua Barat Daya,Kepulauan Bangka Belitung,109,Papua,Sumatera,False
+Bali,Aceh,104,Bali & Nusa Tenggara,Sumatera,False
+Papua Barat,Kalimantan Utara,101,Papua,Kalimantan,False
+Aceh,Papua Selatan,86,Sumatera,Papua,False
+Kepulauan Bangka Belitung,Papua Pegunungan,86,Sumatera,Papua,False
+Papua Pegunungan,Sulawesi Barat,77,Papua,Sulawesi,False
+Kalimantan Utara,Papua Tengah,72,Kalimantan,Papua,False
+Kepulauan Bangka Belitung,Papua Selatan,59,Sumatera,Papua,False
+Papua Selatan,Kepulauan Bangka Belitung,49,Papua,Sumatera,False
+Kalimantan Utara,Sulawesi Tenggara,48,Kalimantan,Sulawesi,False
+Sumatera Barat,Sulawesi Utara,43,Sumatera,Sulawesi,False
+Kalimantan Utara,Papua Selatan,40,Kalimantan,Papua,False
+Kalimantan Utara,Papua Pegunungan,34,Kalimantan,Papua,False
+Sulawesi Tengah,Papua Pegunungan,31,Sulawesi,Papua,False
+Kalimantan Tengah,Papua Pegunungan,27,Kalimantan,Papua,False
+Kalimantan Utara,Sulawesi Utara,27,Kalimantan,Sulawesi,False
+Sulawesi Tengah,Papua,13,Sulawesi,Papua,False
+Bengkulu,Papua Selatan,7,Sumatera,Papua,False
+Kepulauan Riau,Papua Barat,7,Sumatera,Papua,False
+Papua Selatan,Kalimantan Utara,7,Papua,Kalimantan,False
+Papua Selatan,Bengkulu,2,Papua,Sumatera,False
+Aceh,Papua Barat Daya,1,Sumatera,Papua,False
+Papua,Kalimantan Barat,1,Papua,Kalimantan,False
