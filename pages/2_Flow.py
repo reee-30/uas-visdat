@@ -40,12 +40,16 @@ WILAYAH_ORDER = list(WILAYAH_COLOR)
 DIR_COLOR = {"a": "#0F7C73", "b": "#E69F00"}  # arah dominan / arah balik pada batang
 
 CSS = """
-.fl-head{margin:2rem 0 .6rem;}
+.fl-head{margin:0 0 .6rem;}
+.fl-headbox{min-height:8.2rem;}
+.st-key-scroll_heat [data-testid="stPlotlyChart"]{overflow-x:auto!important;}
+.st-key-scroll_heat [data-testid="stPlotlyChart"]>div{min-width:900px;}
+@media(max-width:900px){.st-key-scroll_bar [data-testid="stPlotlyChart"]{overflow-x:auto!important;}.st-key-scroll_bar [data-testid="stPlotlyChart"]>div{min-width:540px;}}
+@media(max-width:900px){.fl-headbox{min-height:0;}}
 .fl-h{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.4rem;color:var(--dk,#0B4F4A);line-height:1.25;margin:0;}
 .fl-sub{color:var(--mut,#4E6B67);font-size:.97rem;line-height:1.55;margin:.2rem 0 0;}
 .fl-p p{margin:.2rem 0 .85rem;line-height:1.75;font-size:1.02rem;color:var(--txt,#12302D);}
 .fl-p b{color:var(--dk,#0B4F4A);}
-[class*="st-key-fl_card"]{background:#fff;border:1px solid var(--line,#D3E4E0);border-radius:18px;padding:1.3rem 1.5rem 1.2rem;margin:0 0 .4rem;}
 [class*="st-key-fl_card"] [data-testid="stPlotlyChart"]{border:none;box-shadow:none;padding:0;border-radius:0;}
 [data-testid="stPlotlyChart"]{padding:0!important;border:0!important;box-shadow:0 0 0 1px var(--line,#D3E4E0)!important;box-sizing:border-box;}
 [data-testid="stPlotlyChart"],[data-testid="stPlotlyChart"]>div,[data-testid="stPlotlyChart"] .js-plotly-plot,[data-testid="stPlotlyChart"] .plot-container{overflow:hidden!important;max-width:100%;}
@@ -71,7 +75,7 @@ CSS = """
 .fl-t3-row .val{text-align:right;font-family:'Outfit',sans-serif;font-weight:700;color:var(--dk,#0B4F4A);line-height:1.2;white-space:nowrap;}
 .fl-t3-row .val small{display:block;font-family:'Source Sans Pro',sans-serif;font-weight:600;font-size:.78rem;color:var(--mut,#4E6B67);}
 @media(max-width:900px){.fl-kpis,.fl-t3-grid{grid-template-columns:1fr;}}
-@media(max-width:600px){[class*="st-key-dua_"] iframe{height:430px!important;}}
+@media(max-width:600px){[class*="st-key-dua_"] iframe{height:460px!important;}}
 """
 
 
@@ -113,6 +117,79 @@ def kepala(label: str, judul: str, sub: str = ""):
 
 def judul_kartu(label: str, judul: str, sub: str = ""):
     html(f'<div><div class="fl-h">{judul}</div>' + (f'<div class="fl-sub">{sub}</div>' if sub else "") + "</div>")
+
+
+def sec_banner(kicker: str, judul: str, sub: str):
+    html(f'<div class="secban"><div class="k">{kicker}</div><div class="t">{judul}</div><div class="s">{sub}</div></div>')
+
+
+def kepala_kartu(judul: str, sub: str = "", extra: str = ""):
+    """Kepala kartu bertinggi tetap supaya dua kartu berdampingan sejajar."""
+    html(f'<div class="fl-headbox"><div class="fl-h">{judul}</div>'
+         + (f'<div class="fl-sub">{sub}</div>' if sub else "") + extra + "</div>")
+
+
+SINGKATAN = {
+    "sumatera utara": "Sumut", "sumatera barat": "Sumbar", "sumatera selatan": "Sumsel",
+    "kepulauan riau": "Kepri", "kepulauan bangka belitung": "Babel", "bangka belitung": "Babel",
+    "jawa barat": "Jabar", "jawa tengah": "Jateng", "jawa timur": "Jatim",
+    "daerah istimewa yogyakarta": "DIY", "di yogyakarta": "DIY", "dki jakarta": "DKI Jakarta",
+    "nusa tenggara barat": "NTB", "nusa tenggara timur": "NTT",
+    "kalimantan barat": "Kalbar", "kalimantan tengah": "Kalteng", "kalimantan selatan": "Kalsel",
+    "kalimantan timur": "Kaltim", "kalimantan utara": "Kaltara",
+    "sulawesi utara": "Sulut", "sulawesi tengah": "Sulteng", "sulawesi selatan": "Sulsel",
+    "sulawesi tenggara": "Sultra", "sulawesi barat": "Sulbar", "maluku utara": "Malut",
+    "papua barat daya": "PBD", "papua barat": "Pabar", "papua selatan": "Pasel",
+    "papua tengah": "Pateng", "papua pegunungan": "Papeg",
+}
+
+
+def singkat(n: str) -> str:
+    """Singkatan baku provinsi untuk label chord (nama lengkap tetap muncul di tooltip)."""
+    return SINGKATAN.get(str(n).strip().lower(), n)
+
+
+def render_chord(edge_df, node_df, label_col: str, ukuran: int, font: str) -> str:
+    """Chord Bokeh dengan ruang label lebar supaya nama provinsi tidak terpotong."""
+    nodes = hv.Dataset(node_df, "name", vdims=["Wilayah", "Keluar", "Masuk", "Label"])
+    chord = hv.Chord((edge_df, nodes), vdims=["value", "Wilayah_Asal"])
+    chord.opts(opts.Chord(
+        cmap=WILAYAH_COLOR, edge_cmap=WILAYAH_COLOR, node_color="Wilayah", edge_color="Wilayah_Asal",
+        labels=label_col, edge_alpha=0.6, node_size=12, label_text_font_size=font,
+        inspection_policy="nodes", selection_policy="nodes",
+        default_tools=[], tools=["hover", "tap"],
+        width=ukuran, height=ukuran, xlim=(-2.05, 2.05), ylim=(-2.05, 2.05), title="",
+    ))
+    fig = hv.render(chord, backend="bokeh")
+    node_layers = [r for r in fig.renderers if hasattr(r, "node_renderer") or "text" not in r.data_source.data]
+    hover = HoverTool(renderers=node_layers, tooltips=[
+        ("Provinsi", "@index_hover"), ("Wilayah", "@Wilayah"),
+        ("Keluar (antarprovinsi)", "@Keluar"), ("Masuk (antarprovinsi)", "@Masuk")])
+    lock = (PanTool, WheelZoomTool, BoxZoomTool, ResetTool, HoverTool)  # tanpa pan/zoom: posisi tetap
+    fig.toolbar.tools = [t for t in fig.toolbar.tools if not isinstance(t, lock)] + [hover]
+    fig.toolbar.active_drag = None
+    fig.toolbar.active_scroll = None
+    fig.toolbar.active_inspect = hover
+    fig.sizing_mode = "scale_width"
+    fig.max_width = ukuran
+    fig.align = "center"
+    fig.toolbar_location = None
+    return file_html(fig, CDN, "Chord Diagram").replace(
+        "</head>", "<style>html{height:100%}body{min-height:100vh;margin:0;display:flex;align-items:center;"
+                   "justify-content:center;background:transparent}</style></head>", 1)
+
+
+def tampil_iframe(konten: str, tinggi: int):
+    if hasattr(st, "iframe"):
+        st.iframe(konten, height=tinggi)
+    else:
+        st.components.v1.html(konten, height=tinggi, scrolling=False)
+
+
+def insight_cards(items):
+    """Kartu temuan: (label, judul, isi) -> grid kartu berwarna."""
+    html('<div class="ins-grid">' + "".join(
+        f'<div class="ins"><div class="n">{l}</div><h4>{h}</h4><p>{t}</p></div>' for l, h, t in items) + "</div>")
 
 
 def chips(mapping: dict) -> str:
@@ -170,18 +247,20 @@ antar = od[~od["Internal"]]  # perjalanan di dalam provinsi sendiri (±71%) tida
 TOTAL_ANTAR = int(antar["Value"].sum())
 
 _porsi_dalam = od.loc[od["Internal"], "Value"].sum() / od["Value"].sum()
-html(" ".join(f'''<div class="cerita"><p>Wisatawan mancanegara mencatat <b>{idn(TOTAL_WISMAN)} kunjungan</b> dari
-{wisman["Negara"].nunique()} negara lewat {wisman["Pintu"].nunique()} pintu masuk. Satu pintu saja,
-<b>{tot_pintu.index[0]}</b>, menerima {pct(tot_pintu.iloc[0] / TOTAL_WISMAN)} dari semuanya.</p>
-<p>Wisatawan nusantara bergerak dengan pola lain: {pct(_porsi_dalam, 0)} perjalanan berakhir di provinsi asal sendiri.
-Bagian kedua halaman ini hanya melihat sisanya, yaitu perjalanan yang melintasi batas provinsi.</p></div>'''.split()))
+html(" ".join(f'''<div class="cerita"><p>Sebanyak <b>{idn(TOTAL_WISMAN)} kunjungan</b> wisatawan mancanegara datang dari
+{wisman["Negara"].nunique()} negara melalui {wisman["Pintu"].nunique()} pintu masuk. Menariknya, <b>{tot_pintu.index[0]}</b>
+sendiri menampung {pct(tot_pintu.iloc[0] / TOTAL_WISMAN)} dari seluruh kunjungan.</p>
+<p>Untuk wisatawan nusantara, ceritanya berbeda. {pct(_porsi_dalam, 0)} perjalanan justru selesai di provinsi asal.
+Jadi, bagian berikutnya hanya mengikuti perjalanan yang benar-benar menyeberang ke provinsi lain.</p></div>'''.split()))
 
 # =====================================================================================
 # BAGIAN 1 - WISATAWAN MANCANEGARA
 # =====================================================================================
+sec_banner("BAGIAN 1", "Wisatawan mancanegara", "Dari negara mana mereka datang, dan lewat gerbang mana mereka masuk.")
+
 with st.container(key="fl_card_atur"):
-    judul_kartu("Wisatawan mancanegara", "Atur tampilan aliran",
-                "Pilih jumlah negara dan batas minimal aliran. Semua grafik di bagian ini ikut berubah.")
+    judul_kartu("WISMAN", "Siapa datang dari mana?",
+                "Pilih negara dan batas aliran untuk menyaring cerita yang ingin dilihat.")
     a, b = st.columns(2, gap="large")
     top_n = a.slider("Jumlah negara asal", 15, 30, 15, key="flow_topn",
                      help="Negara diurutkan dari jumlah kunjungan terbanyak.")
@@ -208,104 +287,108 @@ html(f"""
 </div>""")
 
 # ---------------- SANKEY ----------------
-kepala("Sankey", "Dari negara asal ke pintu masuk",
-       "Makin tebal pita, makin banyak kunjungan. Arahkan kursor ke pita untuk melihat angka pastinya.")
-html(chips({"Bandara": JENIS_COLOR["Bandara"], "Pelabuhan laut": JENIS_COLOR["Pelabuhan laut"],
-            "Pos lintas batas darat": JENIS_COLOR["Pos lintas batas darat"], "Lainnya": JENIS_COLOR["Lainnya"]}))
+with st.container(key="fl_card_sankey"):
+    kepala("Sankey", "Dari mana mereka datang?",
+           "Ikuti pita dari negara asal sampai ke pintu masuk. Makin tebal, makin ramai.")
+    html(chips({"Bandara": JENIS_COLOR["Bandara"], "Pelabuhan laut": JENIS_COLOR["Pelabuhan laut"],
+                "Pos lintas batas darat": JENIS_COLOR["Pos lintas batas darat"], "Lainnya": JENIS_COLOR["Lainnya"]}))
 
-if d_s.empty:
-    st.session_state["narasi_flow"] = []
-    html('<div class="fl-sub">Belum ada aliran yang lolos batas ini. Turunkan batas minimal di atas.</div>')
-else:
-    neg_v = d_s.groupby("Negara")["Value"].sum().sort_values(ascending=False)
-    pin_v = d_s.groupby("Pintu")["Value"].sum().sort_values(ascending=False)
-    countries, gates = neg_v.index.tolist(), pin_v.index.tolist()
-    gate_info = d_s.drop_duplicates("Pintu").set_index("Pintu")[["Jenis_Pintu", "Provinsi_Pintu"]]
+    if d_s.empty:
+        st.session_state["narasi_flow"] = []
+        html('<div class="fl-sub">Belum ada jalur yang masuk. Coba turunkan batas minimal di atas.</div>')
+    else:
+        neg_v = d_s.groupby("Negara")["Value"].sum().sort_values(ascending=False)
+        pin_v = d_s.groupby("Pintu")["Value"].sum().sort_values(ascending=False)
+        countries, gates = neg_v.index.tolist(), pin_v.index.tolist()
+        gate_info = d_s.drop_duplicates("Pintu").set_index("Pintu")[["Jenis_Pintu", "Provinsi_Pintu"]]
 
-    labels = countries + gates
-    idx = {n: i for i, n in enumerate(labels)}
-    node_color = [NEGARA_COLOR] * len(countries) + [JENIS_COLOR[gate_info.loc[g, "Jenis_Pintu"]] for g in gates]
-    node_hover = [f"Negara asal<br>{idn(neg_v[c])} kunjungan pada diagram<br>{idn(tot_negara[c])} kunjungan seluruhnya"
-                  for c in countries] + [
-        f"{gate_info.loc[g, 'Jenis_Pintu']} · {gate_info.loc[g, 'Provinsi_Pintu']}<br>{idn(pin_v[g])} kunjungan pada diagram"
-        for g in gates]
+        labels = countries + gates
+        idx = {n: i for i, n in enumerate(labels)}
+        node_color = [NEGARA_COLOR] * len(countries) + [JENIS_COLOR[gate_info.loc[g, "Jenis_Pintu"]] for g in gates]
+        node_hover = [f"Negara asal<br>{idn(neg_v[c])} kunjungan pada diagram<br>{idn(tot_negara[c])} kunjungan seluruhnya"
+                      for c in countries] + [
+            f"{gate_info.loc[g, 'Jenis_Pintu']} · {gate_info.loc[g, 'Provinsi_Pintu']}<br>{idn(pin_v[g])} kunjungan pada diagram"
+            for g in gates]
 
-    fig_sankey = go.Figure(go.Sankey(
-        node=dict(pad=8, thickness=16, label=labels, color=node_color, customdata=node_hover,
-                  line=dict(color="rgba(0,0,0,0.2)", width=0.5),
-                  hovertemplate="<b>%{label}</b><br>%{customdata}<extra></extra>"),
-        link=dict(source=[idx[s] for s in d_s["Negara"]], target=[idx[t] for t in d_s["Pintu"]], value=d_s["Value"],
-                  color=[rgba(JENIS_COLOR[j], 0.4) for j in d_s["Jenis_Pintu"]],
-                  hovertemplate="%{source.label} → %{target.label}<br><b>%{value:,.0f}</b> kunjungan<extra></extra>"),
-    ))
-    gaya_plotly(fig_sankey, int(min(660, max(480, 15 * max(len(countries), len(gates)) + 150))), atas=10, bawah=10)
+        fig_sankey = go.Figure(go.Sankey(
+            node=dict(pad=8, thickness=16, label=labels, color=node_color, customdata=node_hover,
+                      line=dict(color="rgba(0,0,0,0.2)", width=0.5),
+                      hovertemplate="<b>%{label}</b><br>%{customdata}<extra></extra>"),
+            link=dict(source=[idx[s] for s in d_s["Negara"]], target=[idx[t] for t in d_s["Pintu"]], value=d_s["Value"],
+                      color=[rgba(JENIS_COLOR[j], 0.4) for j in d_s["Jenis_Pintu"]],
+                      hovertemplate="%{source.label} → %{target.label}<br><b>%{value:,.0f}</b> kunjungan<extra></extra>"),
+        ))
+        gaya_plotly(fig_sankey, int(min(660, max(480, 15 * max(len(countries), len(gates)) + 150))), atas=10, bawah=10)
 
     
-    n1, p1 = countries[0], gates[0]
-    teratas = d_s.loc[d_s["Value"].idxmax()]
-    sisa_pin = [g for g in gates[1:3]]
-    kartu = [
-        ("NEGARA ASAL", f"{n1} paling banyak mengirim wisatawan",
-         f"Dari {top_n} negara terpilih, {n1} mengirim {ringkas(neg_v.iloc[0])} kunjungan, "
-         f"atau {pct(neg_v.iloc[0] / tot_s)} dari aliran yang tampil."),
-        ("PINTU MASUK", f"{p1} jadi gerbang utama",
-         f"Pintu ini menerima {pct(pin_v.iloc[0] / tot_s)} kunjungan pada tampilan ini"
-         + (f", disusul {' dan '.join(sisa_pin)}." if sisa_pin else ".")),
-        ("JALUR TERSIBUK", f"{teratas['Negara']} → {teratas['Pintu']}",
-         f"{idn(teratas['Value'])} kunjungan, setara {pct(teratas['Value'] / tot_negara[teratas['Negara']])} "
-         f"dari seluruh kunjungan wisatawan asal {teratas['Negara']}."),
-        ("CAKUPAN", "Seberapa lengkap gambarnya?",
-         f"Dengan {top_n} negara dan " + ("tanpa batas minimal" if min_flow == 0 else f"batas {idn(min_flow)} kunjungan")
-         + f", diagram memuat {idn(len(d_s))} jalur yang mencakup {pct(tot_s / TOTAL_WISMAN)} dari seluruh kunjungan."
-         + (" Turunkan batas untuk melihat jalur yang lebih kecil." if min_flow > 0 else "")),
-    ]
-    st.session_state["narasi_flow"] = kartu
-    st.plotly_chart(fig_sankey, use_container_width=True, key="sankey_flow", theme=None, config={"displaylogo": False})
+        n1, p1 = countries[0], gates[0]
+        teratas = d_s.loc[d_s["Value"].idxmax()]
+        sisa_pin = [g for g in gates[1:3]]
+        kartu = [
+            ("NEGARA ASAL", f"{n1} paling banyak mengirim wisatawan",
+             f"Dari {top_n} negara terpilih, {n1} mengirim {ringkas(neg_v.iloc[0])} kunjungan, "
+             f"atau {pct(neg_v.iloc[0] / tot_s)} dari aliran yang tampil."),
+            ("PINTU MASUK", f"{p1} jadi gerbang utama",
+             f"Pintu ini menerima {pct(pin_v.iloc[0] / tot_s)} kunjungan pada tampilan ini"
+             + (f", disusul {' dan '.join(sisa_pin)}." if sisa_pin else ".")),
+            ("JALUR TERSIBUK", f"{teratas['Negara']} → {teratas['Pintu']}",
+             f"{idn(teratas['Value'])} kunjungan, setara {pct(teratas['Value'] / tot_negara[teratas['Negara']])} "
+             f"dari seluruh kunjungan wisatawan asal {teratas['Negara']}."),
+            ("CAKUPAN", "Seberapa lengkap gambarnya?",
+             f"Dengan {top_n} negara dan " + ("tanpa batas minimal" if min_flow == 0 else f"batas {idn(min_flow)} kunjungan")
+             + f", diagram memuat {idn(len(d_s))} jalur yang mencakup {pct(tot_s / TOTAL_WISMAN)} dari seluruh kunjungan."
+             + (" Turunkan batas untuk melihat jalur yang lebih kecil." if min_flow > 0 else "")),
+        ]
+        st.session_state["narasi_flow"] = kartu
+        st.plotly_chart(fig_sankey, use_container_width=True, key="sankey_flow", theme=None, config={"displaylogo": False})
 
 # ---------------- HEATMAP ----------------
-kepala("Heatmap", "Pasangan negara dan pintu yang paling ramai",
-       "Makin pekat warnanya, makin banyak kunjungan. Kotak paling pucat berarti tidak ada kunjungan.")
-skala = st.radio("Skala warna", ["Logaritmik", "Linear"], horizontal=True, key="heat_scale",
-                 help="Ngurah Rai jauh di atas pintu lain. Skala logaritmik menjaga pasangan kecil tetap terlihat.")
+with st.container(key="fl_card_heat"):
+    kepala("Heatmap", "Gerbang mana yang paling sibuk?",
+           "Baris = negara asal, kolom = pintu masuk; keduanya diurutkan dari yang terbanyak.")
+    skala = st.radio("Skala warna", ["Logaritmik", "Linear"], horizontal=True, key="heat_scale",
+                     help="Ngurah Rai jauh di atas pintu lain. Skala logaritmik menjaga pasangan kecil tetap terlihat.")
 
-mat = d_top.pivot_table(index="Negara", columns="Pintu", values="Value", aggfunc="sum", fill_value=0)
-mat = mat.reindex(index=top_c.index)
-mat = mat[mat.sum().sort_values(ascending=False).index]
-z = mat.values.astype(float)  # tidak ada kunjungan = 0 (tetap diberi warna)
-if skala == "Logaritmik":
-    zplot = np.log10(1 + z)  # log(1+x): nilai 0 tetap terdefinisi
-    batas = [v for v in (0, 10, 100, 1_000, 10_000, 100_000, 1_000_000) if np.log10(1 + v) <= zplot.max() + 0.2]
-    colorbar = dict(title="Kunjungan", thickness=14, tickvals=[np.log10(1 + v) for v in batas],
-                    ticktext=[idn(v) for v in batas])
-else:
-    zplot = z
-    colorbar = dict(title="Kunjungan", thickness=14)
+    mat = d_top.pivot_table(index="Negara", columns="Pintu", values="Value", aggfunc="sum", fill_value=0)
+    mat = mat.reindex(index=top_c.index)
+    mat = mat[mat.sum().sort_values(ascending=False).index]
+    z = mat.values.astype(float)  # tidak ada kunjungan = 0 (tetap diberi warna)
+    CB = dict(orientation="h", x=0.5, xanchor="center", y=1.0, yanchor="bottom", len=0.7, thickness=12,
+              title=dict(text="Jumlah kunjungan", side="top"), tickfont=dict(size=11), tickangle=0, ypad=4)
+    if skala == "Logaritmik":
+        zplot = np.log10(1 + z)  # log(1+x): nilai 0 tetap terdefinisi
+        batas = [v for v in (0, 100, 10_000, 1_000_000) if np.log10(1 + v) <= zplot.max() + 0.2]
+        colorbar = dict(CB, tickvals=[np.log10(1 + v) for v in batas], ticktext=[idn(v) for v in batas])
+    else:
+        zplot = z
+        colorbar = dict(CB)
 
-fig_heat = go.Figure(go.Heatmap(
-    z=zplot, x=mat.columns.tolist(), y=mat.index.tolist(), customdata=z, colorscale=HEAT_SCALE, xgap=2, ygap=2,
-    colorbar=colorbar, hovertemplate="Negara: %{y}<br>Pintu: %{x}<br>Kunjungan: <b>%{customdata:,.0f}</b><extra></extra>",
-))
-gaya_plotly(fig_heat, int(max(500, 24 * len(mat) + 250)), atas=16, bawah=28)
-fig_heat.update_layout(
-    dragmode=False,
-    xaxis=dict(title="Pintu masuk (urut dari terbanyak)", tickangle=-45, type="category"),
-    yaxis=dict(title="Negara asal (urut dari terbanyak)", autorange="reversed", type="category"),
-)
-i, j = np.unravel_index(np.argmax(z), z.shape)
-st.plotly_chart(fig_heat, use_container_width=True, key="heatmap_flow", theme=None,
-                config={"displaylogo": False, "displayModeBar": False})
-html(f'<div class="fl-p"><p>Di antara {top_n} negara terpilih, pasangan paling ramai adalah <b>{mat.index[i]} → {mat.columns[j]}</b> '
-     f'dengan {idn(z[i, j])} kunjungan.</p></div>')
+    fig_heat = go.Figure(go.Heatmap(
+        z=zplot, x=mat.columns.tolist(), y=mat.index.tolist(), customdata=z, colorscale=HEAT_SCALE, xgap=2, ygap=2,
+        colorbar=colorbar, hovertemplate="Negara: %{y}<br>Pintu: %{x}<br>Kunjungan: <b>%{customdata:,.0f}</b><extra></extra>",
+    ))
+    gaya_plotly(fig_heat, int(max(500, 24 * len(mat) + 260)), atas=110, bawah=24)
+    fig_heat.update_layout(
+        dragmode=False,
+        xaxis=dict(title=None, tickangle=-45, type="category", tickfont=dict(size=10)),
+        yaxis=dict(autorange="reversed", type="category", tickfont=dict(size=11)),
+    )
+    i, j = np.unravel_index(np.argmax(z), z.shape)
+    html('<div class="swipe">↔ Geser ke samping untuk melihat semua pintu masuk.</div>')
+    with st.container(key="scroll_heat"):
+        st.plotly_chart(fig_heat, use_container_width=True, key="heatmap_flow", theme=None,
+                        config={"displaylogo": False, "displayModeBar": False})
+    html(f'<div class="callout"><span class="tag">PASANGAN PALING RAMAI</span>Di antara {top_n} negara terpilih, pasangan paling ramai adalah '
+         f'<b>{mat.index[i]} → {mat.columns[j]}</b> dengan {idn(z[i, j])} kunjungan.</div>')
 
 # =====================================================================================
 # BAGIAN 2 - WISATAWAN NUSANTARA
 # =====================================================================================
-kepala("Wisatawan nusantara", "Perjalanan antarprovinsi",
-       "Provinsi mana yang paling sering mengirim dan menerima wisatawan dari provinsi lain?")
+sec_banner("BAGIAN 2", "Wisatawan nusantara", "Seberapa jauh mereka bergerak? Ikuti perjalanan yang benar-benar melintasi batas provinsi.")
 
 totals = antar.groupby("Asal")["Value"].sum().add(antar.groupby("Tujuan")["Value"].sum(), fill_value=0)
 with st.container(key="fl_card_atur2"):
-    judul_kartu("Pengaturan", "Atur tampilan chord dan batang")
+    judul_kartu("PENGATURAN", "Mau lihat arus yang mana?", "Pilih jumlah provinsi, fokus wilayah, dan batas arus.")
     c1, c2, c3 = st.columns(3, gap="large")
     n_prov = c1.slider("Jumlah provinsi", 15, 38, 15, key="chord_filter", help="Diurutkan dari volume terbesar.")
     top_prov = totals.nlargest(n_prov).index.tolist()
@@ -339,98 +422,73 @@ with st.container(key="dua_flow"):
 
 # ---------------- CHORD ----------------
 with col_chord:
-    judul_kartu("Chord", "Arus antarprovinsi", "Lebar pita menunjukkan jumlah perjalanan, warna menunjukkan pulau provinsi asal. Arahkan kursor ke busur untuk melihat angkanya.")
-    html(chips(WILAYAH_COLOR))
-    if edges.empty:
-        html('<div class="fl-sub">Belum ada arus yang lolos batas ini. Turunkan batas minimal di atas.</div>')
-    else:
-        names = pd.unique(edges[["Asal", "Tujuan"]].values.ravel())
-        pinfo = prov.set_index("Provinsi")
-        node_df = pd.DataFrame({"name": names})
-        node_df["Wilayah"] = node_df["name"].map(pinfo["Wilayah"])
-        node_df["Keluar"] = node_df["name"].map(lambda n: idn(pinfo.loc[n, "Keluar"]))
-        node_df["Masuk"] = node_df["name"].map(lambda n: idn(pinfo.loc[n, "Masuk"]))
-        node_df["_w"] = node_df["Wilayah"].map({w: k for k, w in enumerate(WILAYAH_ORDER)})
-        node_df["_t"] = node_df["name"].map(totals)
-        node_df = node_df.sort_values(["_w", "_t"], ascending=[True, False]).drop(columns=["_w", "_t"])
-
-        edge_df = edges.rename(columns={"Asal": "source", "Tujuan": "target", "Value": "value"})[
-            ["source", "target", "value", "Wilayah_Asal"]]
-        nodes = hv.Dataset(node_df, "name", vdims=["Wilayah", "Keluar", "Masuk"])
-        chord = hv.Chord((edge_df, nodes), vdims=["value", "Wilayah_Asal"])
-        chord.opts(opts.Chord(
-            cmap=WILAYAH_COLOR, edge_cmap=WILAYAH_COLOR, node_color="Wilayah", edge_color="Wilayah_Asal",
-            labels="name", edge_alpha=0.6, node_size=12, label_text_font_size="8pt",
-            inspection_policy="nodes", selection_policy="nodes",
-            default_tools=[], tools=["hover", "tap"],
-            width=520, height=520, padding=0.22, title="",
-        ))
-        bokeh_fig = hv.render(chord, backend="bokeh")
-     
-        node_layers = [r for r in bokeh_fig.renderers
-                       if hasattr(r, "node_renderer") or "text" not in r.data_source.data]
-        hover = HoverTool(renderers=node_layers, tooltips=[
-            ("Provinsi", "@index_hover"), ("Wilayah", "@Wilayah"),
-            ("Keluar (antarprovinsi)", "@Keluar"), ("Masuk (antarprovinsi)", "@Masuk")])
-        lock = (PanTool, WheelZoomTool, BoxZoomTool, ResetTool, HoverTool)  # tanpa pan/zoom: posisi tetap
-        bokeh_fig.toolbar.tools = [t for t in bokeh_fig.toolbar.tools if not isinstance(t, lock)] + [hover]
-        bokeh_fig.toolbar.active_drag = None
-        bokeh_fig.toolbar.active_scroll = None
-        bokeh_fig.toolbar.active_inspect = hover
-        bokeh_fig.sizing_mode = "scale_width"  
-        bokeh_fig.max_width = 520
-        bokeh_fig.align = "center"
-        bokeh_fig.toolbar_location = None
-        chord_html = file_html(bokeh_fig, CDN, "Chord Diagram")
-        if hasattr(st, "iframe"):
-            st.iframe(chord_html, height=545)
+    with st.container(key="fl_card_chord"):
+        kepala_kartu("Lihat jaringan perjalanannya", "Semakin lebar pita, semakin banyak perjalanan. Warna menunjukkan wilayah asal.",
+                     chips(WILAYAH_COLOR))
+        if edges.empty:
+            html('<div class="fl-sub">Belum ada arus yang lolos batas ini. Turunkan batas minimal di atas.</div>')
         else:
-            st.components.v1.html(chord_html, height=545, scrolling=False)
+            names = pd.unique(edges[["Asal", "Tujuan"]].values.ravel())
+            pinfo = prov.set_index("Provinsi")
+            node_df = pd.DataFrame({"name": names})
+            node_df["Wilayah"] = node_df["name"].map(pinfo["Wilayah"])
+            node_df["Label"] = node_df["name"].map(singkat)
+            node_df["Keluar"] = node_df["name"].map(lambda n: idn(pinfo.loc[n, "Keluar"]))
+            node_df["Masuk"] = node_df["name"].map(lambda n: idn(pinfo.loc[n, "Masuk"]))
+            node_df["_w"] = node_df["Wilayah"].map({w: k for k, w in enumerate(WILAYAH_ORDER)})
+            node_df["_t"] = node_df["name"].map(totals)
+            node_df = node_df.sort_values(["_w", "_t"], ascending=[True, False]).drop(columns=["_w", "_t"])
+
+            edge_df = edges.rename(columns={"Asal": "source", "Tujuan": "target", "Value": "value"})[
+                ["source", "target", "value", "Wilayah_Asal"]]
+            tampil_iframe(render_chord(edge_df, node_df, "Label", 600, "9pt"), 600)
 
 # ---------------- BATANG TIMBAL BALIK ----------------
 with col_bar:
-    if pf is None:
-        judul_kartu("Batang", "Arus dua arah pada pasangan provinsi terpadat",
-                    "Tiap pasangan punya dua batang: hijau tua untuk perjalanan searah panah pada labelnya, "
-                    "oranye untuk perjalanan sebaliknya. Makin pendek batang oranye, makin timpang arusnya.")
-    else:
-        judul_kartu("Batang", f"Arus keluar dan masuk {fokus}",
-                    f"Tiap mitra punya dua batang: hijau tua untuk perjalanan dari {fokus} ke mitra, "
-                    f"oranye untuk perjalanan dari mitra ke {fokus}.")
-    if (pv is not None and pv.empty) or (pf is not None and pf.empty):
-        html('<div class="fl-sub">Belum ada arus untuk ditampilkan pada pengaturan ini.</div>')
-    else:
-        fig_bar = go.Figure()
-        if pv is not None:
-            fig_bar.add_bar(
-                y=pv["dom"], x=pv["max"] / 1e6, orientation="h", name="Searah panah pada label", marker_color=DIR_COLOR["a"],
-                text=[idn(v / 1e6, 2) for v in pv["max"]], textposition="outside", cliponaxis=False,
-                customdata=np.column_stack([pv["dom"], pv["max"], pv["rasio"].fillna(0)]),
-                hovertemplate="%{customdata[0]}<br><b>%{customdata[1]:,.0f}</b> perjalanan<br>Arah balik: %{customdata[2]:.0%} dari arah dominan<extra></extra>")
-            fig_bar.add_bar(
-                y=pv["dom"], x=pv["min"] / 1e6, orientation="h", name="Arah sebaliknya", marker_color=DIR_COLOR["b"],
-                text=[idn(v / 1e6, 2) for v in pv["min"]], textposition="outside", cliponaxis=False,
-                customdata=np.column_stack([pv["rev"], pv["min"], pv["rasio"].fillna(0)]),
-                hovertemplate="%{customdata[0]}<br><b>%{customdata[1]:,.0f}</b> perjalanan<br>Arah balik: %{customdata[2]:.0%} dari arah dominan<extra></extra>")
+    with st.container(key="fl_card_bar"):
+        if pf is None:
+            kepala_kartu("Siapa lebih banyak mengirim?",
+                        "Tiap pasangan punya dua batang: hijau tua untuk perjalanan searah panah pada labelnya, "
+                        "oranye untuk perjalanan sebaliknya. Makin pendek batang oranye, makin timpang arusnya.")
         else:
-            fig_bar.add_bar(
-                y=pf.index, x=pf["keluar"] / 1e6, orientation="h", name=f"{fokus} → mitra", marker_color=DIR_COLOR["a"],
-                text=[idn(v / 1e6, 2) for v in pf["keluar"]], textposition="outside", cliponaxis=False,
-                hovertemplate=f"{fokus} → %{{y}}<br><b>%{{customdata:,.0f}}</b> perjalanan<extra></extra>", customdata=pf["keluar"])
-            fig_bar.add_bar(
-                y=pf.index, x=pf["masuk"] / 1e6, orientation="h", name=f"mitra → {fokus}", marker_color=DIR_COLOR["b"],
-                text=[idn(v / 1e6, 2) for v in pf["masuk"]], textposition="outside", cliponaxis=False,
-                hovertemplate=f"%{{y}} → {fokus}<br><b>%{{customdata:,.0f}}</b> perjalanan<extra></extra>", customdata=pf["masuk"])
-        gaya_plotly(fig_bar, 560, atas=60, bawah=40)
-        fig_bar.update_layout(
-            barmode="group", dragmode=False,
-            xaxis=dict(title="Perjalanan wisatawan nusantara (juta)", gridcolor="#E6F2EF", zeroline=False),
-            yaxis=dict(title="", autorange="reversed", tickfont=dict(size=11), ticksuffix="\u00a0\u00a0"),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0, font=dict(size=12)),
-        )
-        fig_bar.update_layout(margin=dict(t=60, l=14, r=44, b=28))
-        st.plotly_chart(fig_bar, use_container_width=True, key="chord_bar_flow", theme=None,
-                        config={"displaylogo": False, "displayModeBar": False})
+            kepala_kartu(f"Keluar atau masuk {fokus}?",
+                        f"Tiap mitra punya dua batang: hijau tua untuk perjalanan dari {fokus} ke mitra, "
+                        f"oranye untuk perjalanan dari mitra ke {fokus}.")
+        if (pv is not None and pv.empty) or (pf is not None and pf.empty):
+            html('<div class="fl-sub">Belum ada perjalanan yang cocok dengan pilihan ini.</div>')
+        else:
+            fig_bar = go.Figure()
+            if pv is not None:
+                fig_bar.add_bar(
+                    y=pv["dom"], x=pv["max"] / 1e6, orientation="h", name="Searah panah pada label", marker_color=DIR_COLOR["a"],
+                    text=[idn(v / 1e6, 2) for v in pv["max"]], textposition="outside", cliponaxis=False,
+                    customdata=np.column_stack([pv["dom"], pv["max"], pv["rasio"].fillna(0)]),
+                    hovertemplate="%{customdata[0]}<br><b>%{customdata[1]:,.0f}</b> perjalanan<br>Arah balik: %{customdata[2]:.0%} dari arah dominan<extra></extra>")
+                fig_bar.add_bar(
+                    y=pv["dom"], x=pv["min"] / 1e6, orientation="h", name="Arah sebaliknya", marker_color=DIR_COLOR["b"],
+                    text=[idn(v / 1e6, 2) for v in pv["min"]], textposition="outside", cliponaxis=False,
+                    customdata=np.column_stack([pv["rev"], pv["min"], pv["rasio"].fillna(0)]),
+                    hovertemplate="%{customdata[0]}<br><b>%{customdata[1]:,.0f}</b> perjalanan<br>Arah balik: %{customdata[2]:.0%} dari arah dominan<extra></extra>")
+            else:
+                fig_bar.add_bar(
+                    y=pf.index, x=pf["keluar"] / 1e6, orientation="h", name=f"{fokus} → mitra", marker_color=DIR_COLOR["a"],
+                    text=[idn(v / 1e6, 2) for v in pf["keluar"]], textposition="outside", cliponaxis=False,
+                    hovertemplate=f"{fokus} → %{{y}}<br><b>%{{customdata:,.0f}}</b> perjalanan<extra></extra>", customdata=pf["keluar"])
+                fig_bar.add_bar(
+                    y=pf.index, x=pf["masuk"] / 1e6, orientation="h", name=f"mitra → {fokus}", marker_color=DIR_COLOR["b"],
+                    text=[idn(v / 1e6, 2) for v in pf["masuk"]], textposition="outside", cliponaxis=False,
+                    hovertemplate=f"%{{y}} → {fokus}<br><b>%{{customdata:,.0f}}</b> perjalanan<extra></extra>", customdata=pf["masuk"])
+            gaya_plotly(fig_bar, 600, atas=60, bawah=40)
+            fig_bar.update_layout(
+                barmode="group", dragmode=False,
+                xaxis=dict(title="Perjalanan (juta)", gridcolor="#E6F2EF", zeroline=False),
+                yaxis=dict(title="", autorange="reversed", tickfont=dict(size=11), ticksuffix="\u00a0\u00a0"),
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0, font=dict(size=12)),
+            )
+            fig_bar.update_layout(margin=dict(t=60, l=14, r=44, b=28))
+            with st.container(key="scroll_bar"):
+                st.plotly_chart(fig_bar, use_container_width=True, key="chord_bar_flow", theme=None,
+                                config={"displaylogo": False, "displayModeBar": False})
 
 
 def kartu_top3(judul, items, total):
@@ -469,15 +527,20 @@ with st.container(key="fl_card_interp"):
                  f"berakhir di provinsinya sendiri."]
     else:
         paras = ["Belum ada arus untuk ditafsirkan pada pengaturan ini."]
-    judul_kartu("Interpretasi", "Apa arti pola arus ini?")
-    html('<div class="fl-p">' + "".join(f"<p>{p}</p>" for p in paras) + "</div>")
+    judul_kartu("Jadi, apa ceritanya?", "Arus mana yang paling terasa?")
+    if len(paras) == 1:
+        html(f'<div class="callout">{paras[0]}</div>')
+    else:
+        heads = (("Pasangan terpadat", "Seimbang atau timpang?") if pf is None
+                 else ("Penerima atau pengirim?", "Tinggal di rumah sendiri"))
+        insight_cards([(f"TEMUAN {n:02d}", h, p) for n, (h, p) in enumerate(zip(heads, paras), 1)])
     html(f"""
 <div class="fl-top3">
-  <div class="t">Tiga besar dari seluruh data</div>
-  <div class="s">Bagian ini tidak berubah saat pengaturan di atas diubah.</div>
+  <div class="t">Tiga yang paling menonjol</div>
+  <div class="s">Ringkasan ini tetap, meski filter di atas berubah.</div>
   <div class="fl-t3-grid">
-    {kartu_top3("Negara asal terbanyak", top_neg, TOTAL_WISMAN)}
-    {kartu_top3("Pintu masuk tersibuk", top_pin, TOTAL_WISMAN)}
+    {kartu_top3("Negara pengirim terbanyak", top_neg, TOTAL_WISMAN)}
+    {kartu_top3("Gerbang tersibuk", top_pin, TOTAL_WISMAN)}
     {kartu_top3("Pasangan provinsi terpadat", top_pair, TOTAL_ANTAR)}
   </div>
 </div>""")

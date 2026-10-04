@@ -46,7 +46,7 @@ def cfg_menginap():
         ukuran_label="Jumlah kamar", warna_label="Rata-rata lama menginap",
         satuan_warna=" malam", fmt=".2f",
         terbesar="Kamar terbanyak", tinggi="Menginap terlama", rendah="Menginap tersingkat",
-        judul_grafik="Kamar hotel dan rata-rata lama menginap",
+        judul_grafik="Hotel, kamar, dan lama menginap",
         luas="jumlah kamar", warna_txt="rata-rata lama menginap", unit_rentang=" malam",
         views=["Treemap", "Sunburst"],
     )
@@ -64,7 +64,7 @@ def cfg_wisnus(jk):
         satuan_warna="%", fmt=".1f", jk=jk,
         terbesar="Wisnus terbanyak", tinggi=f"Persentase {jk.lower()} tertinggi",
         rendah=f"Persentase {jk.lower()} terendah",
-        judul_grafik="Perjalanan wisatawan nusantara menurut jenis kelamin",
+        judul_grafik="Siapa yang lebih banyak bepergian?",
         luas="jumlah perjalanan (perkiraan)", warna_txt=f"persentase {jk.lower()}", unit_rentang="%",
         views=["Icicle", "Treemap"],
     )
@@ -73,7 +73,15 @@ def cfg_wisnus(jk):
 CSS = """
 .hn-h{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.25rem;color:var(--dk,#0B4F4A);margin:0;line-height:1.3;}
 .hn-sub{color:var(--mut,#4E6B67);font-size:.93rem;margin:.2rem 0 0;line-height:1.55;}
-.hn-path{color:var(--mut,#4E6B67);font-size:.88rem;}
+.hn-path{display:inline-block;background:#EAF6F3;border:1px solid #CFE7E2;border-radius:999px;padding:.2rem .85rem;font-size:.82rem;font-weight:600;color:var(--dk,#0B4F4A);}
+.lg{max-width:30rem;margin:.2rem auto 0;}
+.lg-t{text-align:center;font-size:.85rem;font-weight:600;color:var(--mut,#4E6B67);margin-bottom:.45rem;}
+.lg-bar{display:flex;height:12px;border-radius:999px;overflow:hidden;margin:0 1.6rem;}
+.lg-bar i{flex:1;}
+.lg-ticks{position:relative;height:1.3rem;margin:.3rem 1.6rem 0;}
+.lg-ticks span{position:absolute;transform:translateX(-50%);font-size:.76rem;color:var(--mut,#4E6B67);white-space:nowrap;}
+@media(max-width:480px){.lg-ticks span{font-size:.68rem;}}
+.hn-barbox{background:#F4FAF8;border:1px solid var(--line,#D3E4E0);border-radius:16px;padding:1.1rem 1.3rem 1.2rem;}
 .hn-p p{margin:0 0 .85rem;line-height:1.75;font-size:1.02rem;color:var(--txt,#12302D);}
 .hn-p b{color:var(--dk,#0B4F4A);}
 .hn-bars{display:flex;flex-direction:column;gap:.55rem;margin-top:.7rem;}
@@ -84,8 +92,6 @@ CSS = """
 .hn-bar .p{text-align:right;color:var(--dk,#0B4F4A);font-weight:700;}
 .hn-bar .b{text-align:center;border-radius:999px;padding:.12rem .6rem;font-size:.8rem;font-weight:700;}
 .st-key-hn_root{gap:1.3rem!important;}
-[class*="st-key-hn_box"]{background:#fff;border:1px solid var(--line,#D3E4E0);border-radius:18px;padding:1.3rem 1.5rem;gap:1rem!important;}
-[class*="st-key-hn_box"] [data-testid="stMetric"]{background:#E9F4F1;}
 [class*="st-key-hn_box"] [data-testid="stPlotlyChart"]{border:0;box-shadow:none;padding:0;border-radius:0;background:transparent;}
 [data-testid="stPlotlyChart"],[data-testid="stPlotlyChart"]>div,[data-testid="stPlotlyChart"] .js-plotly-plot,[data-testid="stPlotlyChart"] .plot-container{overflow:hidden!important;max-width:100%;}
 @media(max-width:760px){.hn-bar{grid-template-columns:90px 1fr 52px;}.hn-bar .b{display:none;}[class*="st-key-hn_box"]{padding:1rem 1rem;}}
@@ -229,15 +235,7 @@ def buat_grafik(nama, n, c):
                 colors=n["warna"], colorscale=skala,
                 cmin=c["rentang"][0], cmax=c["rentang"][1],
                 line=dict(color="#FFFFFF", width=1.5),
-                showscale=True,
-                colorbar=dict(
-                    title=dict(text=c["judul_warna"], side="right",
-                               font=dict(color=TEKS_REDUP, size=12, family=FONT)),
-                    orientation="h", thickness=12, len=0.5,
-                    x=0.5, xanchor="center", y=0, yanchor="top", ypad=16,
-                    tickvals=tv, ticktext=tt, outlinewidth=0,
-                    tickfont=dict(color=TEKS_REDUP, size=12, family=FONT),
-                ),
+                showscale=False,
             ),
         )
     )
@@ -245,10 +243,21 @@ def buat_grafik(nama, n, c):
         height=TINGGI, autosize=True, dragmode=False,
         font=dict(family=FONT, size=13, color=TEKS),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-        margin=dict(t=8, l=4, r=4, b=78),
+        margin=dict(t=8, l=4, r=4, b=8),
+        uniformtext=dict(minsize=10, mode="hide"),
         hoverlabel=dict(bgcolor=TEAL_GELAP, font=dict(color="white", size=13, family=FONT), align="left"),
     )
     return fig
+
+
+def legenda(c):
+    """Legenda warna HTML (responsif; menggantikan colorbar Plotly yang hancur di layar kecil)."""
+    tv, tt = _tick(c)
+    bar = "".join(f'<i style="background:{h}"></i>' for h in c["palet"])
+    n = len(tv) - 1
+    ticks = "".join(f'<span style="left:{i / n * 100:.1f}%">{t}</span>' for i, t in enumerate(tt))
+    html(f'<div class="lg"><div class="lg-t">{c["judul_warna"]}</div><div class="lg-bar">{bar}</div>'
+         f'<div class="lg-ticks">{ticks}</div></div>')
 
 
 def gambar(df, c, n_prov, level, nama_level, kunci):
@@ -262,6 +271,7 @@ def gambar(df, c, n_prov, level, nama_level, kunci):
                  f'<div class="hn-path">Susunan: {jalur}</div>')
             st.plotly_chart(buat_grafik(nama, n, c), use_container_width=True,
                             key=f"{kunci}_{nama}", theme=None, config=CONFIG_PLOT)
+            legenda(c)
 
 
 # ---------------- ringkasan ----------------
@@ -306,6 +316,16 @@ def ringkasan(df, c, judul, wilayah):
 
 
 # ---------------- interpretasi (mengikuti filter yang dipilih) ----------------
+def insight_cards(items):
+    """Kartu temuan: (label, judul, isi) -> grid kartu berwarna."""
+    html('<div class="ins-grid">' + "".join(
+        f'<div class="ins"><div class="n">{l}</div><h4>{h}</h4><p>{t}</p></div>' for l, h, t in items) + "</div>")
+
+
+def _kartu(heads, *ps):
+    ada = [(h, p) for h, p in zip(heads, ps) if p]
+    return [(f"TEMUAN {i:02d}", h, p) for i, (h, p) in enumerate(ada, 1)]
+
 def _top(prov, total, n=5):
     urut = prov.sort_values("ukuran", ascending=False)
     return urut, urut["ukuran"].head(3).sum() / total * 100
@@ -381,9 +401,9 @@ def tafsir_menginap(df_pulau, pilih_asal, asal, wilayah, c):
 
     bars = _bars(prov, total, c, lambda w: f"{angka(w, '.2f')} malam") if len(prov) > 0 else ""
     return dict(
-        para=[p for p in (p1, " ".join(p2), " ".join(p3)) if p],
-        bar_judul="Lima provinsi dengan kamar terbanyak",
-        bar_sub="Panjang batang menunjukkan porsi kamar terhadap total; label berwarna menunjukkan rata-rata lama menginap.",
+        para=_kartu(("Berapa lama tamu menginap?", "Beda daerah, beda lama tinggal", "Kamar menumpuk di mana?"), p1, " ".join(p2), " ".join(p3)),
+        bar_judul="Di mana kamar hotel paling banyak?",
+        bar_sub="Batang menunjukkan porsi kamar; warna menunjukkan rata-rata lama menginap.",
         bars=bars,
     )
 
@@ -422,9 +442,9 @@ def tafsir_wisnus(df, wilayah, c):
     p3.append("Jumlah per jenis kelamin dihitung dari persentase dikalikan total perjalanan, jadi sifatnya perkiraan.")
     bars = _bars(prov, total, c, lambda w: f"{angka(w, '.1f')}% {jk.lower()}") if len(prov) > 0 else ""
     return dict(
-        para=[p for p in (p1, " ".join(p2), " ".join(p3)) if p],
-        bar_judul="Lima provinsi asal terbanyak",
-        bar_sub=f"Panjang batang menunjukkan porsi perjalanan terhadap total; label berwarna menunjukkan persentase {jk.lower()}.",
+        para=_kartu(("Siapa yang lebih banyak?", "Dari mana mereka berangkat?", "Beda provinsi, beda komposisi"), p1, " ".join(p2), " ".join(p3)),
+        bar_judul="Dari mana perjalanan paling banyak berawal?",
+        bar_sub=f"Batang menunjukkan porsi perjalanan; warna menunjukkan persentase {jk.lower()}.",
         bars=bars,
     )
 
@@ -432,9 +452,9 @@ def tafsir_wisnus(df, wilayah, c):
 def tampil_tafsir(judul, t):
     with st.container(key="hn_box_tafsir"):
         html(f'<div class="hn-h">{judul}</div>')
-        html('<div class="hn-p">' + "".join(f"<p>{p}</p>" for p in t["para"]) + "</div>")
+        insight_cards(t["para"])
         if t["bars"]:
-            html(f'<div><div class="hn-h" style="font-size:1.05rem">{t["bar_judul"]}</div>'
+            html(f'<div class="hn-barbox"><div class="hn-h" style="font-size:1.05rem">{t["bar_judul"]}</div>'
                  f'<div class="hn-sub">{t["bar_sub"]}</div>{t["bars"]}</div>')
 
 
@@ -448,16 +468,15 @@ with st.container(key="hn_root"):
 
     g0 = menginap_all[menginap_all["Asal"] == "Gabungan"]
     kp = g0.groupby("Pulau")["Kamar"].sum().sort_values(ascending=False)
-    html(f'<div class="cerita"><p>Hotel bintang dan nonbintang di Indonesia memiliki <b>{angka(kp.sum())} kamar</b> '
-         f'yang tersebar di {g0["Provinsi"].nunique()} provinsi, tetapi sebarannya jauh dari merata: '
-         f'<b>{kp.index[0]}</b> memegang {angka(kp.iloc[0] / kp.sum() * 100, ".0f")}% di antaranya.</p>'
-         '<p>Halaman ini menelusurinya selapis demi selapis, dari kelompok pulau sampai provinsi dan jenis hotel. '
-         'Setelah itu pertanyaannya bergeser ke wisatawan nusantara: dari provinsi mana mereka berasal, '
-         'dan lebih banyak laki-laki atau perempuan.</p></div>')
+    html(f'<div class="cerita"><p>Ada <b>{angka(kp.sum())} kamar</b> hotel bintang dan nonbintang yang tersebar di '
+         f'{g0["Provinsi"].nunique()} provinsi. Tapi tentu saja, tidak semuanya punya porsi yang sama: '
+         f'<b>{kp.index[0]}</b> sendiri menampung {angka(kp.iloc[0] / kp.sum() * 100, ".0f")}% dari total kamar.</p>'
+         '<p>Di sini kita bongkar polanya dari atas ke bawah—pulau, provinsi, sampai jenis hotel. '
+         'Lalu kita lihat sisi lainnya: dari mana wisatawan nusantara berangkat, dan siapa yang lebih banyak bepergian.</p></div>')
 
     with st.container(key="hn_box_filter"):
-        html('<div><div class="hn-h">Pilih topik yang ingin ditelusuri</div>'
-             '<div class="hn-sub">Atur wilayah dan susunan hierarki; semua grafik di bawah menyesuaikan.</div></div>')
+        html('<div><div class="hn-h">Mau lihat yang mana?</div>'
+             '<div class="hn-sub">Pilih sudut pandang, wilayah, dan tingkat detail yang ingin kamu lihat.</div></div>')
         topik = st.segmented_control(
             "Topik", OPSI, selection_mode="single", default=OPSI[0],
             key="hn_topik", label_visibility="collapsed",
@@ -509,15 +528,15 @@ with st.container(key="hn_root"):
         c = cfg_menginap()
         asal = {"Semua tamu": "Gabungan", "Tamu asing": "Asing", "Tamu lokal": "Lokal"}[pilih_asal]
         df = menginap_all[menginap_all["Asal"] == asal]
-        judul_ringkas = f"Lama menginap di hotel · {pilih_asal.lower()}"
+        judul_ringkas = f"Berapa lama mereka tinggal? · {pilih_asal.lower()}"
         tafsir = tafsir_menginap(menginap_all, pilih_asal, asal, wilayah, c)
-        judul_tafsir = "Apa arti pola lama menginap ini?"
+        judul_tafsir = "Jadi, apa yang kelihatan dari sini?"
     else:
         c = cfg_wisnus(jk)
         df = wisnus_all
-        judul_ringkas = "Wisatawan nusantara menurut jenis kelamin"
+        judul_ringkas = "Siapa yang lebih sering bepergian?"
         tafsir = tafsir_wisnus(df, wilayah, c)
-        judul_tafsir = "Apa arti komposisi wisatawan ini?"
+        judul_tafsir = "Lalu, siapa yang lebih banyak bepergian?"
 
     ringkasan(df, c, judul_ringkas, wilayah)
 

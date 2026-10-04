@@ -45,7 +45,7 @@ SHORT = {  # label pendek untuk panah biplot
     "TempatTidur_Bintang": "TT-B", "TempatTidur_NonBintang": "TT-NB",
     "LamaMenginap_Bintang": "Lama-B", "LamaMenginap_NonBintang": "Lama-NB",
 }
-PAR_LABEL = {  # label dua baris yang ringkas untuk sumbu parallel coordinates
+PAR_LABEL = {  
     "TPK_Bintang": "TPK<br>B", "TPK_NonBintang": "TPK<br>NB",
     "Akomodasi_Bintang": "Akom.<br>B", "Akomodasi_NonBintang": "Akom.<br>NB",
     "Kamar_Bintang": "Kamar<br>B", "Kamar_NonBintang": "Kamar<br>NB",
@@ -70,7 +70,6 @@ PROV_COLORS = ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#D55E00", "#56B4E9"]
 ACCENT, HL_COLOR, DIM_COLOR = "#0F7C73", "#D55E00", "#C8C8C8"
 
 CSS = """
-[class*="st-key-kartu_"]{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.3rem 1.4rem 1.1rem;margin:0 0 .4rem;}
 [class*="st-key-kartu_"] [data-testid="stPlotlyChart"]{border:none;box-shadow:none;padding:0;border-radius:0;}
 .kartu-judul{font-family:'Outfit',sans-serif;font-weight:700;font-size:1.3rem;color:var(--dk);margin:0;line-height:1.25;}
 .kartu-sub{color:var(--mut);margin:.15rem 0 .9rem;font-size:.95rem;line-height:1.55;}
@@ -92,17 +91,18 @@ CSS = """
 .tbl .kl{font-weight:700;color:var(--dk);white-space:nowrap;}
 .tbl .kl i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:.45rem;}
 .tbl .u{font-weight:400;font-size:.72rem;}
+@media(max-width:900px){.st-key-kartu_parallel [data-testid="stPlotlyChart"],.st-key-kartu_heatmap [data-testid="stPlotlyChart"]{overflow-x:auto!important;}.st-key-kartu_parallel [data-testid="stPlotlyChart"]>div{min-width:640px;}.st-key-kartu_heatmap [data-testid="stPlotlyChart"]>div{min-width:640px;}}
 @media(max-width:760px){.kpi-grid{grid-template-columns:1fr;}[class*="st-key-kartu_"]{padding:1rem 1rem .8rem;}}
 """
 
 
 def html(s: str):
-    """Gabungkan baris HTML jadi satu baris agar tidak dibaca sebagai blok kode oleh markdown."""
+   
     st.markdown("".join(x.strip() for x in s.splitlines()), unsafe_allow_html=True)
 
 
 def fid(x: float, nd: int = 1, sign: bool = False) -> str:
-    """Format angka dengan koma desimal (gaya Indonesia)."""
+  
     s = f"{x:+.{nd}f}" if sign else f"{x:.{nd}f}"
     return s.replace(".", ",")
 
@@ -173,8 +173,8 @@ def level(z: float) -> str:
 
 # ------------------------------------------------------------------ util figur
 def add_source(fig, y):
-    fig.add_annotation(text="Sumber: BPS", xref="paper", yref="paper", x=1, y=y, xanchor="right",
-                       yanchor="top", showarrow=False, font=dict(size=10, color="#555"))
+    
+    return fig
 
 
 def discrete_scale(colors):
@@ -302,7 +302,7 @@ def fig_bars(res, sel):
     fig.update_layout(
         template="plotly_white", barmode="group", height=max(440, 110 + 10 * (len(series) * 13 + 12)),
         margin=dict(l=10, r=20, t=40, b=70), legend=dict(orientation="h", y=1.07, x=0),
-        xaxis=dict(range=[-lim, lim], dtick=1, zeroline=False, title="z-score (0 = rata-rata seluruh provinsi)"),
+        xaxis=dict(range=[-lim, lim], dtick=1, zeroline=False, title="z-score rata-rata provinsi"),
         yaxis=dict(autorange="reversed", automargin=True),
     )
     add_source(fig, -0.16)
@@ -320,7 +320,7 @@ def fig_heatmap(res, sel):
              for j, v in enumerate(MAIN)] for i in range(n)]
     height = max(320, 28 * n + 200)
     fig = go.Figure(go.Heatmap(
-        z=Z.values[idx], x=[HEAT_LABEL[v] for v in MAIN], y=names, text=text,
+        z=Z.values[idx], x=[PAR_LABEL[v] for v in MAIN], y=names, text=text,
         colorscale="RdBu_r", zmin=-3, zmax=3, zmid=0, xgap=2, ygap=2,
         texttemplate="%{z:.1f}", textfont=dict(size=11 if n <= 20 else 9),
         hovertemplate="%{text}<br>z-score: %{z:.2f}<extra></extra>",
@@ -329,7 +329,7 @@ def fig_heatmap(res, sel):
                       tickvals=[-3, -2, -1, 0, 1, 2, 3], ticktext=["≤-3", "-2", "-1", "0", "1", "2", "≥3"]),
     ))
     ticktext = [f'<span style="color:{CL_COLORS[c - 1]}">●</span> {nm}' for nm, c in zip(names, clus)]
-    fig.update_xaxes(side="top", tickfont=dict(size=11), showgrid=False)
+    fig.update_xaxes(side="top", tickfont=dict(size=11), tickangle=0, showgrid=False)
     fig.update_yaxes(autorange="reversed", tickmode="array", tickvals=names, ticktext=ticktext,
                      tickfont=dict(size=11), automargin=True, showgrid=False)
     fig.update_layout(template="plotly_white", height=height, margin=dict(l=10, r=10, t=80, b=120))
@@ -347,7 +347,7 @@ def _on_biplot_select():
 
 
 def var_picker(title: str, key: str, min_vars: int):
-    """Dropdown preset indikator (+ opsi pilih sendiri)."""
+    
     choice = st.selectbox(title, list(PRESETS) + [CUSTOM], key=f"{key}_preset")
     if choice == CUSTOM:
         vars_ = st.multiselect("Indikator:", MAIN, default=TPK_VARS + STAY_VARS + ["Kamar_Bintang"],
@@ -358,6 +358,12 @@ def var_picker(title: str, key: str, min_vars: int):
         st.warning(f"Pilih minimal {min_vars} indikator. Sementara semua indikator ditampilkan.")
         vars_ = MAIN
     return [v for v in MAIN if v in vars_]
+
+
+def insight_cards(items):
+   
+    html('<div class="ins-grid">' + "".join(
+        f'<div class="ins"><div class="n">{l}</div><h4>{h}</h4><p>{t}</p></div>' for l, h, t in items) + "</div>")
 
 
 def card_title(judul: str, sub: str = ""):
@@ -372,7 +378,7 @@ _BASE = {"TPK": "TPK", "Akomodasi": "Akom.", "Kamar": "Kamar", "TempatTidur": "T
 
 
 def tabel_klaster(res) -> str:
-    """Tabel HTML: baris = klaster, kolom = indikator, nilai = rata-rata klaster (satuan asli)."""
+  
     d, k = res["df"], res["k"]
     head = "".join(
         f"<th>{_BASE[v.split('_')[0]]} {'B' if v.endswith('_Bintang') else 'NB'}<br><span class='u'>{UNIT[v]}</span></th>"
@@ -400,7 +406,7 @@ def tab_klaster(res, c):
     s, t, l = zc[COUNT_VARS].mean(), zc[TPK_VARS].mean(), zc[STAY_VARS].mean()
     col = CL_COLORS[c - 1]
     html(f'<div class="badge"><i style="background:{col}"></i>Klaster {c} · {int(mem.sum())} provinsi</div>')
-    html(f'<div class="mv-p"><p>Skala akomodasinya {level(s)}, TPK {level(t)}, dan lama menginap {level(l)}.</p>'
+    html(f'<div class="callout"><p>Skala akomodasinya {level(s)}, TPK {level(t)}, dan lama menginap {level(l)}.</p>'
          f'<p>Anggota: {", ".join(d.loc[mem, "Provinsi"])}.</p></div>')
 
 
@@ -415,7 +421,7 @@ satu per satu, jadi halaman ini meringkasnya menjadi satu peta kemiripan dan beb
 <p>Pilih satu atau beberapa provinsi, dan semua grafik akan menyorotnya sekaligus.</p></div>""".split()))
 
 with st.container(key="kartu_pengaturan"):
-    card_title("Atur tampilan", "Pilih jumlah klaster dan provinsi yang ingin dilihat.")
+    card_title("Mulai dari sini", "Pilih jumlah kelompok dan provinsi yang ingin kamu sorot.")
     c1, c2, c3 = st.columns([1.4, 0.8, 1.2], vertical_alignment="center")
     k = c1.slider("Jumlah klaster", 3, 6, 3, key="k")
     use_log = c2.checkbox("Skala log", value=True, key="use_log",
@@ -443,7 +449,7 @@ else:
 # ---------------------------------------------------------------- ringkasan
 html(f"""
 <div class="kpi-grid">
-  <div class="kpi"><div class="n">{fid(var2)}%</div><div class="l">Informasi tertangkap PCA</div><div class="s">10 indikator diringkas menjadi 2 sumbu</div></div>
+  <div class="kpi"><div class="n">{fid(var2)}%</div><div class="l">Seberapa banyak yang diringkas PCA</div><div class="s">10 indikator → 2 sumbu utama</div></div>
   <div class="kpi"><div class="n">{k}</div><div class="l">Klaster</div><div class="s">Silhouette {fid(res['sil'], 2)}: {sil_kata}</div></div>
   <div class="kpi"><div class="n">{kpi_out}</div><div class="l">Pencilan</div><div class="s">{'Profil menyimpang jauh dari provinsi lain' if out_names else 'Tidak ada provinsi yang menyimpang jauh'}</div></div>
 </div>
@@ -457,38 +463,42 @@ with st.container(key="dua_mv"):
 
 with left:
     with st.container(key="kartu_biplot"):
-        card_title("Peta kemiripan provinsi (Biplot PCA)", "Makin dekat dua titik, makin mirip profilnya. Tarik kotak untuk memilih beberapa provinsi; klik dua kali di area kosong untuk membatalkan.")
+        card_title("Siapa yang mirip? (Biplot PCA)", "Titik yang berdekatan punya profil yang mirip. Pilih beberapa titik untuk melihatnya lebih jelas.")
         bvars = var_picker("Indikator yang ditampilkan", "bip", min_vars=3)
         sub = pca_subset(use_log, tuple(bvars))
         st.plotly_chart(fig_biplot(res, sub, sel, all_labels), key="biplot", config=cfg, use_container_width=True,
                         on_select=_on_biplot_select, selection_mode=("points", "box", "lasso"))
-        st.caption("Panah searah berarti berkaitan positif, berlawanan arah berarti berkaitan negatif. ◆ menandai pencilan.")
+        st.caption("Panah searah menunjukkan hubungan positif; arah berlawanan menunjukkan hubungan negatif. ◆ = pencilan.")
 
 with right:
     with st.container(key="kartu_parallel"):
-        card_title("Profil lintas indikator (Parallel Coordinates)", "Satu garis mewakili satu provinsi. B = Bintang, NB = Nonbintang; nilai berupa z-score, 0 = rata-rata seluruh provinsi.")
+        card_title("Satu garis, satu provinsi", "Bandingkan profil bintang dan nonbintang lewat z-score. Angka 0 berarti rata-rata seluruh provinsi.")
         pvars = var_picker("Indikator yang dibandingkan", "par", min_vars=2)
+        html('<div class="swipe">↔ Geser ke samping untuk melihat semua indikator.</div>')
         st.plotly_chart(fig_parallel(res, sel, pvars), key="parallel", config=cfg, use_container_width=True)
 
 # ---------------------------------------------------------------- interpretasi
 with st.container(key="kartu_interpretasi"):
-    card_title("Interpretasi")
+    card_title("Apa yang paling menonjol?")
     ukuran = d.groupby("cluster").size()
     kal = ", ".join(f"{n} provinsi di klaster {c}" for c, n in ukuran.items())
     kal = f"Dengan {k} klaster, provinsi terbagi menjadi {kal}."
+    temuan = [("Bagaimana provinsi terbagi?", kal)]
     if out_names:
-        kal += (f" {', '.join(out_names)} menyimpang jauh dari provinsi lain pada tiga sumbu utama PCA, "
-                f"sehingga ditandai sebagai pencilan.")
-    html(f'<div class="mv-p"><p>{kal}</p></div>')
+        temuan.append(("Siapa yang menyimpang?", f"<b>{', '.join(out_names)}</b> menyimpang jauh dari provinsi lain "
+                       "pada tiga sumbu utama PCA, sehingga ditandai sebagai pencilan."))
+    temuan.append(("Seberapa tegas pemisahannya?", f"Nilai silhouette <b>{fid(res['sil'], 2)}</b> berarti klaster {sil_kata}. "
+                   f"Dua sumbu utama PCA merangkum <b>{fid(var2)}%</b> informasi dari 10 indikator."))
+    insight_cards([(f"TEMUAN {n:02d}", h, t) for n, (h, t) in enumerate(temuan, 1)])
     kiri, kanan = st.columns([1, 2.2], gap="large")
     with kiri:
         if out_names:
-            st.markdown("**Pencilan**")
+            html('<div class="mini-h">Yang paling berbeda</div>')
             out_tab = pd.DataFrame({"Provinsi": d.loc[d["outlier"], "Provinsi"].values,
                                     "Klaster": d.loc[d["outlier"], "cluster"].astype(int).values})
             st.dataframe(out_tab, hide_index=True, use_container_width=True, height=min(250, 38 + 35 * len(out_tab)))
         else:
-            st.markdown("**Pencilan:** tidak ada.")
+            html('<div class="callout"><span class="tag">YANG PALING BERBEDA</span>Tidak ada provinsi yang menyimpang jauh.</div>')
     with kanan:
         tabs = st.tabs([f"Klaster {c}" for c in range(1, k + 1)])
         for c, tb in zip(range(1, k + 1), tabs):
@@ -497,16 +507,17 @@ with st.container(key="kartu_interpretasi"):
 
 # ---------------------------------------------------------------- heatmap
 with st.container(key="kartu_heatmap"):
-    card_title("Heatmap terklaster")
+    card_title("Heatmap Terklaster", "Tiap sel adalah z-score. B = hotel bintang, NB = nonbintang, Akom. = akomodasi, T.Tidur = tempat tidur, Lama = lama menginap.")
+    html('<div class="swipe">↔ Geser ke samping untuk melihat semua indikator.</div>')
     st.plotly_chart(fig_heatmap(res, sel), key="heatmap", config=cfg, use_container_width=True)
 
 # ---------------------------------------------------------------- tabel klaster | grafik batang
 with st.container(key="kartu_profil"):
-    card_title("Profil rata-rata klaster")
+    card_title("Seperti apa tiap kelompok?")
     kt, kg = st.columns([1.5, 1], gap="large", vertical_alignment="center")
     with kt:
-        st.markdown("**Rata-rata indikator tiap klaster**")
+        html('<div class="mini-h">Rata-rata tiap kelompok</div>')
         html(tabel_klaster(res))
     with kg:
-        st.markdown("**Z-score provinsi terpilih**" if sel else "**Z-score rata-rata tiap klaster**")
+        html(f'<div class="mini-h">{"Profil provinsi terpilih" if sel else "Profil rata-rata tiap kelompok"}</div>')
         st.plotly_chart(fig_bars(res, sel), key="bars", config=cfg, use_container_width=True)
