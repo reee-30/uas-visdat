@@ -110,6 +110,16 @@ def html(s: str):
     st.markdown("".join(x.strip() for x in s.splitlines()), unsafe_allow_html=True)
 
 
+def sumber_html(mt: str = "-.35rem") -> str:
+    """Tulisan 'Sumber: BPS' rata kanan, diletakkan di bawah visualisasi di dalam kotaknya."""
+    return (f'<div class="vz-src" style="text-align:right;font-size:.8rem;font-style:italic;'
+            f'color:var(--mut,#4E6B67);margin:{mt} .1rem 0;">Sumber: BPS</div>')
+
+
+def sumber_bps():
+    st.markdown(sumber_html(), unsafe_allow_html=True)
+
+
 def kepala(label: str, judul: str, sub: str = ""):
     html(f'<div class="fl-head"><div class="fl-h">{judul}</div>'
          + (f'<div class="fl-sub">{sub}</div>' if sub else "") + "</div>")
@@ -340,6 +350,7 @@ with st.container(key="fl_card_sankey"):
              + (" Turunkan batas untuk melihat jalur yang lebih kecil." if min_flow > 0 else "")),
         ]
         st.session_state["narasi_flow"] = kartu
+        # Label "Sumber: BPS" untuk Sankey dipasang oleh ui.py (_label_sumber) di dalam wadah sticky di bawah grafik.
         st.plotly_chart(fig_sankey, use_container_width=True, key="sankey_flow", theme=None, config={"displaylogo": False})
 
 # ---------------- HEATMAP ----------------
@@ -378,6 +389,7 @@ with st.container(key="fl_card_heat"):
     with st.container(key="scroll_heat"):
         st.plotly_chart(fig_heat, use_container_width=True, key="heatmap_flow", theme=None,
                         config={"displaylogo": False, "displayModeBar": False})
+    sumber_bps()
     html(f'<div class="callout"><span class="tag">PASANGAN PALING RAMAI</span>Di antara {top_n} negara terpilih, pasangan paling ramai adalah '
          f'<b>{mat.index[i]} → {mat.columns[j]}</b> dengan {idn(z[i, j])} kunjungan.</div>')
 
@@ -442,6 +454,7 @@ with col_chord:
             edge_df = edges.rename(columns={"Asal": "source", "Tujuan": "target", "Value": "value"})[
                 ["source", "target", "value", "Wilayah_Asal"]]
             tampil_iframe(render_chord(edge_df, node_df, "Label", 600, "9pt"), 600)
+            sumber_bps()
 
 # ---------------- BATANG TIMBAL BALIK ----------------
 with col_bar:
@@ -489,6 +502,7 @@ with col_bar:
             with st.container(key="scroll_bar"):
                 st.plotly_chart(fig_bar, use_container_width=True, key="chord_bar_flow", theme=None,
                                 config={"displaylogo": False, "displayModeBar": False})
+            sumber_bps()
 
 
 def kartu_top3(judul, items, total):
@@ -543,4 +557,5 @@ with st.container(key="fl_card_interp"):
     {kartu_top3("Gerbang tersibuk", top_pin, TOTAL_WISMAN)}
     {kartu_top3("Pasangan provinsi terpadat", top_pair, TOTAL_ANTAR)}
   </div>
+  {sumber_html(".8rem")}
 </div>""")

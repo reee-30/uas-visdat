@@ -31,6 +31,9 @@ SUMBER_BPS = [
     dict(judul="Statistik Wisatawan Nusantara 2025",
          jenis="Publikasi", tahun="2025", akses="2 Oktober 2026",
          url="https://www.bps.go.id/id/publication/2026/04/30/06948320ebe75b7678b09c56/statistik-wisatawan-nusantara-2025.html"),
+    dict(judul="Statistik Kunjungan Wisatawan Mancanegara 2024",
+         jenis="Publikasi", tahun="2024 (terbit 2025)", akses="4 Oktober 2026", katalog="8401011, ISSN 2085-9309",
+         url="https://www.bps.go.id/id/publication/2025/03/20/a85d584df19ea65a5e2b3d0b/statistik-kunjungan-wisatawan-mancanegara-2024.html"),
     dict(judul="Statistik Indonesia 2026",
          jenis="Publikasi", tahun="2025 (terbit 2026)", akses="2 Oktober 2026",
          url="https://www.bps.go.id/id/publication/2026/02/27/a43f03f45543dc4e9942f44c/statistik-indonesia-2026.html"),
@@ -272,12 +275,19 @@ def _pil_halaman(key, aktif, beranda=True):
 def _sumber():
     daftar = "".join(
         f'<li><b>{x["judul"]}</b> ({x["jenis"]}, {x["tahun"]})<br>'
-        f'URL: <a href="{x["url"]}" target="_blank" rel="noopener">{x["url"]}</a><br>'
+        + (f'Katalog: {x["katalog"]}<br>' if x.get("katalog") else "")
+        + f'URL: <a href="{x["url"]}" target="_blank" rel="noopener">{x["url"]}</a><br>'
         f'Tanggal akses: {x["akses"]}</li>' for x in SUMBER_BPS)
     _html('<div class="srcbps">Sumber: BPS</div>')
     with st.container(key="sumber"):
         with st.expander("Lihat data & sumber", expanded=False):
             _html(f'<div class="srcbox"><b>Data &amp; sumber</b><ol>{daftar}</ol></div>')
+
+
+def _label_sumber():
+    """Tulisan 'Sumber: BPS' di pojok kanan bawah kotak visualisasi (dipakai untuk Sankey yang dibungkus di sini)."""
+    _html('<div class="vz-src" style="text-align:right;font-size:.8rem;font-style:italic;'
+          'color:var(--mut,#4E6B67);margin:-.35rem .1rem 0;">Sumber: BPS</div>')
 
 
 def _cap_bps(fig=None):
@@ -512,6 +522,7 @@ def _jalankan(h):
             with st.container(key=f"story_{h['id']}"):
                 with st.container(key=f"kanan_{h['id']}"):
                     hasil = asli(fig, *a, **k)
+                    _label_sumber()
                 _narasi(h)
             return hasil
         return asli(fig, *a, **k)

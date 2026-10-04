@@ -101,6 +101,16 @@ def html(s: str):
     st.markdown("".join(x.strip() for x in s.splitlines()), unsafe_allow_html=True)
 
 
+def sumber_html(mt: str = "-.35rem") -> str:
+    """Tulisan 'Sumber: BPS' rata kanan, diletakkan di bawah visualisasi di dalam kotaknya."""
+    return (f'<div class="vz-src" style="text-align:right;font-size:.8rem;font-style:italic;'
+            f'color:var(--mut,#4E6B67);margin:{mt} .1rem 0;">Sumber: BPS</div>')
+
+
+def sumber_bps():
+    st.markdown(sumber_html(), unsafe_allow_html=True)
+
+
 def fid(x: float, nd: int = 1, sign: bool = False) -> str:
   
     s = f"{x:+.{nd}f}" if sign else f"{x:.{nd}f}"
@@ -469,6 +479,7 @@ with left:
         st.plotly_chart(fig_biplot(res, sub, sel, all_labels), key="biplot", config=cfg, use_container_width=True,
                         on_select=_on_biplot_select, selection_mode=("points", "box", "lasso"))
         st.caption("Panah searah menunjukkan hubungan positif; arah berlawanan menunjukkan hubungan negatif. ◆ = pencilan.")
+        sumber_bps()
 
 with right:
     with st.container(key="kartu_parallel"):
@@ -476,6 +487,7 @@ with right:
         pvars = var_picker("Indikator yang dibandingkan", "par", min_vars=2)
         html('<div class="swipe">↔ Geser ke samping untuk melihat semua indikator.</div>')
         st.plotly_chart(fig_parallel(res, sel, pvars), key="parallel", config=cfg, use_container_width=True)
+        sumber_bps()
 
 # ---------------------------------------------------------------- interpretasi
 with st.container(key="kartu_interpretasi"):
@@ -510,6 +522,7 @@ with st.container(key="kartu_heatmap"):
     card_title("Heatmap Terklaster", "Tiap sel adalah z-score. B = hotel bintang, NB = nonbintang, Akom. = akomodasi, T.Tidur = tempat tidur, Lama = lama menginap.")
     html('<div class="swipe">↔ Geser ke samping untuk melihat semua indikator.</div>')
     st.plotly_chart(fig_heatmap(res, sel), key="heatmap", config=cfg, use_container_width=True)
+    sumber_bps()
 
 # ---------------------------------------------------------------- tabel klaster | grafik batang
 with st.container(key="kartu_profil"):
@@ -521,3 +534,4 @@ with st.container(key="kartu_profil"):
     with kg:
         html(f'<div class="mini-h">{"Profil provinsi terpilih" if sel else "Profil rata-rata tiap kelompok"}</div>')
         st.plotly_chart(fig_bars(res, sel), key="bars", config=cfg, use_container_width=True)
+    sumber_bps()

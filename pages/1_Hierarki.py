@@ -118,6 +118,16 @@ def html(s):
     st.markdown("".join(x.strip() for x in s.splitlines()), unsafe_allow_html=True)
 
 
+def sumber_html(mt: str = "-.35rem") -> str:
+    """Tulisan 'Sumber: BPS' rata kanan, diletakkan di bawah visualisasi di dalam kotaknya."""
+    return (f'<div class="vz-src" style="text-align:right;font-size:.8rem;font-style:italic;'
+            f'color:var(--mut,#4E6B67);margin:{mt} .1rem 0;">Sumber: BPS</div>')
+
+
+def sumber_bps():
+    st.markdown(sumber_html(), unsafe_allow_html=True)
+
+
 @st.cache_data
 def load(path):
     return pd.read_csv(path)
@@ -272,6 +282,7 @@ def gambar(df, c, n_prov, level, nama_level, kunci):
             st.plotly_chart(buat_grafik(nama, n, c), use_container_width=True,
                             key=f"{kunci}_{nama}", theme=None, config=CONFIG_PLOT)
             legenda(c)
+            sumber_bps()
 
 
 # ---------------- ringkasan ----------------
@@ -455,7 +466,7 @@ def tampil_tafsir(judul, t):
         insight_cards(t["para"])
         if t["bars"]:
             html(f'<div class="hn-barbox"><div class="hn-h" style="font-size:1.05rem">{t["bar_judul"]}</div>'
-                 f'<div class="hn-sub">{t["bar_sub"]}</div>{t["bars"]}</div>')
+                 f'<div class="hn-sub">{t["bar_sub"]}</div>{t["bars"]}{sumber_html(".8rem")}</div>')
 
 
 # ================= HALAMAN =================
